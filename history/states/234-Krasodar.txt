@@ -30,6 +30,10 @@ state={
 			}
 		}
 		add_core_of = SOV
+	    1947.1.1 = {
+			owner = RKC
+			controller = RKC
+		}
 	}
 
 	provinces={

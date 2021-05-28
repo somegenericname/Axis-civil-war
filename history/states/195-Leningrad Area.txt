@@ -28,6 +28,10 @@ state={
 				arms_factory = 7
 			}
 		}
+	    1947.1.1 = {
+			owner = RKM
+			controller = RKM
+		}
 	}
 
 	provinces={

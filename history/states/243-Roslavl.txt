@@ -16,6 +16,10 @@ state={
 		victory_points = {
 			11336 1
 		}
+	    1947.1.1 = {
+			owner = RKM
+			controller = RKM
+		}
 	}
 
 	provinces={

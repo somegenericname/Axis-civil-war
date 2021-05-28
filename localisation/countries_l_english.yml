@@ -773,7 +773,7 @@
  IRQ:0 "Iraq"
  IRQ_DEF:0 "Iraq"
  IRQ_ADJ:0 "Iraqi"
- JAP_fascism:0 "Japan"
+ JAP_fascism:0 "Empire of Japan"
  JAP_fascism_DEF:0 "Japan"
  JAP_democratic:0 "State of Japan"
  JAP_democratic_DEF:0 "the State of Japan"
@@ -3276,5 +3276,7 @@
  BUR_fascism_DEF:0 "Burgandy"
  BUR_communism:0 "Burgandian Union"
  BUR_communism_DEF:0 "the Burgandian Union"
-
- 
+ RKM_fascism:0 "Moscow State"
+ RKM_fascism_DEF:0 "Moscow State"
+ RKC_fascism:0 "Caucses State"
+ RKC_fascism_DEF:0 "Caucses State"
