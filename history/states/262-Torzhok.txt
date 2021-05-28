@@ -20,10 +20,6 @@ state={
 
 		}
 		add_core_of = SOV
-	    1947.1.1 = {
-			owner = ITA
-			controller = ITA
-		}
 	}
 
 	provinces={
