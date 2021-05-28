@@ -21,6 +21,10 @@ state={
 				industrial_complex = 1
 			}
 		}
+	    1947.1.1 = {
+			owner = UKR
+			controller = UKR
+		}
 	}
 
 	provinces={

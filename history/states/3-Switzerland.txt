@@ -20,6 +20,10 @@ state={
 			air_base = 4
 		}
 		add_core_of = SWI
+	    1947.1.1 = {
+			owner = GER
+			controller = GER
+		}
 	}
 
 	provinces={

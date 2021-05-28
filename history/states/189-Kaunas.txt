@@ -25,6 +25,10 @@ state={
 			}
 		}
 		add_core_of = LIT
+	    1947.1.1 = {
+			owner = BLR
+			controller = BLR
+		}
 	}
 
 	provinces={

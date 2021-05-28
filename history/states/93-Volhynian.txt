@@ -20,8 +20,8 @@ state={
 		add_core_of = POL
 		add_core_of = UKR
 	    1947.1.1 = {
-			owner = GER
-			controller = GER
+			owner = UKR
+			controller = UKR
 		}
 	}
 

@@ -98,8 +98,8 @@
  FFA_DEF:0 "FFAmany"
  FFA_ADJ:0 "FFAman"
  
- GER_fascism:0 "German Reich"
- GER_fascism_DEF:0 "the German Reich"
+ GER_fascism:0 "Großgermanisches Reich"
+ GER_fascism_DEF:0 "the Großgermanisches Reich"
  GER_democratic:0 "German Republic"
  GER_democratic_DEF:0 "the German Republic"
  GER_neutrality:1 "German Empire"

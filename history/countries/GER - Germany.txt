@@ -141,11 +141,7 @@ create_import = {
 	}
 	
 	give_military_access = SLO
-	create_wargoal = {
-		type = take_state_focus
-		target = POL
-		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
-	}
+
 
 #Trade
 	create_import = {
@@ -303,6 +299,16 @@ set_popularities = {
 
 create_faction = Axis
 add_to_faction = GER
+add_to_faction = HUN
+add_to_faction = SER
+add_to_faction = CRO
+add_to_faction = ROM
+add_to_faction = BUL
+add_to_faction = GRE
+add_to_faction = BUR
+add_to_faction = BRI
+add_to_faction = OCC
+add_to_faction = FRA
 
 
 add_ideas = {
@@ -1219,4 +1225,7 @@ create_equipment_variant = {
 1947.1.1 = {
 	puppet = HOL
 	puppet = BEL
+	puppet = BLR
+	puppet = POL
+	puppet = UKR
 }

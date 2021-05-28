@@ -19,6 +19,10 @@ state={
 			dockyard = 1
 		}
 		add_core_of = LAT
+	    1947.1.1 = {
+			owner = BLR
+			controller = BLR
+		}
 	}
 
 	provinces={

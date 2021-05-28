@@ -18,7 +18,10 @@ state={
 
 		}
 		add_core_of = EST
-
+	    1947.1.1 = {
+			owner = BLR
+			controller = BLR
+		}
 	}
 
 	provinces={
