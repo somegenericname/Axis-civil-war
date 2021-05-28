@@ -1,0 +1,44 @@
+bookmarks = {
+	bookmark = {
+		name = "civil war in the axis"
+		desc = "Axis_civil_war_loc"
+		date = 1947.1.1.12
+		picture = "GFX_axis_civil_war_bookmark"
+		default_country = "ITA"
+	
+
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_15
+				GER_autarky_idea
+			}
+			focuses = {
+				GER_weserubung
+				GER_plan_z
+				GER_ussr_war_goal
+			}
+		}
+		ITA = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}			
+		}
+	
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
