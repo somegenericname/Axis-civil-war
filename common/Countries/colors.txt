@@ -710,3 +710,7 @@ BUR = {
 	color = rgb { 66 18 94 }
 	color_ui = rgb { 66 18 94  }
 }
+FFA = {
+	color = rgb { 48 87 230 }
+	color_ui = rgb { 48 87 230  }
+}

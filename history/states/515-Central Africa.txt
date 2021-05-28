@@ -12,7 +12,10 @@ state={
 			infrastructure = 1
 
 		}
-
+	    1947.1.1 = {
+			owner = FFA
+			controller = FFA
+		}
 	}
 
 	provinces={

@@ -29,6 +29,10 @@ state={
 				naval_base = 6
 			}
 		}
+	    1947.1.1 = {
+			owner = OCC
+			controller = OCC
+		}
 	}
 
 	provinces={

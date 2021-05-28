@@ -22,6 +22,10 @@ state={
 				naval_base = 3
 			}
 		}
+	    1947.1.1 = {
+			owner = FFA
+			controller = FFA
+		}
 	}
 
 	provinces={
