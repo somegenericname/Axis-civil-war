@@ -3190,4 +3190,9 @@
  vojvodina:0 "Vojvodina"
  vojvodina_DEF:0 "Vojvodina"
  vojvodina_ADJ:0 "Vojvodinian"
+ BUR_fascism:0 "Burgandy"
+ BUR_fascism_DEF:0 "Burgandy"
+ BUR_communism:0 "Burgandian Union"
+ BUR_communism_DEF:0 "the Burgandian Union"
+
  

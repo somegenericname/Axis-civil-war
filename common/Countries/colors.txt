@@ -706,3 +706,7 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
+BUR = {
+	color = rgb { 66 18 94 }
+	color_ui = rgb { 66 18 94  }
+}
