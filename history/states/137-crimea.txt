@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = IOC
+		
 		victory_points = {
 			3686 20
 		}
@@ -35,6 +35,10 @@ state={
 			buildings = {
 				dockyard = 2
 			}
+		}
+		1947.1.1 = {
+			owner = IOC
+			controller = IOC
 		}
 	}
 
