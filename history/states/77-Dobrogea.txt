@@ -17,6 +17,12 @@ state={
 		}
 		add_core_of = ROM
 		add_claim_by = BUL
+		add_core_of = BUL
+
+		1947.1.1 = {
+			owner = BUL
+			controller = BUL
+		}
 	}
 
 	provinces={
