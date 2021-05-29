@@ -112,6 +112,21 @@ create_import = {
 		exporter = SWE
 }
 
+
+1947.1.1 = {
+add_ideas = {
+		GER_depleted_army
+		GER_ongoing_holocaust
+		GER_plunder_economy
+		GER_blitzkreig_dependence
+
+		#laws
+		war_economy
+		extensive_conscription
+	}
+	}
+
+
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 	set_war_support = 0.7
