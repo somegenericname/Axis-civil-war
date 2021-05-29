@@ -66,6 +66,17 @@ set_popularities = {
 	fascism = 85
 }
 
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Asia_Generic_warlord2.dds"
+	expire = "1989.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+	id = 951 #Hirohito
+}
+
 1947.1.1 = {
     set_cosmetic_tag = JAP_sibiera
     set_politics = {
