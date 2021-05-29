@@ -2657,3 +2657,8 @@
  GER_ongoing_holocaust_desc:0 "The full force of Generalplan Ost is finally being executed in the east. Mass deportations, extra infrastructure, and fierce resistance to the plans are a continuous drain on the German economy."
  GER_plunder_economy:0 "Plunder Economy"
  GER_plunder_economy_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become highly underdeveloped, which could pose a problem in the future."
+ GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
+ GER_blitzkreig_dependence_desc:0 "With the successes of blitzkreig in the world war, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare."
+ 
+ 
+ 
