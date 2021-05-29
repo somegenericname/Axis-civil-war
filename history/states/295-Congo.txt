@@ -26,6 +26,10 @@ state={
 			5117 3 
 		}
 			add_core_of = COG
+	    1947.1.1 = {
+			owner = COG
+			controller = COG
+		}
 	}
 
 	provinces={

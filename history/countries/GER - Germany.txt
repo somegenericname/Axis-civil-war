@@ -1230,4 +1230,5 @@ create_equipment_variant = {
 	puppet = UKR
 	puppet = RKM
 	puppet = RKC
+	puppet = NOR
 }

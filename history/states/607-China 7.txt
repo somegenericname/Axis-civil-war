@@ -44,6 +44,14 @@ state={
 				set_province_controller = 11931
 			} 			
 		}
+	    1947.1.1 = {
+           JAP = { 
+			set_province_controller = 7508
+			set_province_controller = 7459
+			set_province_controller = 7568
+			set_province_controller = 10446
+		         }
+		}
 	}
 
 	provinces={

@@ -344,8 +344,8 @@ SPC_poum = {
 }
 
 FRA_VICHY = {
-	color = rgb { 80 168 181 }
-	color_ui = rgb {115 185 196 }
+	color = rgb { 32 31 115 }
+	color_ui = rgb {32 31 115 }
 }
 
 united_polynesia = {

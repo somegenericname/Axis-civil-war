@@ -113,10 +113,6 @@ if = {
 		famh
 		jean_marie_bergeret
 		renault_fra
-		FRA_full_employment
-	    FRA_political_violence
-	    FRA_inefficient_economy_2
-	    FRA_matignon_agreements
 		#laws
 		partial_economic_mobilisation
 	}
@@ -242,13 +238,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
-	limited_conscription
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
+
 }
 
 give_guarantee = CZE
@@ -1018,5 +1008,16 @@ if = {
 }
 
 1947.1.1 = {
-	set_country_flag = FRA_VICHY
+	set_cosmetic_tag = FRA_VICHY
+	set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+                    }
+    set_popularities = {
+	democratic = 10
+	fascism = 85
+	communism = 5
+                       }	
 }

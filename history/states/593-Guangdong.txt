@@ -35,6 +35,10 @@ state= {
 				set_province_controller = 12095
 			} 			
 		}
+	    1947.1.1 = {
+			owner = JAP
+			controller = JAP
+		}
 	}
 	provinces={
 		1078 1120 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9970 9978 9997 10080 12014 12095 

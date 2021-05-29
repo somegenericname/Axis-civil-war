@@ -26,6 +26,10 @@ state= {
 			}
 		}
 		add_core_of = DEN
+	    1947.1.1 = {
+			owner = GER
+			controller = GER
+		}
 	}
 	provinces=
 	{
