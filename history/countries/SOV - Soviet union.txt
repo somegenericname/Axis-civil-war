@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 249
 
 oob = "SOV_1936"
 if = {
@@ -1219,6 +1219,7 @@ if = {
 }
 
 1947.1.1 = {
+	oob = SOV_1947
 	add_ideas = shat_army
 	remove_ideas = home_of_revolution
 	remove_ideas = trotskyite_plot
@@ -1226,3 +1227,4 @@ if = {
 	remove_ideas = peoples_commissariat_focus
 	remove_ideas = nkvd_2
 	remove_ideas = officers_purged_6
+}

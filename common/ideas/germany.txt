@@ -2,8 +2,8 @@ ideas = {
 
 	country = {
 
-
 		GER_depleted_army = {
+          picture = dep_army
 
 			allowed = {
 				original_tag = GER
@@ -19,6 +19,7 @@ ideas = {
 
 
 		GER_ongoing_holocaust = {
+            picture = holocost
 
 			allowed = {
 				original_tag = GER
@@ -35,6 +36,7 @@ ideas = {
 		}
 
 		GER_plunder_economy = {
+            picture = plund_eco
 
 			allowed = {
 				original_tag = GER
@@ -54,6 +56,8 @@ ideas = {
 		}
 		
 		GER_blitzkreig_dependence = {
+            picture = blitz_dep
+
 			allowed = {
 				original_tag = GER
 			}
