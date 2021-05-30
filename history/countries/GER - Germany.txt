@@ -1228,6 +1228,7 @@ create_equipment_variant = {
 }
 
 1947.1.1 = {
+	 create_faction = ger_sphere
 	puppet = HOL
 	puppet = BEL
 	puppet = BLR
