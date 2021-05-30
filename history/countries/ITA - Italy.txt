@@ -969,3 +969,4 @@ if = {
 	puppet = EGY
 	puppet = TUR
 	puppet = HUN
+}
