@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  #ACW countries
  
@@ -97,6 +97,16 @@
  FFA:0 "FFAmany"
  FFA_DEF:0 "FFAmany"
  FFA_ADJ:0 "FFAman"
+ 
+ BUR_fascism:0 "Burgandy"
+ BUR_fascism_DEF:0 "Burgandy"
+ BUR_communism:0 "Burgandian Union"
+ BUR_communism_DEF:0 "the Burgandian Union"
+ RKM_fascism:0 "Moscow State"
+ RKM_fascism_DEF:0 "Moscow State"
+ RKC_fascism:0 "Caucses State"
+ RKC_fascism_DEF:0 "Caucses State"
+
  
  GER_fascism:0 "Großgermanisches Reich"
  GER_fascism_DEF:0 "the Großgermanisches Reich"
@@ -443,6 +453,10 @@
  ALB:0 "Albania"
  ALB_DEF:0 "Albania"
  ALB_ADJ:0 "Albanian"
+ ALB_ITA_subject:0 "Albania and Montenegro"
+ ALB_ITA_subject_DEF:0 "Albania and Montenegro"
+ ALB_ITA_subject_ADJ:1 "Albania and Montenegro"
+ 
  NOR_fascism:0 "Norgesveldet"
  NOR_fascism_DEF:0 "Norgesveldet"
  NOR_democratic:0 "Norway"
@@ -3183,8 +3197,8 @@
  BRI:0 "Brittany"
  BRI_DEF:0 "Brittany"
  BRI_ADJ:0 "Breton"
- OCC_fascism:0 "Imperialist Occitania"
- OCC_fascism_DEF:0 "Imperialist Occitania"
+ OCC_fascism:0 "Italian occupation of southern France"
+ OCC_fascism_DEF:0 "Italian southern France"
  OCC_democratic:0 "Occitania"
  OCC_democratic_DEF:0 "the Occitan Republic"
  OCC_communism:0 "Worker's Commune of Occitania"
@@ -3194,14 +3208,6 @@
  OCC:0 "Occitania"
  OCC_DEF:0 "Occitania"
  OCC_ADJ:0 "Occitan"
- OCC_FRA_subject:0 "Autonomous Region of Southern France"
- OCC_FRA_subject_DEF:0 "the Autonomous Region of Southern France"
- OCC_FRA_subject_ADJ:1 "Southern French"
- OCC_ENG_neutrality_subject:0 "Angevin Kingdom of Aquitaine"
- OCC_ENG_neutrality_subject_DEF:0 "the Angevin Kingdom of Aquitaine"
- OCC_ENG_neutrality_subject_ADJ:0 "Angevin"
- OCC_subject:1 "$OVERLORDADJ$ Occitania"
- OCC_subject_DEF:1 "$OVERLORDADJ$ Occitania"
  COR_fascism:0 "Fraternal Corsica"
  COR_fascism_DEF:0 "Fraternal Corsica"
  COR_democratic:0 "Corsican Republic"
@@ -3258,6 +3264,7 @@
  TRA_fascism_ADJ:0 "Transylvanian"
  TRA_communism_ADJ:0 "Carpathian"
  TRA:0 "Transylvania"
+ TRA:0 "Transylvania"
  TRA_DEF:0 "Transylvania"
  TRA_ADJ:0 "Transylvanian"
  vojvodina_democratic:0 "Republic of Vojvodina"
@@ -3272,11 +3279,3 @@
  vojvodina:0 "Vojvodina"
  vojvodina_DEF:0 "Vojvodina"
  vojvodina_ADJ:0 "Vojvodinian"
- BUR_fascism:0 "Burgandy"
- BUR_fascism_DEF:0 "Burgandy"
- BUR_communism:0 "Burgandian Union"
- BUR_communism_DEF:0 "the Burgandian Union"
- RKM_fascism:0 "Moscow State"
- RKM_fascism_DEF:0 "Moscow State"
- RKC_fascism:0 "Caucses State"
- RKC_fascism_DEF:0 "Caucses State"
