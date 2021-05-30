@@ -92,3 +92,26 @@ create_country_leader = {
 	}
 }
 
+1947.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 1
+		fascism = 95
+		communism = 1
+		neutrality = 3
+	}
+	create_country_leader = {
+	name = "Francesco Zingales"
+	desc = ""
+	picture = "Francesco Zingales.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+}
