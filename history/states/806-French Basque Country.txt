@@ -14,9 +14,10 @@ state={
 
 		}
 		add_core_of = FRA
+		add_core_of = OCC
 	    1947.1.1 = {
-			owner = SPR
-			controller = SPR
+			owner = OCC
+			controller = OCC
 		}
 	}
 
