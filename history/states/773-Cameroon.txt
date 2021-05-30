@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = FRA
+		owner = ITA
 		add_core_of = CMR
 		victory_points = {
 			2080 1
@@ -21,8 +21,8 @@ state={
 			}
 		}
 	    1947.1.1 = {
-			owner = FFA
-			controller = FFA
+			owner = ITA
+			controller = ITA
 		}
 	}
 
