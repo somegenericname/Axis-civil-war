@@ -6,3 +6,7 @@
  start.1.b:0 "tell me about the current situations"
  start.1.c:0 "explain the new mechanics"
   start.1.e:0 "BEGONE ! i want to play"
+
+  news.1.t:0 "The Tripartite Pact formally disbanded"
+news.1.d:0 "In a move that was entirely predicted, the German Reich has formally broken off diplomatic relations with both Italy and Japan. This move was long expected, given the formation of a new Mediterranean defense pact by Italy and the seizure of the spice islands by Japan. How this move will affect european and international politics remains to be seen."
+news.1.a:0 "It was just a piece of paper, anyways."
