@@ -1,10 +1,10 @@
-﻿###########################
+###########################
 # News Events
 ###########################
 
 add_namespace = news
 
-# Marco Polo Bridge I
+#cancel_tripartite
 news_event = {
 	id = news.1
 	title = news.1.t
@@ -17,22 +17,14 @@ news_event = {
 	
 	option = {
 		name = news.1.a
-		trigger = {
-			NOT = {
-				TAG = JAP
-				TAG = CHI
-			}
-		}
-	}
-	option = {
-		name = news.1.b
-		trigger = { TAG = JAP }
-	}
-	option = {
-		name = news.1.c
-		trigger = { TAG = CHI }
+		
 	}
 }
+
+
+
+
+
 
 # Marco Polo Bridge II
 news_event = {
