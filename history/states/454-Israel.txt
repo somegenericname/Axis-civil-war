@@ -25,11 +25,10 @@ state={
 		victory_points = {
 			1065 1 
 		}
-		add_core_of = PAL
-		add_core_of = ISR
+		add_core_of = IME
 	    1947.1.1 = {
-			owner = ITA
-			controller = ITA
+			owner = IME
+			controller = IME
 		}
 	}
 
