@@ -1,4 +1,4 @@
-﻿capital = 2
+capital = 2
 
 oob = "ITA_1936"
 
@@ -969,4 +969,8 @@ if = {
 	puppet = EGY
 	add_to_faction = TUR
 	add_to_faction = HUN
+	puppet = IME
+	puppet = IEA
+	puppet = ICA
+	puppet = IGL
 }
