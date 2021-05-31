@@ -964,9 +964,9 @@ if = {
 	puppet = OCC
 	puppet = CRO
 	puppet = SER
-	puppet = BUL
+	add_to_faction = BUL
 	puppet = GRE
 	puppet = EGY
-	puppet = TUR
-	puppet = HUN
+	add_to_faction = TUR
+	add_to_faction = HUN
 }
