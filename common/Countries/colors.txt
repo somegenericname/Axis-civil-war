@@ -16,7 +16,7 @@ IEA = {
 	color = rgb { 61 77 10 }
 	color_ui = rgb { 61 77 10 }
 	}
-IGC = {
+IGL = {
 	color = rgb { 0 76 38 }
 	color_ui = rgb { 0 76 38 }
 	}
