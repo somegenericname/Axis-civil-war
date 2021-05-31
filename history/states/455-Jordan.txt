@@ -19,7 +19,7 @@ state={
 			11976 1 
 		}
 
-		add_core_of = JOR
+		add_core_of = IME
 	    1947.1.1 = {
 			owner = IME
 			controller = IME
