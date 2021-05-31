@@ -124,6 +124,9 @@ add_ideas = {
 		war_economy
 		extensive_conscription
 	}
+	
+	give_guarantee = ITA
+	give_guarantee = JAP
 	}
 
 
