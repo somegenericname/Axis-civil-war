@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  #ACW countries
  
@@ -97,6 +97,20 @@
  FFA:0 "FFAmany"
  FFA_DEF:0 "FFAmany"
  FFA_ADJ:0 "FFAman"
+ 
+  BUR_fascism:0 "Schutzstaffel Ordensstaat"
+ BUR_fascism_DEF:0 "The Schutzstaffel Ordensstaat"
+ BUR_communism:0 "Burgandian Union"
+ BUR_communism_DEF:0 "the Burgandian Union"
+ 
+ RKM_fascism:0 "Moscow State"
+ RKM_fascism_DEF:0 "Moscow State"
+ 
+ RKC_fascism:0 "Caucses State"
+ RKC_fascism_DEF:0 "Caucses State"
+
+ 
+ #Vanilla countries
  
  GER_fascism:0 "Großgermanisches Reich"
  GER_fascism_DEF:0 "the Großgermanisches Reich"
@@ -3272,8 +3286,8 @@
  vojvodina:0 "Vojvodina"
  vojvodina_DEF:0 "Vojvodina"
  vojvodina_ADJ:0 "Vojvodinian"
- BUR_fascism:0 "Burgandy"
- BUR_fascism_DEF:0 "Burgandy"
+ BUR_fascism:0 "Schutzstaffel Ordensstaat"
+ BUR_fascism_DEF:0 "The Schutzstaffel Ordensstaat"
  BUR_communism:0 "Burgandian Union"
  BUR_communism_DEF:0 "the Burgandian Union"
  RKM_fascism:0 "Moscow State"
