@@ -460,5 +460,9 @@ if = {
     set_popularities = {
 	democratic = 1
 	fascism = 99
-                       }	
+                       }
+	add_ideas = {
+		resistance_1
+		devastation_3
+	}
 		}
