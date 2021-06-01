@@ -22,8 +22,8 @@ state={
 
 		add_core_of = LEB
 		1947.1.1 = {
-			owner = ITA
-			controller = ITA
+			owner = IME
+			controller = IME
 		}
 	}
 

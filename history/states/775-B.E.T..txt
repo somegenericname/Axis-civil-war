@@ -12,8 +12,8 @@ state={
 			infrastructure = 0
 		}
 	    1947.1.1 = {
-			owner = FFA
-			controller = FFA
+			owner = ITA
+			controller = ITA
 		}
 	}
 

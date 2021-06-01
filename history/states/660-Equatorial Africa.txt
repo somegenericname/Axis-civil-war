@@ -18,8 +18,8 @@ state={
 			infrastructure = 2
 		}
 	    1947.1.1 = {
-			owner = ITA
-			controller = ITA
+			owner = ICA
+			controller = ICA
 		}
 	}
 

@@ -18,8 +18,8 @@ state=
 		add_core_of = YUG
 		add_core_of = SLV
 	    1947.1.1 = {
-			owner = ITA
-			controller = ITA
+			owner = GER
+			controller = GER
 		}		
 	}
 	provinces={
