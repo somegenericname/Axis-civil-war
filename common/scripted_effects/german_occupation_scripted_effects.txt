@@ -1,0 +1,143 @@
+
+increase_resistance = {
+	if = {
+		limit = { has_idea = resistance_4 }
+		war_support_factor = 0.05
+	}
+	else_if = {
+		limit = { has_idea = resistance_3 }
+		swap_ideas = {
+			remove_idea = resistance_3
+			add_idea = resistance_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = resistance_2 }
+		swap_ideas = {
+			remove_idea = resistance_2
+			add_idea = resistance_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = resistance_1 }
+		swap_ideas = {
+			remove_idea = resistance_1
+			add_idea = resistance_2
+		}		
+	}
+	else_if = {
+		limit = { has_idea = resistance_0 }
+		swap_ideas = {
+			remove_idea = resistance_0
+			add_idea = resistance_1
+		}
+	}
+}
+
+decrease_resistance = {
+	if = {
+		limit = { has_idea = resistance_0 }
+		war_support_factor = -0.05
+	}
+	else_if = {
+		limit = { has_idea = resistance_1 }
+		swap_ideas = {
+			remove_idea = resistance_1
+			add_idea = resistance_0
+		}
+	}
+	else_if = {
+		limit = { has_idea = resistance_2 }
+		swap_ideas = {
+			remove_idea = resistance_2
+			add_idea = resistance_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = resistance_3 }
+		swap_ideas = {
+			remove_idea = resistance_3
+			add_idea = resistance_2
+		}		
+	}
+	else_if = {
+		limit = { has_idea = resistance_4 }
+		swap_ideas = {
+			remove_idea = resistance_4
+			add_idea = resistance_3
+		}
+	}
+}
+
+increase_devastation = {
+	if = {
+		limit = { has_idea = devastation_4 }
+		stability_factor = -0.05
+	}
+	else_if = {
+		limit = { has_idea = devastation_3 }
+		swap_ideas = {
+			remove_idea = devastation_3
+			add_idea = devastation_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = devastation_2 }
+		swap_ideas = {
+			remove_idea = devastation_2
+			add_idea = devastation_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = devastation_1 }
+		swap_ideas = {
+			remove_idea = devastation_1
+			add_idea = devastation_2
+		}		
+	}
+	else_if = {
+		limit = { has_idea = devastation_0 }
+		swap_ideas = {
+			remove_idea = devastation_0
+			add_idea = devastation_1
+		}
+	}
+}
+
+decrease_devastation = {
+	if = {
+		limit = { has_idea = devastation_0 }
+		stability_factor = 0.05
+	}
+	else_if = {
+		limit = { has_idea = devastation_1 }
+		swap_ideas = {
+			remove_idea = devastation_1
+			add_idea = devastation_0
+		}
+	}
+	else_if = {
+		limit = { has_idea = devastation_2 }
+		swap_ideas = {
+			remove_idea = devastation_2
+			add_idea = devastation_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = devastation_3 }
+		swap_ideas = {
+			remove_idea = devastation_3
+			add_idea = devastation_2
+		}		
+	}
+	else_if = {
+		limit = { has_idea = devastation_4 }
+		swap_ideas = {
+			remove_idea = devastation_4
+			add_idea = devastation_3
+		}
+	}
+}
+
+
+
