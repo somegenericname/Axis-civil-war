@@ -2660,5 +2660,26 @@
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
  GER_blitzkreig_dependence_desc:0 "With the successes of blitzkreig in the world war, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare."
  
+  #occupationLoc
+ resistance_0:0 "crushed resistance"
+ resistance_0_desc:0 "long years of occupation have worn our people down and sapped their will to fight."
+ resistance_1:0 "mininscule resistance"
+ resistance_1_desc:0 "Only a few brave resistance fighters are left to fend off the occupiers."
+ resistance_2:0 "moderate resistance"
+ resistance_2_desc:0 "Several major resistance cells fight against our occupiers."
+ resistance_3:0 "heavy resistance"
+ resistance_3_desc:0 "Our people are beginning to rally in an attempt to throw out our oppressors"
+ resistance_4:0 "open revolt"
+ resistance_4_desc:0 "It is only a matter of time before we are ready to cast away our chains."
+ devastation_0:0 "recovering economy"
+ devastation_0_desc:0 "despite our occupation, our economy is recovering and close relationship to our overlord has led to economic benefits."
+ devastation_1:0 "Stable economy"
+ devastation_1_desc:0 "Despite being occupied, Our economy is at the moment fairly stable."
+ devastation_2:0 "Declining economy"
+ devastation_2_desc:0 "Exploitation from our overlord has resulted in some minor problems in our economy."
+ devastation_3:0 "collapsing economy"
+ devastation_3_desc:0 "Because of military conquest and exploitation, our economy is on the verge of collapse."
+ devastation_4:0 "Total economic ruin"
+ devastation_4_desc:0 "The damage done by conquest and plunder has rendered our economy nearly nonexistent."
  
  
