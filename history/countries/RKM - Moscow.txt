@@ -91,7 +91,12 @@ create_country_leader = {
 	democratic = 5
 	fascism = 90
 	communism = 5
-                       }	
+                       }
+		       
+	add_ideas = {
+		resistance_3
+		devastation_3
+	}
 		}
 
 
