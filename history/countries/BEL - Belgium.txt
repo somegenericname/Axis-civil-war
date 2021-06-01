@@ -173,5 +173,10 @@ create_navy_leader = {
 	democratic = 10
 	fascism = 85
 	communism = 5
-                       }					
+                       }
+		       
+	add_ideas = {
+		resistance_0
+		devastation_2
+	}	
 }
