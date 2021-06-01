@@ -574,4 +574,9 @@ if = {
 	election_frequency = 48
 	elections_allowed = no
                     }
-		}
+		    
+	add_ideas = {
+		resistance_0
+		devastation_2
+	}	
+}
