@@ -346,5 +346,10 @@ if = {
 	democratic = 5
 	fascism = 90
 	communism = 5
-                       }	
-		}
+                       }
+		       
+	 add_ideas = {
+		resistance_1
+		devastation_1
+	}
+}
