@@ -9,7 +9,7 @@ ideas = {
 				original_tag = GER
 			}
 
-			picture = tur_disorganised_armed_forces
+			picture = dep_army
 
 			modifier = {
 				conscription_factor = -0.25
@@ -44,7 +44,7 @@ ideas = {
 				original_tag = GER
 			}
 
-			picture = generic_goods_red_bonus
+			picture = plund_eco
 
 			modifier = {
 				political_power_gain = -0.2
