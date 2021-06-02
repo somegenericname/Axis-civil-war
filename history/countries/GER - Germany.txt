@@ -1188,7 +1188,6 @@ create_equipment_variant = {
 	puppet = RKM
 	puppet = RKC
 	puppet = NOR
-	add_to_faction = FRA
-	add_to_faction = BUR
-	add_to_faction = BRI
+	puppet = FRA
+	puppet = BUR
 }
