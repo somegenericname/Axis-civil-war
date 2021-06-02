@@ -91,7 +91,6 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 if = {
 	limit = {
@@ -116,22 +115,6 @@ if = {
 		#laws
 		partial_economic_mobilisation
 	}
-
-	complete_national_focus = FRA_begin_rearmament
-	complete_national_focus = FRA_form_the_popular_front
-	complete_national_focus = FRA_reform_the_labour_laws
-	complete_national_focus = FRA_the_blum_viollette_proposal
-	complete_national_focus = FRA_review_foreign_policy
-	complete_national_focus = FRA_intervention_in_spain
-	complete_national_focus = FRA_buy_time
-	complete_national_focus = FRA_defensive_focus
-	complete_national_focus = FRA_firepower_kills
-	complete_national_focus = FRA_go_with_britain
-	complete_national_focus = FRA_devalue_the_franc
-	complete_national_focus = FRA_invest_in_the_metropole
-
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
 
 	oob = "FRA_1939"
 	if = {
@@ -216,8 +199,6 @@ if = {
 			improved_secondary_battery = 1
 			improved_ship_torpedo_launcher = 1
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
 }
 
@@ -236,14 +217,6 @@ set_popularities = {
 	neutrality = 15
 	communism = 20
 }
-
-add_ideas = {
-
-}
-
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {

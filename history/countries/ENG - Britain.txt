@@ -103,9 +103,6 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
 
 if = {
@@ -118,13 +115,6 @@ if = {
 }
 
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
-	
 
 set_convoys = 800
 
@@ -194,8 +184,6 @@ if = {
 		#laws
 		partial_economic_mobilisation
 		limited_conscription
-
-		ENG_george_vi
 	}
 
 	
@@ -209,20 +197,6 @@ create_country_leader = {
 		chamberlain_appeaser rearmer
 	}
 }
-	remove_ideas = george_v #Dead
-
-	complete_national_focus = limited_rearmament_focus
-	complete_national_focus = air_defense_focus
-	complete_national_focus = radar_focus
-	complete_national_focus = shadow_scheme_focus
-	complete_national_focus = uk_empire_focus
-	complete_national_focus = uk_service_focus
-	complete_national_focus = uk_colonial_focus
-	complete_national_focus = uk_mediterranean_focus
-	complete_national_focus = uk_asia_focus
-	complete_national_focus = uk_commonwealth_focus
-
-	give_guarantee = POL
 	
 	set_oob = "ENG_1939"
 	if = {
@@ -328,10 +302,6 @@ create_country_leader = {
 			improved_sonar = 1
 		}
 		set_naval_oob = "ENG_1939_Naval"
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
-		clr_global_flag = MTG_second_london_conference
-		modify_global_flag = { flag = MTG_naval_treaty_signatories value = -2 }
 	}
 
 	set_convoys = 200
@@ -353,8 +323,6 @@ set_popularities = {
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
-
-#give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
 

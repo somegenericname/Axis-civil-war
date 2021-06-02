@@ -53,46 +53,10 @@ if = {
 		limit = {
 			has_dlc = "Poland: United and Ready"
 		}
-
-		complete_national_focus = POL_central_region_strategy
-		complete_national_focus = POL_expansion_of_new_towns
-		complete_national_focus = POL_start_central_industrial_region
-		complete_national_focus = POL_fill_the_railways_gaps
-
-		unlock_national_focus = POL_the_four_year_plan
-		complete_national_focus = POL_national_defence_fund
-		complete_national_focus = POL_warsaw_main_railway_station
-		complete_national_focus = POL_invest_in_the_old_polish_region
-		complete_national_focus = POL_additional_research_slot1
-
-		unlock_national_focus = POL_prepare_for_the_next_war
-		unlock_national_focus = POL_standardisation_of_equipment
-		unlock_national_focus = POL_modernising_the_cavalry
-		unlock_national_focus = POL_the_defence_of_poland
-		unlock_national_focus = POL_romanian_bridgehead_strategy
-		complete_national_focus = POL_hel_fortified_area
-		complete_national_focus = POL_silesia_fortified_area
-
-		complete_national_focus = POL_air_base_expansion
-		complete_national_focus = POL_develop_polish_ship_building
-
-		unlock_national_focus = POL_strengthen_the_polish_state
-		complete_national_focus = POL_defensive_focus
 	}
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-
 	add_ideas = {
 		#laws
 		limited_conscription
