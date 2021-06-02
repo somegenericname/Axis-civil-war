@@ -21,6 +21,7 @@ state={
 		}
 
 		add_core_of = EGY
+		add_core_of = IME
 	    1947.1.1 = {
 			owner = IME
 			controller = IME
