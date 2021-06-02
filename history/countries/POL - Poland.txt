@@ -415,6 +415,8 @@ if = {
 
 1947.1.1 = {
     set_cosmetic_tag = POL_reichskommissariat
+    oob = POL_1947 
+
     set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"

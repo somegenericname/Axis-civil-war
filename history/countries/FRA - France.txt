@@ -982,6 +982,8 @@ if = {
 
 1947.1.1 = {
 	set_cosmetic_tag = FRA_VICHY
+    oob = FRA_1947
+
 	set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"
