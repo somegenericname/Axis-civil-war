@@ -24,6 +24,7 @@ state=
 	    1947.1.1 = {
 			owner = IEA
 			controller = IEA
+			add_core_of = IEA
 		}
 	}
 	provinces={
