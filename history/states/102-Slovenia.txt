@@ -15,11 +15,11 @@ state=
 		victory_points = {
 			9627 3 
 		}
-		add_core_of = YUG
+		add_core_of = SLV
 		add_core_of = SLV
 	    1947.1.1 = {
-			owner = GER
-			controller = GER
+			owner = ITA
+			controller = ITA
 		}		
 	}
 	provinces={
