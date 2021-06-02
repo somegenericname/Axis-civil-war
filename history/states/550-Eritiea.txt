@@ -10,6 +10,7 @@ state=
 	{
 		owner = IEA
 		add_core_of = ERI
+		add_core_of = IEA
 		victory_points = {
 			12766 1
 		}
