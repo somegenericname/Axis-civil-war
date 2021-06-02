@@ -15,6 +15,7 @@ state={
 	    1947.1.1 = {
 			owner = ICA
 			controller = ICA
+			add_core_of = ICA
 		}
 	}
 
