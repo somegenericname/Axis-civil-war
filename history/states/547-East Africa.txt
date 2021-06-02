@@ -22,6 +22,7 @@ state={
 			5210 1
 		}
 		add_core_of = KEN
+		add_core_of = IEA
 	    1947.1.1 = {
 			owner = IEA
 			controller = IEA
