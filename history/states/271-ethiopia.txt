@@ -32,6 +32,7 @@ state=
 		1936.6.1 = {
 			owner = IEA
 			controller = IEA
+			add_core_of = IEA
 		}
 	}
 
