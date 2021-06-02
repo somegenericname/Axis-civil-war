@@ -1,5 +1,17 @@
 leader_traits = {
 	
+	#ACW countries
+		garrison_commander = {
+		random = no
+		max_command_power = 20
+        command_power_gain = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#vanilla
 	dictator = {
 		random = no
 		political_power_factor = 0.25
