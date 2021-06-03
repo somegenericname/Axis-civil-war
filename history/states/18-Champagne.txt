@@ -23,6 +23,7 @@ state={
 			air_base = 10
 		}
 		add_core_of = FRA
+		add_core_of = BUR
 	    1947.1.1 = {
 			owner = BUR
 			controller = BUR
