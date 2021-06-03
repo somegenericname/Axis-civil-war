@@ -16,7 +16,7 @@ GER_subjugate_pakt = {
 			HOL = {
 				is_subject_of = GER
 			}
-			has_equipment = { infantry_equipment > 5000 }
+			has_equipment = { infantry_equipment > 4999 }
 		}
 
 		cost = 25

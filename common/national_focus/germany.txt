@@ -116,7 +116,7 @@ focus_tree = {
 		#icon = GFX_goal_generic_construction
 
 		available = {
-			country = GER
+			
 		}
 
 
@@ -201,7 +201,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = GER_alpine_border_extend_fortline
-		cost 2
+		cost = 2
 
 		completion_reward = {
 			#allows to deal with the swiss resistance
@@ -220,7 +220,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_the_swiss_resistance
-		cost 2
+		cost = 2
 
 		completion_reward = {
 			#once swiss is cored, Germany could get a spirit to more utilize swiss banks/gold that was hidden in them
@@ -239,7 +239,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = GER_alpine_border_extend_fortline
-		cost 2
+		cost = 2
 
 		completion_reward = {
 
@@ -261,7 +261,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_slovenian_claims
-		cost 2
+		cost = 2
 
 		completion_reward = {
 			#can elevate resistance in the rest of yugoslavia, could spread to other italian states in the region/its puppets

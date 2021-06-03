@@ -3,7 +3,7 @@
  #ACW countries
  
  IOC_fascism:0 "Italian Occupied Crimea"
- IOC_fascism_DEF:0 "the Italian Garrison of Crimea"
+ IOC_fascism_DEF:0 "The Italian Garrison of Crimea"
  IOC_democratic:0 "Crimean Republic"
  IOC_democratic_DEF:0 "the Crimean Republic"
  IOC_neutrality:1 "Crimea"
@@ -14,9 +14,6 @@
  IOC_democratic_ADJ:0 "Crimean"
  IOC_neutrality_ADJ:0 "Crimean"
  IOC_communism_ADJ:0 "Crimean"
- IOC:0 "Crimea"
- IOC_DEF:0 "Crimea"
- IOC_ADJ:0 "Crimean"
  
  IEA_fascism:0 "Africa Orientale Italiana"
  IEA_fascism_DEF:0 "Italian Colonial Governorate of East Africa"
