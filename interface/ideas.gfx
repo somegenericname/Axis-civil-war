@@ -5619,4 +5619,54 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/Blitz.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_devastation_0"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_0.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_1"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_2"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_3"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_devastation_4"
+		texturefile = "gfx/interface/ideas/germany/occupation/devastation_4.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_resistance_0"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_0.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_1"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_2"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_3"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_resistance_4"
+		texturefile = "gfx/interface/ideas/germany/occupation/resistance_4.dds"
+	}
+
 }
