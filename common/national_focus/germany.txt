@@ -960,12 +960,14 @@ focus_tree = {
 						focus = GER_step_up_french_border_patrols
 						focus = GER_step_up_attacks}
 
+		bypass = { has_war_with = ITA }
+
 		x = 0
 		y = 2
 		relative_position_id = GER_step_up_italian_border_controls
 
 		completion_reward = {
-
+            create_wargoal = { type = annex_everything target = ITA }
 			#GER could be at war with italy already, in which case this focus would bypass, but otherwise completing this would give wargoal on italy
 		}
 

@@ -69,10 +69,14 @@ bookmarks = {
 			history = GER_BLITZKRIEG_DESC
 			ideology = fascism
 			ideas = {
-
+              GER_blitzkreig_dependence
+              GER_plunder_economy
+              GER_depleted_army
 			}
 			focuses = {
-
+              GER_cancel_tripartite
+              GER_the_final_showdown
+              GER_the_unspoken_war
 			}
 		}
 		"CHI"={

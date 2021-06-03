@@ -5,15 +5,60 @@
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 11
 			tag = SOV
 		}
 	}
 	
 	default = no
 
+	continuous_focus_position = { x = 50 y = 1500 }
 
+	focus = {
+	    id = SOV_shattered_union
+	
+	    prerequisite = { }
 
+		x = 8
+		y = 2
+ 
+		cost = 1
+
+		completion_reward = {  add_stability = 0.05	}
+
+	}
+
+	focus = {
+	    id = SOV_trust_in_stalin
+	
+	    prerequisite = { focus = SOV_shattered_union }
+
+		mutually_exclusive = { focus = SOV_new_gen }
+
+		x = 6
+		y = 3
+ 
+		cost = 1
+
+		completion_reward = { 	}
+
+	}
+
+	focus = {
+	    id = SOV_new_gen
+	
+	    prerequisite = { focus = SOV_shattered_union }
+        
+		mutually_exclusive = { focus = SOV_trust_in_stalin }
+
+		x = 10
+		y = 3
+ 
+		cost = 1
+
+		completion_reward = { 	}
+
+	}
 
 
 
