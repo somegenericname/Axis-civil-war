@@ -20,9 +20,11 @@ state={
 
 		}
 		add_core_of = SOV
+		add_core_of = JAS
+
 	    1947.1.1 = {
-			owner = SOV
-			controller = SOV
+			owner = JAS
+			controller = JAS
 		}
 	}
 
