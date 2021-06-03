@@ -1,8 +1,9 @@
 
 increase_resistance = {
 	if = {
-		limit = { has_idea = resistance_4 }
-		war_support_factor = 0.05
+		limit = { has_idea = resistance_4 
+		          has_war_support > 0.4
+		        }
 	}
 	else_if = {
 		limit = { has_idea = resistance_3 }
@@ -36,8 +37,9 @@ increase_resistance = {
 
 decrease_resistance = {
 	if = {
-		limit = { has_idea = resistance_0 }
-		war_support_factor = -0.05
+		limit = { has_idea = resistance_0 
+		has_war_support < 0.5
+		}
 	}
 	else_if = {
 		limit = { has_idea = resistance_1 }
@@ -71,8 +73,9 @@ decrease_resistance = {
 
 increase_devastation = {
 	if = {
-		limit = { has_idea = devastation_4 }
-		stability_factor = -0.05
+		limit = { has_idea = devastation_4 
+		has_stability < 0.5
+		}
 	}
 	else_if = {
 		limit = { has_idea = devastation_3 }
@@ -106,8 +109,9 @@ increase_devastation = {
 
 decrease_devastation = {
 	if = {
-		limit = { has_idea = devastation_0 }
-		stability_factor = 0.05
+		limit = { has_idea = devastation_0 
+		has_stability > 0.4
+		}
 	}
 	else_if = {
 		limit = { has_idea = devastation_1 }
