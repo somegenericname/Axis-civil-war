@@ -1,4 +1,6 @@
 1947.1.1 = {
+	
+    capital = 554
     oob = IME_1947
 
     set_politics = {
