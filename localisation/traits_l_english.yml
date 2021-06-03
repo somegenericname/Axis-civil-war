@@ -1,4 +1,9 @@
 ﻿l_english:
+ 
+ #ACW
+ garrison_commander:0 "Garrison Commander"
+ 
+ #vanilla
  cc_leader:0 "General"
  fm_leader:0 "Field Marshal"
  navy_leader:0 "Admiral"
