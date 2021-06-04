@@ -24,7 +24,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_cancel_tripartite
-		#icon = GFX_goal_generic_construction
+		icon = GFX_goal_generic_improve_relations
 		x = 30
 		y = 0
 		cost = 2
@@ -522,6 +522,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_the_unspoken_war
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 
 		prerequisite = {focus = GER_cancel_tripartite}
 		x = -17
@@ -684,11 +685,11 @@ focus_tree = {
 
 
 
-	### start of italian sphere section ###
+	### start of balkans section ###
 
 	focus = {
 
-		id = GER_break_the_italian_sphere
+		id = GER_control_of_the_balkans
 
 		prerequisite = {focus = GER_cancel_tripartite}
 		x = 7
@@ -729,88 +730,7 @@ focus_tree = {
 				}
 			}
 			#build some forts on the balkan borders, give slovakia core on southern slovakia
-			#give a relations buff to spain 
 		}
-
-
-	}
-
-	focus = {
-
-		id = GER_the_spanish_situation
-
-		prerequisite = {focus = GER_break_the_italian_sphere}
-
-		x = -1
-		y = 1
-
-		relative_position_id = GER_break_the_italian_sphere
-
-		completion_reward = {
-
-			#gives economic bonuses to spanish region that will rise up
-
-		}
-
-
-
-	}
-
-	focus = {
-
-		id = GER_spanish_volunteers
-
-		prerequisite = {focus = GER_the_spanish_situation}
-
-		x = 0
-		y = 1
-
-		relative_position_id = GER_the_spanish_situation
-
-		completion_reward = {
-
-			#allows send volunteers to natsoc spanish warlord
-
-		}
-
-	}
-
-	focus = {
-
-		id = GER_cement_position
-
-		prerequisite = {focus = GER_spanish_volunteers}
-
-		x = 0
-		y = 2
-
-		relative_position_id = GER_the_spanish_situation
-
-		completion_reward = {
-
-			#gives spain "german influence" or whatever
-			#only if a) spanish civil war happened b) natsoc side won
-
-		}
-
-	}
-
-	focus = {
-
-		id = GER_the_final_blow
-
-		prerequisite = {focus = GER_cement_position}
-
-		x = 0
-		y = 3
-
-		relative_position_id = GER_the_spanish_situation
-
-		completion_reward = {
-
-			#makes spain a puppet if they are enough influenced
-		}
-
 
 
 	}
@@ -821,12 +741,12 @@ focus_tree = {
 
 		id = GER_prepare_against_hungary
 
-		prerequisite = {focus = GER_break_the_italian_sphere}
+		prerequisite = {focus = GER_control_of_the_balkans}
 
-		x = 1
+		x = -2
 		y = 1
 
-		relative_position_id = GER_break_the_italian_sphere
+		relative_position_id = GER_control_of_the_balkans
 
 		completion_reward = {
 
@@ -862,12 +782,12 @@ focus_tree = {
 
 		id = GER_the_romanian_question
 
-		prerequisite = {focus = GER_break_the_italian_sphere}
+		prerequisite = {focus = GER_control_of_the_balkans}
 
-		x = 3
+		x = 2
 		y = 1
 
-		relative_position_id = GER_break_the_italian_sphere
+		relative_position_id = GER_control_of_the_balkans
 
 		completion_reward = {
 
@@ -901,9 +821,9 @@ focus_tree = {
 
 		prerequisite = {focus = GER_bargain_with_ukraine
 						focus = GER_bargain_with_slovakia}
-		x = 2
+		x = 0
 		y = 3
-		relative_position_id = GER_break_the_italian_sphere
+		relative_position_id = GER_control_of_the_balkans
 
 		completion_reward = {
 
@@ -917,10 +837,10 @@ focus_tree = {
 
 		prerequisite = {focus = GER_renegotiate_transylvania}
 
-		x = 2
+		x = 0
 		y = 4
 
-		relative_position_id = GER_break_the_italian_sphere
+		relative_position_id = GER_control_of_the_balkans
 
 		completion_reward = {
 
@@ -934,10 +854,10 @@ focus_tree = {
 		id = GER_balkan_assassination
 
 		prerequisite = {focus = GER_plan_new_balkan_partition}
-		x = 2
+		x = 0
 		y = 5
 
-		relative_position_id = GER_break_the_italian_sphere
+		relative_position_id = GER_control_of_the_balkans
 
 		completion_reward = {
 
@@ -966,7 +886,7 @@ focus_tree = {
 	
 
 	prerequisite = {focus = GER_cancel_tripartite}
-		x = 15
+		x = 14
 		y = 2
 
 		relative_position_id = GER_cancel_tripartite
@@ -1174,6 +1094,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_the_final_showdown
+		icon = GFX_focus_ger_assassinate_mussolini
 
 		prerequisite = {focus = GER_the_oil_incident
 						focus = GER_balkan_assassination
@@ -1181,12 +1102,14 @@ focus_tree = {
 						focus = GER_step_up_french_border_patrols
 						focus = GER_step_up_attacks}
 
+		bypass = { has_war_with = ITA }
+
 		x = 0
 		y = 2
 		relative_position_id = GER_step_up_italian_border_controls
 
 		completion_reward = {
-
+            create_wargoal = { type = annex_everything target = ITA }
 			#GER could be at war with italy already, in which case this focus would bypass, but otherwise completing this would give wargoal on italy
 		}
 
