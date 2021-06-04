@@ -1,0 +1,19 @@
+﻿###########################
+# Soviet Events
+###########################
+
+add_namespace = soviet
+
+country_event = {
+	id = soviet.1
+	title = soviet.1.t
+	desc = soviet.1.d
+	picture = GFX_report_event_soviet_german_soldier_handshake
+	
+	is_triggered_only = yes
+
+	option = {
+		name = soviet.1.a
+		load_focus_tree = ussr2
+	}
+}

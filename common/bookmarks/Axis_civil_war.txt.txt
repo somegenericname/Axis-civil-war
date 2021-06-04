@@ -95,10 +95,9 @@ bookmarks = {
 			history = SOV_BLITZKRIEG_DESC
 			ideology = communism
 			ideas = {
-				trotskyite_plot_purged
-				home_of_revolution
-				officers_purged
-				nkvd_2
+				shat_army
+				no_economy
+				
 			}
 			focuses = {
 				SOV_move_industry_to_urals
