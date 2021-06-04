@@ -7,13 +7,13 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
-	id = german_focus
+	id = german1
 	
 	country = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 11
 			tag = GER
 		}
 	}
@@ -38,7 +38,9 @@ focus_tree = {
 
 			
 			add_political_power = 120
-
+ 
+            diplomatic_relation = { country = JAP relation = guarantee active = no }
+	
 			#code so that germany guarantees japan + italy, this is like the final severing of those old relations
 			#I couldn't do this cuz they're in different factions, but if you figure it out that'd be great
   			}
@@ -300,7 +302,21 @@ focus_tree = {
 		relative_position_id = GER_cancel_tripartite
 
 		completion_reward = {
-
+            27 = {
+				add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+			33 = {
+			    add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+		add_manpower = 15000
 			#either add forts, or give manpower, or whatever else basically stating this as a major front
 		}
 
@@ -316,7 +332,20 @@ focus_tree = {
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
-
+            16 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+            15 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
 			#im thinking some civvies/mils for france, also a spirit for conscription
 		}
 	}
@@ -365,7 +394,18 @@ focus_tree = {
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
-
+            18 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+				add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
 			#give civs/mils, also give burgundy a military bonus (I'm thinking of burgundy as a state for an elite military force)
 		}
 
@@ -414,7 +454,27 @@ focus_tree = {
 		relative_position_id = GER_the_french_border
 
 		completion_reward = {
-
+            34 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+            33 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+            23 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
 			#improve infrastructure, allow france + burgundy to fight over rail preferences, which could lead to a battle between them
 		}
 
@@ -639,7 +699,35 @@ focus_tree = {
 		cost = 2
 
 		completion_reward = {
+        	4 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 11666
+				instant_build = yes
+				}
 
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 3700
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 9661
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 11630
+				instant_build = yes
+				}
+			}
 			#build some forts on the balkan borders, give slovakia core on southern slovakia
 		}
 
@@ -847,9 +935,38 @@ focus_tree = {
 
 		completion_reward = {
 
-			#forts up cities near soviet border
-			#idea is that germans believe soviets are completely fucked, so don't think about them too much
-
+        	236 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 9753
+				instant_build = yes
+				}
+			}
+        	217 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 3529
+				instant_build = yes
+				}
+			}
+        	239 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 3578
+				instant_build = yes
+				}
+			}
+        	252 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 11375
+				instant_build = yes
+				}
+			}			
 		}
 	}
 

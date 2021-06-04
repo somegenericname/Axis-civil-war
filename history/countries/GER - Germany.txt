@@ -112,24 +112,6 @@ create_import = {
 		exporter = SWE
 }
 
-
-1947.1.1 = {
-add_ideas = {
-		GER_depleted_army
-		GER_ongoing_holocaust
-		GER_plunder_economy
-		GER_blitzkreig_dependence
-
-		#laws
-		war_economy
-		extensive_conscription
-	}
-	
-	give_guarantee = ITA
-	give_guarantee = JAP
-	}
-
-
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 	set_war_support = 0.7
@@ -1190,4 +1172,18 @@ create_equipment_variant = {
 	puppet = NOR
 	puppet = FRA
 	puppet = BUR
+
+add_ideas = {
+		GER_depleted_army
+		GER_ongoing_holocaust
+		GER_plunder_economy
+		GER_blitzkreig_dependence
+
+		#laws
+		war_economy
+		extensive_conscription
+	}
+	
+	give_guarantee = JAP
+
 }
