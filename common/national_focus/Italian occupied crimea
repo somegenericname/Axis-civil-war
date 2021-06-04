@@ -22,7 +22,7 @@ focus_tree = {
 		#relative_position_id = AST_empower_the_workers
 		
 		available = {
-			NOT = { is_in_faction_with = ITA }
+			NOT = {  }
 		}
 		bypass = {
 		}
@@ -61,7 +61,7 @@ focus_tree = {
 	    #relative_position_id = AST_empower_the_workers
 		
 		available = {
-			NOT = { is_in_faction_with = ITA }
+			NOT = {  }
 		}
 		bypass = {
 		}
@@ -87,7 +87,7 @@ focus_tree = {
 		#relative_position_id = AST_empower_the_workers
 		
 		available = {
-			NOT = { is_in_faction_with = ITA }
+			NOT = {  }
 		}
 		bypass = {
 		}
