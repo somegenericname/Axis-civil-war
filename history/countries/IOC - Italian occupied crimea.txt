@@ -1,4 +1,4 @@
-﻿capital = 137
+capital = 137
 
 # Starting tech
 set_technology = {
@@ -113,5 +113,12 @@ create_country_leader = {
 	traits = {
 		garrison_commander
 	}
+}
+
+   add_ideas  = {
+   
+   garrison_of_the_black_sea
+   Only_the_best
+   native_resistance_low
 }
 }
