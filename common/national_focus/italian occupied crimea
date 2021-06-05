@@ -16,9 +16,9 @@ focus_tree = {
 
 	focus = {
 		id = surrounded_by_the_swastikas
-		icon = GFX_goal_continuous_restrict_freedom
-		x = 20
-		y = 5
+		icon = GFX_goal_IOC_surrounded
+		x = 5
+		y = 1
 		#relative_position_id = AST_empower_the_workers
 		
 		available = {
@@ -28,7 +28,6 @@ focus_tree = {
 		}
 		
 		cost = 5
-		#prerequisite = { focus = AST_workers_paradise }
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -53,12 +52,12 @@ focus_tree = {
 			ai_will_do = {
 			}	
 	} 
+
 	focus = {
 		id = all_alone
-		icon = GFX_goal_generic_more_territorial_claims
-		x = 20
-		y = 6
-	    #relative_position_id = AST_empower_the_workers
+		icon = GFX_goal_IOC_all_alone
+		x = 5
+		y = 2
 		
 		available = {
 			NOT = { is_in_faction_with = ITA }
@@ -82,8 +81,8 @@ focus_tree = {
 	focus = {
 		id = an_ocean_away
 		icon = GFX_focus_generic_black_sea_focus
-		x = 20
-		y = 7
+		x = 5
+		y = 3
 		#relative_position_id = AST_empower_the_workers
 		
 		available = {
