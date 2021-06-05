@@ -116,9 +116,8 @@ create_country_leader = {
 }
 
    add_ideas  = {
-   
    garrison_of_the_black_sea
    Only_the_best
    native_resistance_low
-}
+               	}
 }
