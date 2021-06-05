@@ -1,12 +1,47 @@
-﻿l_english:
+l_english:
  
  start.1.t:0 "Welcome to the axis civil war mod !"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
- start.1.a:0 "explain to me the lore"
- start.1.b:0 "tell me about the current situations"
+ start.1.a:0 "Explain to me the lore"
+ start.1.b:0 "Tell me about the current situations"
  start.1.c:0 "explain the new mechanics"
-  start.1.e:0 "BEGONE ! i want to play"
-
-  news.1.t:0 "The Tripartite Pact formally disbanded"
-news.1.d:0 "In a move that was entirely predicted, the German Reich has formally broken off diplomatic relations with both Italy and Japan. This move was long expected, given the formation of a new Mediterranean defense pact by Italy and the seizure of the spice islands by Japan. How this move will affect european and international politics remains to be seen."
-news.1.a:0 "It was just a piece of paper, anyways."
+ start.1.e:0 "BEGONE ! i want to play"
+ 
+ start.2.t:0 "The lore: 1922-1947"
+ start.2.d:0 "a"
+ start.2.a:0 "The past determines the future"
+ 
+ start.3.t:0 "The new mechanics"
+ start.3.d:0 "b"
+ start.3.a:0 "So much new stuff"
+ 
+ situations.1.t:0 "The situations: crimea"
+ situations.1.d:0 "c"
+ situations.1.a:0 "Go to the previous situation"
+ situations.1.b:0 "Go to the next situation"
+ 
+ situations.2.t:0 "The situations: brittany"
+ situations.2.d:0 "d"
+ situations.2.a:0 "Go to the previous situation"
+ situations.2.b:0 "Go to the next situation"
+ 
+ situations.3.t:0 "The situations: The Fatherland Front"
+ situations.3.d:0 "e"
+ situations.3.a:0 "Go to the previous situation"
+ situations.3.b:0 "Go to the next situation"
+ 
+ situations.4.t:0 "The situations: Occupations of france"
+ situations.4.d:0 "f"
+ situations.4.a:0 "Go to the previous situation"
+ situations.4.b:0 "Go to the next situation"
+ 
+ situations.5.t:0 "The situations: The Baku situation"
+ situations.5.d:0 "g"
+ situations.5.a:0 "Go to the previous situation"
+ situations.5.b:0 "Go to the next situation"
+ 
+ situations.6.t:0 "The situations: German claims on slovenia"
+ situations.6.d:0 "h"
+ situations.6.a:0 "Go to the previous situation"
+ situations.6.b:0 "Go back to the main page"
+ 
