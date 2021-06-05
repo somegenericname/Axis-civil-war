@@ -8,7 +8,10 @@
  
  native_resistance_low:0 "Native Resistance: low"
  native_resistance_low_desc:0 "Currently, the people living under our occupation in crimea dont really know how to feel about us. this could be an oppertunity to paint us in a good light and increase compliance and collaboration. \n\nIts important to remember that increasing our weapong stockpiles and our war industrial complex will increase the optimism of the crimean partisans and population of their ability to survive on their own, so its important to constantly crack down on movments and assure the civilians that we are their protectors"
- 
+ collapsed_soc:0 "Collapsed society"
+ no_economy:0 "Devestated Economy"
+ finish_blocade:0 "Finnish blocade"
+
  #vanilla 
  
  fascist_influence:0 "Fascist Influence"

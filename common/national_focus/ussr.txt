@@ -5,7 +5,7 @@
 		factor = 0
 		
 		modifier = {
-			add = 15
+			add = 18
 			tag = SOV
 		}
 	}
@@ -30,7 +30,8 @@
 
 	focus = {
 	    id = SOV_trust_in_stalin
-	
+	    icon = GFX_focus_fra_loyalty_stalin
+
 	    prerequisite = { focus = SOV_shattered_union }
 
 		mutually_exclusive = { focus = SOV_new_gen }
@@ -46,6 +47,7 @@
 
 	focus = {
 	    id = SOV_new_gen
+		icon = GFX_focus_spr_crush_the_revolution
 	
 	    prerequisite = { focus = SOV_shattered_union }
         
@@ -56,7 +58,7 @@
  
 		cost = 1
 
-		completion_reward = { 	}
+		completion_reward = { custom_effect_tooltip = not_finish}
 
 	}
 

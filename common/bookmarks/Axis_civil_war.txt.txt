@@ -77,6 +77,20 @@ bookmarks = {
 				ITA_italy_first
 			}			
 		}
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
+			ideas = {
+				shat_army
+				no_economy
+				collapsed_soc
+			}
+			focuses = {
+				SOV_move_industry_to_urals
+				SOV_claims_on_baltic
+				SOV_war_with_uk
+			}
+		}
 		"CHI"={
 			history = "CHI_BLITZKRIEG_DESC"
 			ideology = neutrality
@@ -89,20 +103,6 @@ bookmarks = {
 				CHI_renegotiate_the_unequal_treaties
 				CHI_invite_the_flying_tigers
 				CHI_war_of_resistance
-			}
-		}
-		SOV = {
-			history = SOV_BLITZKRIEG_DESC
-			ideology = communism
-			ideas = {
-				shat_army
-				no_economy
-				
-			}
-			focuses = {
-				SOV_move_industry_to_urals
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}
 		}
 		"IOC"={

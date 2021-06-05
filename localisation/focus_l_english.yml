@@ -2285,6 +2285,7 @@
  TREE_FILTER_TOGGLE:0 "§GClick§! to toggle showing of more filters"
 
  #NEW
+ not_finish:0 "§RThis path is still currently under devolopement!§W"
 
  SOV_shattered_union:0 "A shattered union"
  SOV_trust_in_stalin:0 "Trust in Stalin"

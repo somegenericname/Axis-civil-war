@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 13
+			add = 12
 			tag = SOV
 		}
 	}
@@ -44,6 +44,7 @@ focus_tree = {
 
 	focus = {
 	    id = SOV_foc_eco
+		icon = GFX_focus_prc_agrarian_socialism
 	
 	    prerequisite = { focus = SOV_stablize_ssr }
 
