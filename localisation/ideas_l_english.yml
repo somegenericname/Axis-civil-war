@@ -1,17 +1,14 @@
 ﻿l_english:
 #ACW
- garrison_of_the_black_sea:0 "The Garrison of the Black Sea"
- garrison_of_the_black_sea_desc:0 "The only thing standing between Germany and free access to the Mediterranean is this tiny 27,000 Square Kilometer Peninsula. And the Italians are very much aware of thas fact. \n\n\And so are the germans \n\nAs such, the Garrison of Crimea has been buffed with heavy amounts of high quality construction materials, talented workers, and capable administrators, to ensure one thing and one thing only.\n\n To keep the Germans out of the black sea \n\n No matter what"
+ garrison_of_the_black_sea:0 "The Black Sea Garrison"
+ garrison_of_the_black_sea_desc:0 "The only thing standing between the German Reich and access to the Mediterranean is the Crimean peninsula. We are very much aware of this fact. \n\n\And so are the Germans. As such, the garrison has been supplied with high quality construction materials, staffed by talented laborers, and capable administrators. Crimea must stand to rebuff German encroachment towards the Black Sea, no matter the cost."
 
- Only_the_best:0 "Only the best"
- Only_the_best_desc:0 "Due to the very highly strategic importance of the Garrison, It is being reinforced with only the best of the best the Regio Esercito has to offer. The best and most brave soldiers, the best and most skilled sailors, the best and most agile pilots. Only the best, because if its not only the best \n\nThen there wont be any garrison to reinforce in the first place"
+ Only_the_best:0 "Viva Il Duce"
+ Only_the_best_desc:0 "Due to the strategic importance of the peninsula, it is being reinforced by the elite of the Regio Esercito. The garrison consists of only the bravest soldiers, most skilled sailors, and most agile pilots. Only the best can stave off the long claws of the Reich."
  
- native_resistance_low:0 "Native Resistance: low"
- native_resistance_low_desc:0 "Currently, the people living under our occupation in crimea dont really know how to feel about us. this could be an oppertunity to paint us in a good light and increase compliance and collaboration. \n\nIts important to remember that increasing our weapong stockpiles and our war industrial complex will increase the optimism of the crimean partisans and population of their ability to survive on their own, so its important to constantly crack down on movments and assure the civilians that we are their protectors"
- collapsed_soc:0 "Collapsed society"
- no_economy:0 "Devestated Economy"
- finish_blocade:0 "Finnish blocade"
-
+ native_resistance_low:0 "Native Resistance: Low"
+ native_resistance_low_desc:0 "Currently, Crimean natives are wary of our presence. Expansion of military industry on the peninsula may serve as a way to gain good will with the natives as partisans may not strike out against us if they can clothe and provide for their families. We must also wage a propaganda war by reassuring civilians of the benevolence our administration as well as our strength through the repression of dangerous independence movments."
+ 
  #vanilla 
  
  fascist_influence:0 "Fascist Influence"
