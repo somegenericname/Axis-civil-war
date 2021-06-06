@@ -9,6 +9,12 @@
  native_resistance_low:0 "Native Resistance: Low"
  native_resistance_low_desc:0 "Currently, Crimean natives are wary of our presence. Expansion of military industry on the peninsula may serve as a way to gain good will with the natives as partisans may not strike out against us if they can clothe and provide for their families. We must also wage a propaganda war by reassuring civilians of the benevolence our administration as well as our strength through the repression of dangerous independence movments."
  
+ no_economy:0 "Destroyed economy"
+ collapsed_soc:0 "Collapsed society"
+ finish_blocade:0 "Finnish blocade"
+ patriotic_workers:0 "Patriotic workers"
+ improved_economy:0 "Functional economy"
+ 
  #vanilla 
  
  fascist_influence:0 "Fascist Influence"

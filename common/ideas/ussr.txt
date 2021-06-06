@@ -1,0 +1,68 @@
+ideas = {
+	country = {
+	     patriotic_workers = {
+            picture = man_five_year_plan_tank
+  
+            modifier = {
+				consumer_goods_factor = -0.02
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+
+		 }
+	     no_economy = {
+            picture = chi_hyper_inflation
+  
+            modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = -0.15
+				stability_factor = -0.30
+				war_support_factor = -0.30
+			}
+		 }
+	     improved_economy = {
+            picture = generic_economic_increase
+  
+            modifier = {
+				consumer_goods_factor = -0.5
+				industrial_capacity_factory = 0.5
+				industrial_capacity_dockyard = 0.5
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.5
+			}
+		 }
+	     shat_army = {
+			 picture = officers_purged
+
+            modifier = {
+                army_attack_factor = -0.70
+				army_defence_factor = -0.80
+				army_speed_factor = -0.30
+				army_org_factor = -0.75
+				experience_gain_army = 0.05
+			}
+		 }
+	     collapsed_soc = {
+			 picture = anti_soviet_pact
+
+            modifier = {
+				stability_factor = -0.50
+				war_support_factor = -0.60
+				political_power_gain = -1.75
+				drift_defence_factor = -0.30
+			}
+		 }
+	     finish_blocade = {
+			 picture = yarrow_shipbuilders
+
+            modifier = {
+				industrial_capacity_dockyard = -0.15                   				
+				convoy_retreat_speed = -0.45
+				naval_accidents_chance = 0.70
+			}
+		 }
+
+	}

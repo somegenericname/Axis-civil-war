@@ -117,7 +117,7 @@ focus_tree = {
  
 		cost = 1
 
-		completion_reward = { add_ideas = farmer_workers 
+		completion_reward = { add_ideas = patriotic_workers
 		                      add_stability = 0.05 
 							}
 
@@ -125,6 +125,7 @@ focus_tree = {
 
 	focus = {
 	    id = SOV_kickstart_eco
+		icon = GFX_goal_generic_soviet_construction
 	
 	    prerequisite = { focus = SOV_farmers}
 		prerequisite = { focus = SOV_hiden_fac}
@@ -134,7 +135,12 @@ focus_tree = {
  
 		cost = 1
 
-		completion_reward = {  add_war_support = 0.02	}
+		completion_reward = {  
+        swap_ideas = { 
+              remove_idea = no_economy
+              add_idea = improved_economy 
+                      }
+			}
 
 	}
 
