@@ -42,7 +42,7 @@ focus_tree = {
             diplomatic_relation = { country = JAP relation = guarantee active = no }
 	
 			#code so that germany guarantees japan + italy, this is like the final severing of those old relations
-			#I couldn't do this cuz they're in different factions, but if you figure it out that'd be great
+			#I couldnt do this cuz theyre in different factions, but if you figure it out thatd be great
   			}
 		}
 
@@ -323,9 +323,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_strengthen_france
-
+		icon = GFX_goal_GER_strengthen_france
 		prerequisite = {focus = GER_the_french_border}
 		x = -2
 		y = 1
@@ -351,9 +350,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_prioritize_france
-
+		icon = GFX_goal_GER_strengthen_france
 		prerequisite = {focus = GER_strengthen_france}
 		mutually_exclusive = {focus = GER_prioritize_ordenstaat}
 
@@ -373,6 +371,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_sway_french_partisans
+		icon = GFX_goal_GER_strengthen_france
 		prerequisite = {focus = GER_prioritize_france}
 
 		x = -1
@@ -387,7 +386,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_strengthen_ordenstaat
-
+		icon = GFX_goal_GER_strengthen_ordenstaat
 		prerequisite = {focus = GER_the_french_border}
 		x = 2
 		y = 1
@@ -406,14 +405,14 @@ focus_tree = {
 				instant_build = yes
 				}
 			}
-			#give civs/mils, also give burgundy a military bonus (I'm thinking of burgundy as a state for an elite military force)
+			#give civs/mils, also give burgundy a military bonus (Im thinking of burgundy as a state for an elite military force)
 		}
 
 	}
 
 	focus = {
-
 		id = GER_prioritize_ordenstaat
+		icon = GFX_goal_GER_strengthen_ordenstaat
 		prerequisite = {focus = GER_strengthen_ordenstaat}
 		mutually_exclusive = {focus = GER_prioritize_france}
 
@@ -429,8 +428,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_ss_dominant_in_burgundy
+		icon = GFX_goal_GER_strengthen_ordenstaat
 		prerequisite = {focus = GER_prioritize_ordenstaat}
 		x = 1
 		y = 1
@@ -577,12 +576,10 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_breton_port
-
+		icon = GFX_goal_GER_breton_port
 		prerequisite = {focus = GER_the_allies
 						focus = GER_marina_italia }
-
 		x = -1
 		y = 2
 		relative_position_id = GER_the_unspoken_war
@@ -595,9 +592,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_portugese_port
-
+		icon = GFX_goal_GER_portugese_port
 		prerequisite = {focus = GER_the_allies
 						focus = GER_marina_italia }
 
@@ -613,9 +609,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_venezuelan_port
-
+		icon = GFX_goal_GER_venezuelan_port
 		prerequisite = {focus = GER_the_allies }
 
 		x = -3
@@ -630,9 +625,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_oman_port #could be another country better situated if you can think of one
-
+		icon = GFX_goal_GER_oman_port
 		prerequisite = {focus = GER_marina_italia }
 
 		x = 3
