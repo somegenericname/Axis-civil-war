@@ -48,9 +48,8 @@ focus_tree = {
 
 
 		focus = {
-
 			id = GER_enemy_of_my_enemy
-
+			icon = GFX_goal_GER_enemy_of_my_enemy
 			prerequisite = {focus = GER_cancel_tripartite}
 
 			x = -3
@@ -70,9 +69,8 @@ focus_tree = {
 		}
 
 		focus = {
-
 			id = GER_friends_in_the_east
-
+			icon = GFX_goal_GER_friends_in_the_east
 			prerequisite = {focus = GER_cancel_tripartite}
 
 			x = 3
@@ -196,7 +194,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_the_swiss_resistance
-		#icon tbd
+		icon = GFX_goal_GER_the_swiss_resistance
 
 		prerequisite = {focus = GER_alpine_border_extend_fortline}
 		
@@ -213,10 +211,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_use_swiss_banks
-		#icon tbd
-
+		icon = GFX_goal_GER_use_swiss_banks
 		prerequisite = {focus = GER_the_swiss_resistance}
 		mutually_exclusive = {focus = GER_contacts_in_yugoslavia}
 		x = 0
@@ -682,9 +678,8 @@ focus_tree = {
 	### start of balkans section ###
 
 	focus = {
-
 		id = GER_control_of_the_balkans
-
+		icon = GFX_goal_GER_control_of_the_balkans
 		prerequisite = {focus = GER_cancel_tripartite}
 		x = 7
 		y = 1
@@ -731,10 +726,8 @@ focus_tree = {
 
 
 	focus = {
-
-
 		id = GER_prepare_against_hungary
-
+		icon = GFX_goal_GER_prepare_against_hungary
 		prerequisite = {focus = GER_control_of_the_balkans}
 
 		x = -2
@@ -751,10 +744,8 @@ focus_tree = {
 	}
 
 	focus = {
-
-
 		id = GER_bargain_with_slovakia
-
+		icon = GFX_goal_GER_bargain_with_slovakia
 		prerequisite = {focus = GER_prepare_against_hungary}
 
 		x = 0
@@ -773,9 +764,8 @@ focus_tree = {
 
 
 	focus = {
-
 		id = GER_the_romanian_question
-
+		icon = GFX_goal_GER_the_romanian_question
 		prerequisite = {focus = GER_control_of_the_balkans}
 
 		x = 2
@@ -790,10 +780,8 @@ focus_tree = {
 	}
 
 	focus = {
-
-
 		id = GER_bargain_with_ukraine
-
+		icon = GFX_goal_GER_bargain_with_ukraine
 		prerequisite = {focus = GER_the_romanian_question}
 
 		x = 0
@@ -810,9 +798,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_renegotiate_transylvania
-
+		icon = GFX_goal_GER_renegotiate_transylvania
 		prerequisite = {focus = GER_bargain_with_ukraine
 						focus = GER_bargain_with_slovakia}
 		x = 0
@@ -826,9 +813,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_plan_new_balkan_partition
-
+				icon = GFX_goal_GER_plan_new_balkan_partition
 		prerequisite = {focus = GER_renegotiate_transylvania}
 
 		x = 0
@@ -844,9 +830,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_balkan_assassination
-
+		icon = GFX_goal_GER_balkan_assassination
 		prerequisite = {focus = GER_plan_new_balkan_partition}
 		x = 0
 		y = 5
@@ -999,9 +984,8 @@ focus_tree = {
 	}
 
 	focus = {
-
 		id = GER_turkish_question
-
+		icon = GFX_goal_GER_turkish_question
 		prerequisite = {focus = GER_the_asian_front}
 
 		x = -2
