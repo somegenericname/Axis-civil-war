@@ -19,7 +19,10 @@ state={
 			}
 		}
 		add_core_of = PAK
-
+	    1947.1.1 = {
+			owner = PAK
+			controller = PAK
+		}
 	}
 
 	provinces={
