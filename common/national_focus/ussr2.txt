@@ -16,7 +16,8 @@ focus_tree = {
 
 	focus = {
 	    id = SOV_memories
-	
+	    icon = GFX_focus_SOV_memories_of_rev
+
 	    prerequisite = { }
 
 		x = 8
@@ -29,7 +30,8 @@ focus_tree = {
 	}
 
 	focus = {
-	    id = SOV_stablize_ssr
+	    id = SOV_faith_comm
+		icon = GFX_focus_SOV_restore_faith
 	
 	    prerequisite = { focus = SOV_memories }
 
@@ -46,7 +48,7 @@ focus_tree = {
 	    id = SOV_foc_eco
 		icon = GFX_focus_prc_agrarian_socialism
 	
-	    prerequisite = { focus = SOV_stablize_ssr }
+	    prerequisite = { focus = SOV_faith_comm }
 
 		x = 8
 		y = 4
@@ -81,7 +83,8 @@ focus_tree = {
 
 	focus = {
 	    id = SOV_hiden_fac
-	
+	    icon = GFX_focus_SOV_hidden_fac
+
 	    prerequisite = { focus = SOV_indu_pro }
 
 		x = 4

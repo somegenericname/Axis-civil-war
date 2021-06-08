@@ -16,6 +16,7 @@
 
 	focus = {
 	    id = SOV_shattered_union
+		icon = GFX_focus_SOV_shattered_union
 	
 	    prerequisite = { }
 
