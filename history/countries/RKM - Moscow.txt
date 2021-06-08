@@ -97,6 +97,6 @@ create_country_leader = {
 		resistance_3
 		devastation_3
 	}
-		}
+}
 
 

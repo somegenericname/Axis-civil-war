@@ -685,3 +685,8 @@ JAP_sibiera = {
 	color = rgb { 237 237 237 }
 	color_ui = rgb { 237 237 237 }
 }
+
+TUR_OTT = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}

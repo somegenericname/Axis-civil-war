@@ -24,14 +24,15 @@ ideas = {
 			}
 		 }
 	     improved_economy = {
-            picture = generic_economic_increase
+            picture = chi_hyper_inflation2
   
             modifier = {
-				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-				production_speed_buildings_factor = 0.1
-				stability_factor = 0.05
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.20
+				war_support_factor = -0.20
 			}
 		 }
 	     shat_army = {
@@ -66,3 +67,5 @@ ideas = {
 		 }
 
 	}
+
+}

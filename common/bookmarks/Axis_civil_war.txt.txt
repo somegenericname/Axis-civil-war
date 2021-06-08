@@ -109,10 +109,14 @@ bookmarks = {
 			history = "IOC_BLITZKRIEG_DESC"
 			ideology = fascism
 			ideas = {
-
+              garrison_of_the_black_sea
+              Only_the_best
+              native_resistance_low
 			}
 			focuses = {
-
+              surrounded_by_the_swastikas
+              all_alone
+              an_ocean_away
 			}
 		}
 
