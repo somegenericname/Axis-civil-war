@@ -2370,5 +2370,9 @@
 		name = "GFX_focus_SOV_hidden_fac"
 		texturefile = "gfx/interface/goals/SOV/hidden_fac.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_farmer_workers"
+		texturefile = "gfx/interface/goals/SOV/farmer_worker.dds"
+	}
 
 }

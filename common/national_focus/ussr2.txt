@@ -112,7 +112,8 @@ focus_tree = {
 
 	focus = {
 	    id = SOV_farmers
-	
+	    icon = GFX_focus_SOV_farmer_workers
+
 	    prerequisite = { focus = SOV_indu_pro}
 
 		x = 6

@@ -86,9 +86,9 @@ bookmarks = {
 				collapsed_soc
 			}
 			focuses = {
-				SOV_move_industry_to_urals
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+				SOV_trust_in_stalin				
+				SOV_shattered_union
+				SOV_faith_comm
 			}
 		}
 		"CHI"={
