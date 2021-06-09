@@ -1,6 +1,8 @@
 #category for GER
 GER_subjugate_pakt = {
 	
+
+
 	GER_sub_holland = {
 		
 		icon = generic_oppression
@@ -30,4 +32,36 @@ GER_subjugate_pakt = {
 
 
 	}
+	
+}
+
+GER_internal_factions = {
+
+
+GER_stub_decision = {
+		
+		icon = generic_oppression
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 25
+
+		days_remove = 20
+		days_re_enable = 120
+
+		remove_effect = {
+			
+		}
+
+
+
+	}
+	
+
 }
