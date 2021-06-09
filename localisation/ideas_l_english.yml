@@ -1,19 +1,65 @@
-﻿l_english:
-#ACW
- garrison_of_the_black_sea:0 "The Black Sea Garrison"
- garrison_of_the_black_sea_desc:0 "The only thing standing between the German Reich and access to the Mediterranean is the Crimean peninsula. We are very much aware of this fact. \n\n\And so are the Germans. As such, the garrison has been supplied with high quality construction materials, staffed by talented laborers, and capable administrators. Crimea must stand to rebuff German encroachment towards the Black Sea, no matter the cost."
+l_english:
 
- Only_the_best:0 "Viva Il Duce"
- Only_the_best_desc:0 "Due to the strategic importance of the peninsula, it is being reinforced by the elite of the Regio Esercito. The garrison consists of only the bravest soldiers, most skilled sailors, and most agile pilots. Only the best can stave off the long claws of the Reich."
+   ##ACW##
+  garrison_of_the_black_sea:0 "The Black Sea Garrison"
+  garrison_of_the_black_sea_desc:0 "The only thing standing between the German sphere and access to the Mediterranean is this tiny 27,000 Square Kilometer Peninsula. And our italian overlords are very much aware of this fact. \n\n\And so are the Germans. As such, the garrison has been supplied with high quality construction materials, staffed by talented laborers, and capable administrators. \n\n\Crimea must stand to rebuff German encroachment towards the Black Sea, no matter the cost. \n\n\However, we shouldn't rely too much on this high support, as time progresses and more problems start to appear along the italian sphere, we will start to see a sharp decline of these luxurious resources. And from this point, we will need to stand on our own"
+
+  Only_the_best:0 "Viva Il Duce"
+  Only_the_best_desc:0 "Due to the strategic importance of the peninsula as a gaetway to the mediterranean, it is being reinforced by the most elite of the Forze armate italiane. The garrison consists of only the bravest soldiers, the most skilled sailors, and the most agile pilots. Only the best can protect this vital garrison. Only the best can stave off the long claws of the Reich And protect our glorious mediterranean"
  
- native_resistance_low:0 "Native Resistance: Low"
- native_resistance_low_desc:0 "Currently, Crimean natives are wary of our presence. Expansion of military industry on the peninsula may serve as a way to gain good will with the natives as partisans may not strike out against us if they can clothe and provide for their families. We must also wage a propaganda war by reassuring civilians of the benevolence our administration as well as our strength through the repression of dangerous independence movments."
+  native_resistance_low:0 "Native Resistance: Low"
+  native_resistance_low_desc:0 "Currently, the Crimean natives are wary of our presence and untrustful of us. \n\nIt is of vital importance to increase compliance and collaboration amongs the natives and reduce the effectiveness of partisans. Helping reconstruction and providing basic health needs may serve as a way to gain good will with the natives as partisans may not strike out against us if we provide food and shelter for their families. We must also wage a propaganda war by reassuring civilians of the benevolence our administration compared to the german monsters but also repress dangerous independence movments."
  
- no_economy:0 "Destroyed economy"
- collapsed_soc:0 "Collapsed society"
- finish_blocade:0 "Finnish blocade"
- patriotic_workers:0 "Patriotic workers"
- improved_economy:0 "Functional economy"
+  no_economy:0 "Destroyed economy"
+  no_economy_desc:0 "
+ 
+  collapsed_soc:0 "Collapsed society"
+  collapsed_soc_desc:0 "
+ 
+  finish_blocade:0 "Finnish blocade"
+  finish_blocade_desc:0 "
+ 
+  patriotic_workers:0 "Patriotic workers"
+  patriotic_workers_desc:0 "
+ 
+  improved_economy:0 "Functional economy"
+  improved_economy_desc:0 "
+ 
+  ##Germany##
+ shat_army:0 "Shattered Armed Forces"
+ GER_depleted_army:0 "Depleted Army"
+ GER_depleted_army_desc:0 "The bitter war against the soviet union took its toll on the German war machine. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and field and we will be at a disadvantage in any coming war."
+ GER_ongoing_holocaust:0 "Generalplan Ost"
+ GER_ongoing_holocaust_desc:0 "The full force of Germany's plans for Europe are finally being executed in the east. Mass deportations, extra infrastructure, and fierce resistance are a continuous drain on the German economy."
+ GER_plunder_economy:0 "Plunder Economy"
+ GER_plunder_economy_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become highly underdeveloped, which could pose a problem in the future."
+ GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
+ GER_blitzkreig_dependence_desc:0 "With the successes of blitzkreig in the world war, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare."
+ 
+  #occupationLoc
+ resistance_0:0 "Crushed Resistance"
+ resistance_0_desc:0 ":ong years of occupation have worn our people down and sapped their will to fight."
+ resistance_1:0 "Mininscule Resistance"
+ resistance_1_desc:0 "Only a few brave resistance fighters are left to fend off the occupiers."
+ resistance_2:0 "Moderate Resistance"
+ resistance_2_desc:0 "Several major resistance cells fight against our occupiers."
+ resistance_3:0 "Heavy Resistance"
+ resistance_3_desc:0 "Our people are beginning to rally in an attempt to throw out our oppressors."
+ resistance_4:0 "Open Revolt"
+ resistance_4_desc:0 "It is only a matter of time before we are ready to cast away our chains."
+ devastation_0:0 "Recovering Economy"
+ devastation_0_desc:0 "Despite our occupation, our economy is recovering and close relationship to our overlord has led to economic benefits."
+ devastation_1:0 "Stable Economy"
+ devastation_1_desc:0 "Despite being occupied, our economy is at the moment fairly stable."
+ devastation_2:0 "Declining Economy"
+ devastation_2_desc:0 "Exploitation from our overlord has resulted in some minor problems in our economy."
+ devastation_3:0 "Collapsing Economy"
+ devastation_3_desc:0 "Because of military conquest and exploitation, our economy is on the verge of collapse."
+ devastation_4:0 "Total Economic Ruin"
+ devastation_4_desc:0 "The damage done by conquest and plunder has rendered our economy nearly nonexistent."
+ 
+ 
+
  
  #vanilla 
  
@@ -2666,38 +2712,4 @@
  KUR_haji_baba:0 "Haji Baba"
  KUR_ahmed_barzani:0 "Ahmed Barzani"
  KUR_ihsan_nuri:0 "Ihsan Nuri"
- 
- ##Axis Civil War##
- shat_army:0 "Shattered Armed Forces"
- GER_depleted_army:0 "Depleted Army"
- GER_depleted_army_desc:0 "The bitter war against the soviet union took its toll on the German war machine. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and field and we will be at a disadvantage in any coming war."
- GER_ongoing_holocaust:0 "Generalplan Ost"
- GER_ongoing_holocaust_desc:0 "The full force of Germany's plans for Europe are finally being executed in the east. Mass deportations, extra infrastructure, and fierce resistance are a continuous drain on the German economy."
- GER_plunder_economy:0 "Plunder Economy"
- GER_plunder_economy_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become highly underdeveloped, which could pose a problem in the future."
- GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
- GER_blitzkreig_dependence_desc:0 "With the successes of blitzkreig in the world war, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare."
- 
-  #occupationLoc
- resistance_0:0 "Crushed Resistance"
- resistance_0_desc:0 ":ong years of occupation have worn our people down and sapped their will to fight."
- resistance_1:0 "Mininscule Resistance"
- resistance_1_desc:0 "Only a few brave resistance fighters are left to fend off the occupiers."
- resistance_2:0 "Moderate Resistance"
- resistance_2_desc:0 "Several major resistance cells fight against our occupiers."
- resistance_3:0 "Heavy Resistance"
- resistance_3_desc:0 "Our people are beginning to rally in an attempt to throw out our oppressors."
- resistance_4:0 "Open Revolt"
- resistance_4_desc:0 "It is only a matter of time before we are ready to cast away our chains."
- devastation_0:0 "Recovering Economy"
- devastation_0_desc:0 "Despite our occupation, our economy is recovering and close relationship to our overlord has led to economic benefits."
- devastation_1:0 "Stable Economy"
- devastation_1_desc:0 "Despite being occupied, our economy is at the moment fairly stable."
- devastation_2:0 "Declining Economy"
- devastation_2_desc:0 "Exploitation from our overlord has resulted in some minor problems in our economy."
- devastation_3:0 "Collapsing Economy"
- devastation_3_desc:0 "Because of military conquest and exploitation, our economy is on the verge of collapse."
- devastation_4:0 "Total Economic Ruin"
- devastation_4_desc:0 "The damage done by conquest and plunder has rendered our economy nearly nonexistent."
- 
  
