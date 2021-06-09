@@ -2,6 +2,28 @@
 #### GERMANY ####
 #################
 
+
+GER_internal_factions = {
+	
+	priority = 10
+
+	icon = power_struggle
+
+	picture = GFX_decision_cat_picture_faction_management_bulgaria
+
+	scripted_gui = ger_internal_factions_decision_ui
+
+	visible = {
+		original_tag = GER
+		has_country_flag = GER_factions_unlocked_flag
+	}
+
+	allowed = {
+		original_tag = GER
+		
+	}
+}
+
 GER_mefo_bills_category = {
 	icon = ger_mefo_bills
 
