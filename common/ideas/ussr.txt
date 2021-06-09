@@ -12,7 +12,7 @@ ideas = {
 
 		 }
 	     no_economy = {
-            picture = chi_hyper_inflation
+            picture = nope_eco
   
             modifier = {
 				consumer_goods_factor = 0.15
@@ -36,7 +36,7 @@ ideas = {
 			}
 		 }
 	     shat_army = {
-			 picture = officers_purged
+			 picture = shatt_army
 
             modifier = {
                 army_attack_factor = -0.70
@@ -47,7 +47,7 @@ ideas = {
 			}
 		 }
 	     collapsed_soc = {
-			 picture = anti_soviet_pact
+			 picture = collapsed_soc
 
             modifier = {
 				stability_factor = -0.50
@@ -57,7 +57,7 @@ ideas = {
 			}
 		 }
 	     finish_blocade = {
-			 picture = yarrow_shipbuilders
+			 picture = finnish_blocade
 
             modifier = {
 				industrial_capacity_dockyard = -0.15                   				

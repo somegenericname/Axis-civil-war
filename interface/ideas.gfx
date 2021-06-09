@@ -5668,5 +5668,21 @@ spriteTypes = {
 		name = "GFX_idea_resistance_4"
 		texturefile = "gfx/interface/ideas/germany/occupation/resistance_4.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_finnish_blocade"
+		texturefile = "gfx/interface/ideas/SOV/finnish_blocade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_collapsed_soc"
+		texturefile = "gfx/interface/ideas/SOV/collapsed_soc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nope_eco"
+		texturefile = "gfx/interface/ideas/SOV/no_eco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shatt_army"
+		texturefile = "gfx/interface/ideas/SOV/shat_army.dds"
+	}
 
 }
