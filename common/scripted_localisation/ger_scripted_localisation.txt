@@ -1,0 +1,125 @@
+
+
+
+
+### germany factions stuff ###
+
+defined_text = {
+	name = GetNSDAPInfluenceStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = GER_NSDAP_influence_amount
+	}
+}
+
+defined_text = {
+	name = GetWehrmachtInfluenceStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = GER_wehrmacht_influence_amount
+	}
+}
+
+defined_text = {
+	name = GetMilitaristsInfluenceStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = GER_militarists_influence_amount
+	}
+}
+
+defined_text = {
+	name = GetRefnazInfluenceStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = GER_refnaz_influence_amount
+	}
+}
+
+defined_text = {
+	name = GetWaffenSSInfluenceStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = GER_waffen_ss_influence_amount
+	}
+}
+
+defined_text = {
+	name = GetSSInfluenceStatus
+	text = {
+		trigger = {
+			has_country_flag = BUL_zveno_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = BUL
+			has_country_flag = BUL_zveno_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = GER_ss_influence_amount
+	}
+}
