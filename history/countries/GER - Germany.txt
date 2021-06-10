@@ -38,12 +38,12 @@ set_technology = {
 #SET FLAGS AND VARIABLES
 	#Internal Affairs
 	set_country_flag = GER_factions_unlocked_flag
-	set_variable = { GER_NSDAP_influence = 99 }
-	set_variable = { GER_wehrmacht_influence = 98 }
-	set_variable = { GER_militarists_influence = 97 }
-	set_variable = { GER_refnaz_influence = 96 }
-	set_variable = { GER_waffen_ss_influence = 95 }
-	set_variable = { GER_ss_influence = 94 }
+	set_variable = { GER_NSDAP_influence = 80 }
+	set_variable = { GER_wehrmacht_influence = 5 }
+	set_variable = { GER_militarists_influence = 5 }
+	set_variable = { GER_refnaz_influence = 5 }
+	set_variable = { GER_waffen_ss_influence = 3 }
+	set_variable = { GER_ss_influence = 2 }
 
 if = {
 	limit = {
