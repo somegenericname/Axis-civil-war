@@ -96,6 +96,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_the_true_enemy
+		icon = GFX_focus_GER_true_enemy
 
 		prerequisite = {focus = GER_cancel_tripartite}
 
@@ -113,7 +114,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_the_alpine_border
-		#icon = GFX_goal_generic_construction
+		icon = GFX_focus_GER_alpine_border
 
 		available = {
 			
@@ -1072,7 +1073,7 @@ focus_tree = {
 	focus = {
 
 		id = GER_the_final_showdown
-		icon = GFX_focus_ger_assassinate_mussolini
+		icon = GFX_focus_GER_final_showdown
 
 		prerequisite = {focus = GER_the_oil_incident
 						focus = GER_balkan_assassination

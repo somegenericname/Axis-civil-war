@@ -2374,5 +2374,17 @@
 		name = "GFX_focus_SOV_farmer_workers"
 		texturefile = "gfx/interface/goals/SOV/farmer_worker.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_GER_true_enemy"
+		texturefile = "gfx/interface/goals/GER_true_enemy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_final_showdown"
+		texturefile = "gfx/interface/goals/GER_final_showdown.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_GER_alpine_border"
+		texturefile = "gfx/interface/goals/GER_alpine_border.dds"
+	}
 
 }
