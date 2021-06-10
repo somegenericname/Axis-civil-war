@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 
  GER_internal_factions:0 "Faction Management"
@@ -10,33 +10,39 @@
 
  GER_NSDAP_name_text:0 "NSDAP"
  GER_NSDAP_influence_status:0 "[GetNSDAPInfluenceStatus]"
- GER_NSDAP_influence_amount:0 "[?GER.GER_NSDAP_influence|0]"
+ GER_NSDAP_influence_amount_green:0 "[?GER.GER_NSDAP_influence|G0]"
+ GER_NSDAP_influence_amount_red:0 "[?GER.GER_NSDAP_influence|R0]"
  GER_NSDAP_TOOLTIP:0 "NSDAP Tooltip"
 
 
  GER_wehrmacht_name_text:0 "Wehrmacht"
  GER_wehrmacht_influence_status:0 "[GetWehrmachtInfluenceStatus]"
- GER_wehrmacht_influence_amount:0 "[?GER.GER_wehrmacht_influence|0]"
+ GER_wehrmacht_influence_amount_green:0 "[?GER.GER_wehrmacht_influence|G0]"
+GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
  GER_WEHRMACHT_TOOLTIP:0 "Wehrmacht tooltip"
 
  GER_militarists_name_text:0 "Militarists"
  GER_militarists_influence_status:0 "[GetMilitaristsInfluenceStatus]"
- GER_militarists_influence_amount:0 "[?GER.GER_militarists_influence|0]"
+ GER_militarists_influence_amount_green:0 "[?GER.GER_militarists_influence|G0]"
+ GER_militarists_influence_amount_red:0 "[?GER.GER_militarists_influence|R0]"
  GER_MILITARISTS_TOOLTIP:0 "Militarists toolip"
 
  GER_refnaz_name_text:0 "Reformists"
  GER_refnaz_influence_status:0 "[GetRefnazInfluenceStatus]"
- GER_refnaz_influence_amount:0 "[?GER.GER_refnaz_influence|0]"
+ GER_refnaz_influence_amount_green:0 "[?GER.GER_refnaz_influence|G0]"
+ GER_refnaz_influence_amount_red:0 "[?GER.GER_refnaz_influence|R0]"
  GER_REFNAZ_TOOLTIP:0 "Refnaz tooltip"
 
  GER_waffen_ss_name_text:0 "Waffen-SS"
  GER_waffen_ss_influence_status:0 "[GetWaffenSSInfluenceStatus]"
- GER_waffen_ss_influence_amount:0 "[?GER.GER_waffen_ss_influence|0]"
+ GER_waffen_ss_influence_amount_green:0 "[?GER.GER_waffen_ss_influence|G0]"
+ GER_waffen_ss_influence_amount_red:0 "[?GER.GER_waffen_ss_influence|R0]"
  GER_WAFFENSS_TOOLTIP:0 "waffen-ss tooltip"
 
  GER_ss_name_text:0 "SS"
  GER_ss_influence_status:0 "[GetSSInfluenceStatus]"
- GER_ss_influence_amount:0 "[?GER.GER_ss_influence|0]"
+ GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
+ GER_ss_influence_amount_red:0 "[?GER.GER_ss_influence|R0]"
  GER_SS_TOOLTIP:0 "ss tooltip"
 
  BUL_zveno_loyalty_status:0 "[GetZvenoLoyaltyStatus]"
