@@ -8,19 +8,14 @@ defined_text = {
 	name = GetNSDAPInfluenceStatus
 	text = {
 		trigger = {
-			has_country_flag = BUL_zveno_destroyed_flag
+			check_variable = {GER.GER_NSDAP_influence > 74}
+			#check_variable = {GER.GER_NSDAP_influence < 26}
+
 		}
-		localization_key = BUL_loyalty_status_crushed
+		localization_key = GER_NSDAP_influence_amount_red
 	}
 	text = {
-		trigger = {
-			original_tag = BUL
-			has_country_flag = BUL_zveno_integrated_flag
-		}
-		localization_key = BUL_loyalty_status_integrated
-	}
-	text = {
-		localization_key = GER_NSDAP_influence_amount
+		localization_key = GER_NSDAP_influence_amount_green
 	}
 }
 
@@ -28,19 +23,14 @@ defined_text = {
 	name = GetWehrmachtInfluenceStatus
 	text = {
 		trigger = {
-			has_country_flag = BUL_zveno_destroyed_flag
+			check_variable = {GER.GER_wehrmacht_influence > 74}
+			
+
 		}
-		localization_key = BUL_loyalty_status_crushed
+		localization_key = GER_wehrmacht_influence_amount_red
 	}
 	text = {
-		trigger = {
-			original_tag = BUL
-			has_country_flag = BUL_zveno_integrated_flag
-		}
-		localization_key = BUL_loyalty_status_integrated
-	}
-	text = {
-		localization_key = GER_wehrmacht_influence_amount
+		localization_key = GER_wehrmacht_influence_amount_green
 	}
 }
 
@@ -48,19 +38,13 @@ defined_text = {
 	name = GetMilitaristsInfluenceStatus
 	text = {
 		trigger = {
-			has_country_flag = BUL_zveno_destroyed_flag
+			check_variable = {GER.GER_militarists_influence > 74}
+
 		}
-		localization_key = BUL_loyalty_status_crushed
+		localization_key = GER_militarists_influence_amount_red
 	}
 	text = {
-		trigger = {
-			original_tag = BUL
-			has_country_flag = BUL_zveno_integrated_flag
-		}
-		localization_key = BUL_loyalty_status_integrated
-	}
-	text = {
-		localization_key = GER_militarists_influence_amount
+		localization_key = GER_militarists_influence_amount_green
 	}
 }
 
@@ -68,19 +52,13 @@ defined_text = {
 	name = GetRefnazInfluenceStatus
 	text = {
 		trigger = {
-			has_country_flag = BUL_zveno_destroyed_flag
+			check_variable = {GER.GER_refnaz_influence > 74}
+
 		}
-		localization_key = BUL_loyalty_status_crushed
+		localization_key = GER_refnaz_influence_amount_red
 	}
 	text = {
-		trigger = {
-			original_tag = BUL
-			has_country_flag = BUL_zveno_integrated_flag
-		}
-		localization_key = BUL_loyalty_status_integrated
-	}
-	text = {
-		localization_key = GER_refnaz_influence_amount
+		localization_key = GER_refnaz_influence_amount_green
 	}
 }
 
@@ -88,19 +66,13 @@ defined_text = {
 	name = GetWaffenSSInfluenceStatus
 	text = {
 		trigger = {
-			has_country_flag = BUL_zveno_destroyed_flag
+			check_variable = {GER.GER_waffen_ss_influence > 74}
+
 		}
-		localization_key = BUL_loyalty_status_crushed
+		localization_key = GER_waffen_ss_influence_amount_red
 	}
 	text = {
-		trigger = {
-			original_tag = BUL
-			has_country_flag = BUL_zveno_integrated_flag
-		}
-		localization_key = BUL_loyalty_status_integrated
-	}
-	text = {
-		localization_key = GER_waffen_ss_influence_amount
+		localization_key = GER_waffen_ss_influence_amount_green
 	}
 }
 
@@ -108,18 +80,12 @@ defined_text = {
 	name = GetSSInfluenceStatus
 	text = {
 		trigger = {
-			has_country_flag = BUL_zveno_destroyed_flag
+			check_variable = {GER.GER_ss_influence > 74}
+
 		}
-		localization_key = BUL_loyalty_status_crushed
+		localization_key = GER_ss_influence_amount_red
 	}
 	text = {
-		trigger = {
-			original_tag = BUL
-			has_country_flag = BUL_zveno_integrated_flag
-		}
-		localization_key = BUL_loyalty_status_integrated
-	}
-	text = {
-		localization_key = GER_ss_influence_amount
+		localization_key = GER_ss_influence_amount_green
 	}
 }
