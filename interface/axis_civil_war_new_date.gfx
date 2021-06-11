@@ -1,6 +1,0 @@
-spriteTypes = {
-spriteType = {
-		name = "GFX_axis_civil_war_bookmark"
-		texturefile = "gfx/interface/Axis_civil_war.dds"
-	}
-	
