@@ -18,49 +18,30 @@ focus_tree = {
 		id = surrounded_by_the_swastikas
 		icon = GFX_goal_IOC_surrounded
 		x = 5
-		y = 1
-		#relative_position_id = AST_empower_the_workers
+		y = 2
 		
 		available = {
-			NOT = { is_in_faction_with = ITA }
+		NOT = {is_puppet_of = GER }
 		}
-		bypass = {
-		}
-		
+
 		cost = 5
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-		completion_reward = {
-			137 = {
-	add_building_construction = {
-		type = bunker
-        	province = 3722
-		level = 1
-	}
-}
-137 = {
-	add_building_construction = {
-		type = bunker
-        	province = 9680
-		level = 1
-	}
-} 
+		
+		completion_reward = {	
+		country_event = IOC.1
 		}
-			ai_will_do = {
-			}	
-	} 
-
+}
 	focus = {
 		id = all_alone
 		icon = GFX_goal_IOC_all_alone
 		x = 5
-		y = 2
+		y = 3
 		
 		available = {
-			NOT = { is_in_faction_with = ITA }
+			is_puppet_of = ITA
 		}
 		bypass = {
 		}
@@ -73,22 +54,17 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_manpower = 5000
+		country_event = IOC.2
 		}
-			ai_will_do = {
-			}	
 	} 	
 	focus = {
 		id = an_ocean_away
 		icon = GFX_focus_generic_black_sea_focus
 		x = 5
-		y = 3
-		#relative_position_id = AST_empower_the_workers
+		y = 4
 		
 		available = {
-			NOT = { is_in_faction_with = ITA }
-		}
-		bypass = {
+		is_puppet_of = ITA
 		}
 		
 		cost = 5
@@ -99,8 +75,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_manpower = 5000
+		country_event = IOC.3
 		}
-			ai_will_do = {
-			}
 }  
