@@ -1,0 +1,58 @@
+add_namespace = IOC
+
+country_event = {
+	id = IOC.1
+	title = IOC.1.t
+	desc = IOC.1.d
+	picture = 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+
+	option = { 
+		name = IOC.1.a
+		     
+	}
+}
+
+country_event = {
+	id = IOC.2
+	title = IOC.2.t
+	desc = IOC.2.d
+	picture = 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+
+	option = { 
+		name = IOC.2.a
+		     
+	}
+}
+	
+country_event = {
+	id = IOC.3
+	title = IOC.3.t
+	desc = IOC.3.d
+	picture = 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+
+	option = { 
+		name = IOC.3.a
+		     
+	}
+}
