@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  
  start.1.t:0 "Welcome to the axis civil war mod !"
  start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
@@ -45,9 +45,21 @@
  situations.6.a:0 "Go to the previous situation"
  situations.6.b:0 "Go back to the main page"
 
-#RUSSIA
+ #RUSSIA
 
-soviet.1.t:0 "Military parade in Chelyabinsk"
-soviet.1.d:0 "Earlier today, A military parade has been announced by our leader Stalin himself and he is expected to join, This suprisingly small show of force has increased the moral of our capital to great pariotic war levels, Seizing the moment, Stalin has announced he will do all that he can to reclaim the occupied lands."
-soviet.1.a:0 "Long live Stalin"
-ussr2:0 "The Stalin focus tree"
+ soviet.1.t:0 "Military parade in Chelyabinsk"
+ soviet.1.d:0 "Earlier today, A military parade has been announced by our leader Stalin himself and he is expected to join, This suprisingly small show of force has increased the moral of our capital to great pariotic war levels, Seizing the moment, Stalin has announced he will do all that he can to reclaim the occupied lands."
+ soviet.1.a:0 "Long live Stalin"
+ ussr2:0 "The Stalin focus tree"
+
+
+ #italian crimea
+
+ IOC.1.t:0 "In the footsteps of Nero Claudius"
+ IOC.1.d:0 "TBA"
+ 
+ IOC.2.t:0 "Dealing with the natives"
+ IOC.2.d:0 "TBA"
+ 
+ IOC.3.t:0 "Improvise, adapt, overcome"
+ IOC.3.d:0 "TBA"
