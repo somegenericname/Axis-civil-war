@@ -107,7 +107,7 @@ create_country_leader = {
 	}
 	create_country_leader = {
 	name = "Francesco Zingales"
-	desc = "IOC_Francesco_Zingales_desc"
+	desc = "Francesco_Zingales_desc"
 	picture = "Francesco Zingales.dds"
 	ideology = fascism_ideology
 	traits = {
