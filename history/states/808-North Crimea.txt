@@ -1,0 +1,36 @@
+state={
+	id=808
+	name="STATE_808"
+	manpower = 265402
+	
+	state_category = city
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			air_base = 5
+			
+			3722 ={
+				bunker = 6
+			}
+		}
+		add_core_of = IOC
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+			}
+		}
+		1947.1.1 = {
+			owner = IOC
+			controller = IOC
+		}
+	}
+
+	provinces={
+		705 11649 3722 6724
+	}
+
+    }  

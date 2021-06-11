@@ -1,0 +1,31 @@
+state={
+	id=807
+	name="STATE_807"
+	provinces={
+		6521 
+	}
+	history = {
+		
+		add_core_of = GER
+
+	    1947.1.1 = {
+		owner = GER
+		controller = GER	
+		}
+
+		buildings = {
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 2
+			anti_air_building = 5
+			air_base = 8
+
+		}
+	}
+
+	manpower = 4520000
+
+	state_category=megalopolis
+	buildings_max_level_factor=1.000
+
+    }  
