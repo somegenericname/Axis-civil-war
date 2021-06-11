@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  STATE_1:0 "Corsica"
  STATE_2:0 "Latium"
  STATE_3:0 "Switzerland"
@@ -135,7 +135,7 @@
  STATE_134:0 "Connaught"
  STATE_135:0 "Munster"
  STATE_136:0 "Aberdeenshire"
- STATE_137:0 "Crimea"
+ STATE_137:0 "Sevastopol"
  STATE_138:0 "Scania"
  STATE_139:0 "Småland"
  STATE_140:0 "Västergötland"
@@ -806,3 +806,5 @@
  STATE_805:0 "Northern Epirus"
  STATE_806:0 "Pyrénées-Atlantiques"
  STATE_807:0 "Berlin"
+ STATE_808:0 "North Crimea"
+ STATE_809:0 "East Crimea"
