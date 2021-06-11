@@ -1,0 +1,106 @@
+focus_tree = {
+	id = ioc_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IOC
+		}
+	}  
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = surrounded_by_the_swastikas
+		icon = GFX_goal_IOC_surrounded
+		x = 5
+		y = 1
+		#relative_position_id = AST_empower_the_workers
+		
+		available = {
+			NOT = { is_in_faction_with = ITA }
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			137 = {
+	add_building_construction = {
+		type = bunker
+        	province = 3722
+		level = 1
+	}
+}
+137 = {
+	add_building_construction = {
+		type = bunker
+        	province = 9680
+		level = 1
+	}
+} 
+		}
+			ai_will_do = {
+			}	
+	} 
+
+	focus = {
+		id = all_alone
+		icon = GFX_goal_IOC_all_alone
+		x = 5
+		y = 2
+		
+		available = {
+			NOT = { is_in_faction_with = ITA }
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = surrounded_by_the_swastikas }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 5000
+		}
+			ai_will_do = {
+			}	
+	} 	
+	focus = {
+		id = an_ocean_away
+		icon = GFX_focus_generic_black_sea_focus
+		x = 5
+		y = 3
+		#relative_position_id = AST_empower_the_workers
+		
+		available = {
+			NOT = { is_in_faction_with = ITA }
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = all_alone }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 5000
+		}
+			ai_will_do = {
+			}
+}  

@@ -1,0 +1,169 @@
+ideas = {
+
+	country = {
+
+		resistance_0 = {
+			#picture = dep_army
+
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+			modifier = {
+				war_support_weekly = -0.01
+			}
+		}
+
+		resistance_1 = {
+			#picture = dep_army
+
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+			modifier = {
+				war_support_weekly = -0.005
+			}
+		}
+
+		resistance_2 = {
+			#picture = dep_army
+
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		resistance_3 = {
+			#picture = dep_army
+
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+			modifier = {
+				war_support_weekly = 0.005
+			}
+		}
+
+		resistance_4 = {
+			#picture = dep_army
+
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+			modifier = {
+				war_support_weekly = 0.01
+			}
+		}
+
+
+		devastation_0 = {
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1 
+				consumer_goods_factor = -0.05
+			}
+
+
+		}
+
+		devastation_1 = {
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+
+			modifier = {
+				
+			}
+
+
+		}
+
+		devastation_2 = {
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1 
+				consumer_goods_factor = 0.05
+			}
+
+
+		}
+
+		devastation_3 = {
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = -0.2 
+				consumer_goods_factor = -0.15
+			}
+
+
+		}
+
+		devastation_4 = {
+
+			allowed = {
+				is_puppet_of = GER
+			}
+
+
+			modifier = {
+				political_power_gain = -0.2
+				stability_factor = -0.3
+				industrial_capacity_factory = -0.3
+				production_speed_buildings_factor = -0.3 
+				consumer_goods_factor = -0.25
+			}
+
+
+		}
+
+
+
+
+
+
+
+	
+	}
+
+
+}
+
+

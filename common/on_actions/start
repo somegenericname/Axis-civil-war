@@ -1,0 +1,11 @@
+on_actions = {
+   on_startup = {
+	effect = {
+		every_country = { 
+			country_event = { 
+				id = start.1 }
+			}
+		SOV = {load_focus_tree = ussr1}
+	}
+  }
+}

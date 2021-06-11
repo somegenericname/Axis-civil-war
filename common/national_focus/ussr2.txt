@@ -1,0 +1,224 @@
+focus_tree = {
+	id = ussr2
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 12
+			tag = SOV
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1500 }
+
+	focus = {
+	    id = SOV_memories
+	    icon = GFX_focus_SOV_memories_of_rev
+
+	    prerequisite = { }
+
+		x = 8
+		y = 2
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_faith_comm
+		icon = GFX_focus_SOV_restore_faith
+	
+	    prerequisite = { focus = SOV_memories }
+
+		x = 8
+		y = 3
+ 
+		cost = 1
+
+		completion_reward = {  add_stability = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_foc_eco
+		icon = GFX_focus_prc_agrarian_socialism
+	
+	    prerequisite = { focus = SOV_faith_comm }
+
+		x = 8
+		y = 4
+ 
+		cost = 1
+
+		completion_reward = {  add_political_power = 75	}
+
+	}	
+
+	focus = {
+	    id = SOV_indu_pro
+	
+	    prerequisite = { focus = SOV_foc_eco }
+
+		x = 5
+		y = 5
+ 
+		cost = 1
+
+		completion_reward = { 
+            572 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}
+			      }			
+			}
+
+	}	
+
+	focus = {
+	    id = SOV_hiden_fac
+	    icon = GFX_focus_SOV_hidden_fac
+
+	    prerequisite = { focus = SOV_indu_pro }
+
+		x = 4
+		y = 6
+ 
+		cost = 1
+
+		completion_reward = {  
+            573 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
+			}
+            581 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
+			}
+ 	    }			
+	}
+
+	focus = {
+	    id = SOV_farmers
+	    icon = GFX_focus_SOV_farmer_workers
+
+	    prerequisite = { focus = SOV_indu_pro}
+
+		x = 6
+		y = 6
+ 
+		cost = 1
+
+		completion_reward = { add_ideas = patriotic_workers
+		                      add_stability = 0.05 
+							}
+
+	}
+
+	focus = {
+	    id = SOV_kickstart_eco
+		icon = GFX_goal_generic_soviet_construction
+	
+	    prerequisite = { focus = SOV_farmers}
+		prerequisite = { focus = SOV_hiden_fac}
+
+		x = 5
+		y = 7
+ 
+		cost = 1
+
+		completion_reward = {  
+        swap_ideas = { 
+              remove_idea = no_economy
+              add_idea = improved_economy 
+                      }
+			}
+
+	}
+
+	focus = {
+	    id = SOV_ural_farm
+	
+	    prerequisite = { focus = SOV_foc_eco }
+
+		x = 11
+		y = 5
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_machin_tool
+	
+	    prerequisite = { focus = SOV_ural_farm }
+
+		x = 10
+		y = 6
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_caspian
+	
+	    prerequisite = { focus = SOV_ural_farm }
+
+		x = 12
+		y = 6
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_half_ag
+	
+	    prerequisite = { focus = SOV_caspian }
+		prerequisite = { focus = SOV_machin_tool }
+
+		x = 11
+		y = 7
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.02	}
+
+	}
+
+	focus = {
+	    id = SOV_begin_mob
+	
+	    prerequisite = { focus = SOV_kickstart_eco }
+		prerequisite = { focus = SOV_half_ag }
+
+		x = 8
+		y = 8
+ 
+		cost = 1
+
+		completion_reward = {  add_war_support = 0.05
+		                       add_ideas = partial_economic_mobilisation }
+
+	}
+
+}

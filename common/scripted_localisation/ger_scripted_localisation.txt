@@ -1,0 +1,91 @@
+
+
+
+
+### germany factions stuff ###
+
+defined_text = {
+	name = GetNSDAPInfluenceStatus
+	text = {
+		trigger = {
+			check_variable = {GER.GER_NSDAP_influence > 74}
+			#check_variable = {GER.GER_NSDAP_influence < 26}
+
+		}
+		localization_key = GER_NSDAP_influence_amount_red
+	}
+	text = {
+		localization_key = GER_NSDAP_influence_amount_green
+	}
+}
+
+defined_text = {
+	name = GetWehrmachtInfluenceStatus
+	text = {
+		trigger = {
+			check_variable = {GER.GER_wehrmacht_influence > 74}
+			
+
+		}
+		localization_key = GER_wehrmacht_influence_amount_red
+	}
+	text = {
+		localization_key = GER_wehrmacht_influence_amount_green
+	}
+}
+
+defined_text = {
+	name = GetMilitaristsInfluenceStatus
+	text = {
+		trigger = {
+			check_variable = {GER.GER_militarists_influence > 74}
+
+		}
+		localization_key = GER_militarists_influence_amount_red
+	}
+	text = {
+		localization_key = GER_militarists_influence_amount_green
+	}
+}
+
+defined_text = {
+	name = GetRefnazInfluenceStatus
+	text = {
+		trigger = {
+			check_variable = {GER.GER_refnaz_influence > 74}
+
+		}
+		localization_key = GER_refnaz_influence_amount_red
+	}
+	text = {
+		localization_key = GER_refnaz_influence_amount_green
+	}
+}
+
+defined_text = {
+	name = GetWaffenSSInfluenceStatus
+	text = {
+		trigger = {
+			check_variable = {GER.GER_waffen_ss_influence > 74}
+
+		}
+		localization_key = GER_waffen_ss_influence_amount_red
+	}
+	text = {
+		localization_key = GER_waffen_ss_influence_amount_green
+	}
+}
+
+defined_text = {
+	name = GetSSInfluenceStatus
+	text = {
+		trigger = {
+			check_variable = {GER.GER_ss_influence > 74}
+
+		}
+		localization_key = GER_ss_influence_amount_red
+	}
+	text = {
+		localization_key = GER_ss_influence_amount_green
+	}
+}

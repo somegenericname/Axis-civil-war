@@ -1,0 +1,66 @@
+﻿focus_tree = {
+	id = ussr
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = yes
+
+	continuous_focus_position = { x = 50 y = 1500 }
+
+	focus = {
+	    id = SOV_shattered_union
+		icon = GFX_focus_SOV_shattered_union
+	
+	    prerequisite = { }
+
+		x = 8
+		y = 2
+ 
+		cost = 1
+
+		completion_reward = {  add_stability = 0.05	}
+
+	}
+
+	focus = {
+	    id = SOV_trust_in_stalin
+	    icon = GFX_focus_fra_loyalty_stalin
+
+	    prerequisite = { focus = SOV_shattered_union }
+
+		mutually_exclusive = { focus = SOV_new_gen }
+
+		x = 6
+		y = 3
+ 
+		cost = 1
+
+		completion_reward = { SOV = { country_event = { id = soviet.1 days = 1 } }	}
+
+	}
+
+	focus = {
+	    id = SOV_new_gen
+		icon = GFX_focus_spr_crush_the_revolution
+	
+	    prerequisite = { focus = SOV_shattered_union }
+        
+		mutually_exclusive = { focus = SOV_trust_in_stalin }
+
+		x = 10
+		y = 3
+ 
+		cost = 1
+
+		completion_reward = { custom_effect_tooltip = not_finish}
+
+	}
+
+}

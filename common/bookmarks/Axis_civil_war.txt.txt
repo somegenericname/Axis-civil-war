@@ -1,0 +1,128 @@
+bookmarks = {
+	bookmark = {
+		name = "civil war in the axis"
+		desc = "Axis_civil_war_loc"
+		date = 1947.1.1.12
+		picture = "GFX_axis_civil_war_bookmark"
+		default_country = "ITA"
+	
+
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression_3
+				air_war_plans_division_focus
+				USA_war_department
+				new_deal
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_arsenal_of_democracy
+				USA_selective_training_act
+			}
+		}
+		"SPR"={
+			history = "SPAIN_BLITZKRIEG_DESC"
+			ideology = fascism
+			ideas = {
+				SPA_carlism_4
+				SPA_recovering_from_civil_war
+			}
+			focuses = {
+				SPA_expand_the_axis_gold_trade
+				SPA_the_spanish_miracle
+				SPA_retake_gibraltar
+			}
+		}
+		JAP = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				state_shintoism
+				JAP_guide_the_zaibatsus
+				JAP_militarism
+			}	
+			focuses = {
+				JAP_the_zero
+				JAP_warrior_spirit
+				JAP_strike_on_the_southern_resource_area
+			}		
+		}
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = {
+              GER_blitzkreig_dependence
+              GER_plunder_economy
+              GER_depleted_army
+			}
+			focuses = {
+              GER_cancel_tripartite
+              GER_the_final_showdown
+              GER_the_unspoken_war
+			}
+		}
+		ITA = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}			
+		}
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
+			ideas = {
+				shat_army
+				no_economy
+				collapsed_soc
+			}
+			focuses = {
+				SOV_trust_in_stalin				
+				SOV_shattered_union
+				SOV_faith_comm
+			}
+		}
+		"CHI"={
+			history = "CHI_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_2
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_renegotiate_the_unequal_treaties
+				CHI_invite_the_flying_tigers
+				CHI_war_of_resistance
+			}
+		}
+		"IOC"={
+			history = "IOC_BLITZKRIEG_DESC"
+			ideology = fascism
+			ideas = {
+              garrison_of_the_black_sea
+              Only_the_best
+              native_resistance_low
+			}
+			focuses = {
+              surrounded_by_the_swastikas
+              all_alone
+              an_ocean_away
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
