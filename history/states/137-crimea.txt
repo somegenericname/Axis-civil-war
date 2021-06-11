@@ -2,7 +2,7 @@
 state={
 	id=137
 	name="STATE_137"
-	manpower = 1061607
+	manpower = 530804
 	
 	state_category = city
 
@@ -26,14 +26,7 @@ state={
 				coastal_bunker = 3
 				bunker = 3
 			}
-			9680 ={
-				naval_base = 1
-				coastal_bunker = 2
-				bunker = 6
-			}
-			3722 ={
-				bunker = 6
-			}
+			
 		}
 		add_core_of = IOC
 		1939.1.1 = {
@@ -48,6 +41,6 @@ state={
 	}
 
 	provinces={
-		705 3686 3722 6704 6724 9677 9680 9718 11649 
+		3686 6704 
 	}
 }
