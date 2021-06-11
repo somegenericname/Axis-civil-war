@@ -2359,6 +2359,14 @@
 		texturefile = "gfx/interface/goals/SOV/shat_union.dds"
 	}
 	SpriteType = { 
+		name = "GFX_focus_IOC_surrounded"
+		texturefile = "gfx/interface/goals/IOC_surrounded.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_SOV_shattered_union"
+		texturefile = "gfx/interface/goals/SOV/shat_union.dds"
+	}
+	SpriteType = { 
 		name = "GFX_focus_SOV_memories_of_rev"
 		texturefile = "gfx/interface/goals/SOV/memories_rev.dds"
 	}
