@@ -970,6 +970,7 @@ if = {
 	puppet = EGY
 	add_to_faction = TUR
 	add_to_faction = HUN
+	add_to_faction = IRQ
 	puppet = IME
 	puppet = IEA
 	puppet = ICA
