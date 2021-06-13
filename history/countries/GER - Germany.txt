@@ -45,6 +45,8 @@ set_technology = {
 
 151 = {
 		add_dynamic_modifier = { modifier = low_level_resistance }
+		
+		set_state_flag = GER_has_resistance
 	}
 
 
@@ -58,6 +60,8 @@ set_technology = {
 
 3 = {
 		add_dynamic_modifier = { modifier = low_level_resistance }
+		
+		set_state_flag = GER_has_resistance
 	}
 
 
