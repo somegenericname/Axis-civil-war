@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 GER_cancel_tripartite:0 "Cancel the Tripartite Pact"
 GER_cancel_tripartite_desc:0 "The old alliances have been torn away by the fires of war. The dreaded USSR has been vanquished, and the capitalist imperials have been humbled. Meanwhile, Italy has stabbed us in the back and Japan was never more than a tool. We must destroy the last vestiges of the old world to step into the new."
@@ -21,7 +21,7 @@ GER_contacts_in_yugoslavia_desc:0 "There is no love lost between the italian gar
 GER_use_swiss_banks:0 "Swiss Finances"
 GER_use_swiss_banks_desc:0 "While we managed to obtain some of the famed swiss gold storage, the majority of it still eludes us. With newfound cooperation from the Swiss administration, they might be encouraged to hand the rest to us."
 GER_step_up_italian_border_controls:0 "Step up italian border controls"
-GER_step_up_italian_border_controls:0 "We must be ready and vigilant for any italian attacks. Thus we will establish a permanent standing army in the region to be prepared for anything. We have deemed the risk of heightened conflict to be acceptable."
+GER_step_up_italian_border_controls_desc:0 "We must be ready and vigilant for any italian attacks. Thus we will establish a permanent standing army in the region to be prepared for anything. We have deemed the risk of heightened conflict to be acceptable."
 
 GER_the_unspoken_war:0 "The unspoken war"
 GER_the_unspoken_war_desc:0 "Despite official cessation of hostilities, our shipping is still intercepted by allied submarines, when they believe they can get away with it. Lately, however, there is a more dangerous threat - the italian navy, venturing forth to do battle. We must gird ourselves for a cold war of the seas."
@@ -93,7 +93,7 @@ GER_the_soviet_rot_desc:0 "The remains of the soviet union have been banished to
 GER_cross_border_raids:0 "Cross-Border Raids"
 GER_cross_border_raids_desc:0 "We have heard worrying news that the Soviet Union has held firm against the blows we inflicted upon it, and is beginning to rebuild. We must investigate"
 GER_caucasus_oil:0 "The Caucasus Oil"
-GER_caucasus_oil:0 "The oil from the caucasus is the lifeblood of the german machine. If something were to happen to it the results could be...severe." 
+GER_caucasus_oil_desc:0 "The oil from the caucasus is the lifeblood of the german machine. If something were to happen to it the results could be...severe." 
 GER_buffer_state_solution:0 "The Buffer State solution"
 GER_buffer_state_solution_desc:0 "There is a time and place for war, and the caucasus is no place to die for. We will endeavor to find a diplomatic solution - for the moment."
 GER_nationalize_oil:0 "Nationalize the Oil"
@@ -107,5 +107,5 @@ GER_the_oil_incident_desc:0 "The oilfields in the caucasus have been victimized 
 
 
 GER_the_final_showdown:0 "The Final Showdown"
-GER_the_unspoken_war:0 "The unspoken war"
+
 GER_the_final_showdown_desc:0 "The time has come to claim our rightful supremacy over the European continent. Our armies rein undefeated in combat, with a last glorious conquest to cement the new world order. And the Italians...what can they do but burn?"
