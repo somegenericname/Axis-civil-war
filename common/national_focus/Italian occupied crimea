@@ -16,7 +16,8 @@ focus_tree = {
 
 	focus = {
 		id = surrounded_by_the_swastikas
-		icon = GFX_goal_IOC_surrounded
+		icon = GFX_focus_IOC_surrounded
+		
 		x = 5
 		y = 2
 		
@@ -37,6 +38,7 @@ focus_tree = {
 	focus = {
 		id = all_alone
 		icon = GFX_goal_IOC_all_alone
+
 		x = 5
 		y = 3
 		
@@ -60,6 +62,7 @@ focus_tree = {
 	focus = {
 		id = an_ocean_away
 		icon = GFX_focus_generic_black_sea_focus
+		
 		x = 5
 		y = 4
 		
