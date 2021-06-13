@@ -278,7 +278,8 @@ GER_alpine_tunnels = {
 
 }
 
-low_level_resistance = {
+
+low_resistance = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_agitation
@@ -289,7 +290,7 @@ low_level_resistance = {
 	state_resources_factor = -0.15
 }
 
-high_resistance = {
+medium_resistance = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_separatism
@@ -301,7 +302,7 @@ high_resistance = {
 	state_resources_factor = -0.15
 }
 
-active_rebellion = {
+high_resistance = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_tur_kurdish_rebellion
