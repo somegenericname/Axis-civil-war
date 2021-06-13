@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 GER_cancel_tripartite:0 "Cancel the Tripartite Pact"
 GER_cancel_tripartite_desc:0 "The old alliances have been torn away by the fires of war. The dreaded USSR has been vanquished, and the capitalist imperials have been humbled. Meanwhile, Italy has stabbed us in the back and Japan was never more than a tool. We must destroy the last vestiges of the old world to step into the new."
@@ -6,12 +6,16 @@ GER_the_true_enemy:0 "The True Enemy"
 GER_the_true_enemy_desc:0 "It seems we have underestimated our inferior fascist bretheren in the south. Italy has surpassed all expectations in world war two and is poised to rival our position in europe. We must do everything in our power to ensure this will never happen."
 GER_the_alpine_border:0 "The Alpine Border"
 GER_the_alpine_border_desc:0 "With the annexation of Austria, and then Switzerland after the war, the Alps have unexpectedly become a dangerous border. We must shore up any potential weaknesses against the Italians."
+GER_begin_italian_forts_tt:0 "Add §Y33 Land Forts§! on the Italian border.\n"
 GER_alpine_border_air:0 "The Aerial Threat"
 GER_alpine_border_air_desc:0 "Airpower was the italian's key to unlocking the meditarranean, and there is no doubt they will use it against us when the time comes. We will be ready to gun them down in the thousands."
 GER_alpine_infrastructure:0 "Alpine Infrastructure"
 GER_alpine_infrastructure_desc:0 "The alps are a rugged, impassable range of mountains, but it is likely the scheming italians are developing a way across them. We cannot fall behind."
+GER_alpine_tunnels_tt:0 "Create §LAlpine Tunnels§! in mountainous states bordering Italy.\n"
 GER_alpine_border_extend_fortline:0 "Extend the fort lines"
 GER_alpine_border_extend_fortline_desc:0 "Regrettably, the italians have learned much from our successful blitzkreig tactics. Any gap in the fort line they will ruthlessly exploit. We must not give them that chance."
+GER_complete_italian_fortline_tt:0 "Finish the wall with §Y52 Land Forts§! on the Italian border.\n"
+
 GER_the_swiss_resistance:0 "The Swiss Resistance"
 GER_the_swiss_resistance_desc:0 "The Swiss have proven to be fiercer fighters than we expected, mounting a stubborn resistance against our occupation. We will get them to recognize their aryan heritage - through the carrot or the stick."
 GER_slovenian_claims:0 "Slovenian Claims"
