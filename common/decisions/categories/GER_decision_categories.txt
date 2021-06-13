@@ -107,3 +107,26 @@ GER_subjugate_pakt = {
 		original_tag = GER
 	}
 }
+
+GER_resistance_decisions_italy = {
+	priority = 8
+	icon = spr_civil_war_offensives
+
+	picture = GFX_decision_cat_picture_spr_civil_war_offensives
+
+	on_map_area = {
+		state = 5
+		name = SPR_civil_war_offensives_map_category_name
+		zoom = 250
+	}
+
+	visible_when_empty = no
+	
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		original_tag = GER
+	}
+}
