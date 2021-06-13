@@ -68,7 +68,8 @@ GER_friends_in_the_east_desc:0 "Our relationship with Japan has been rocky at be
 
 GER_control_of_the_balkans:0 "Control of the balkans"
 GER_control_of_the_balkans_desc:0 "Italy's control of southern europe grows stronger by the hour. We must secure these strategic strongholds or risk losing everything."
-GER_prepare_against_hungary:0 "Hungary's betrayal over yugoslavian territories still burns. There are elements within the country that would welcome a german presence. Perhaps we could accomnodate them."
+GER_prepare_against_hungary:0 "Prepare against Hungary"
+GER_prepare_against_hungary_desc:0 "Hungary's betrayal over yugoslavian territories still burns. There are elements within the country that would welcome a german presence. Perhaps we could accomnodate them."
 GER_bargain_with_slovakia:0 "Bargain with slovakia"
 GER_bargain_with_slovakia_desc:"Hungarian claims on slovakia are quite apparent. If we grant Hungary this relatively minor concession, it could change the balkan formula."
 GER_the_romanian_question:0 "The Romanian question"
