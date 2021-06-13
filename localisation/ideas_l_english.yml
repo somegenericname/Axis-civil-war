@@ -2669,6 +2669,11 @@
  
  ##Axis Civil War##
  shat_army:0 "Shattered Armed Forces"
+ 
+ 
+ 
+ 
+ ## Germany ##
  GER_depleted_army:0 "Depleted Army"
  GER_depleted_army_desc:0 "The bitter war against the soviet union took its toll on the German war machine. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and field and we will be at a disadvantage in any coming war."
  GER_ongoing_holocaust:0 "Generalplan Ost"
@@ -2677,6 +2682,10 @@
  GER_plunder_economy_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become highly underdeveloped, which could pose a problem in the future."
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
  GER_blitzkreig_dependence_desc:0 "With the successes of blitzkreig in the world war, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare."
+ GER_construction_project:0 "Construction Project"
+ GER_construction_project_desc:0 "Our country is undertaking a large-scale construction project that requires a large diversion of resources."
+ GER_airforce_buildup:0 "Airforce Build-up"
+ GER_airforce_buildup_desc:0 "We are rapidly expanding our airforce to counter the italian threat in the air."
  
   #occupationLoc
  resistance_0:0 "Crushed Resistance"
