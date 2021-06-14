@@ -14,7 +14,7 @@ guiTypes = {
 		#ICONS
 		iconType = {
 			name ="NSDAP_icon"
-			spriteType = "GFX_decision_faction_bul_zveno"
+			spriteType = "GFX_decision_faction_ger_ndsap"
 			position = { x = @FACTION_ICONS_X y = 30 }
 		}
 
@@ -38,7 +38,7 @@ guiTypes = {
 
 		iconType = {
 			name ="wehrmacht_icon"
-			spriteType = "GFX_decision_faction_bul_bs"
+			spriteType = "GFX_decision_faction_ger_wehr"
 			position = { x = @FACTION_ICONS_X y = 75 }
 		}
 
@@ -62,7 +62,7 @@ guiTypes = {
 
 		iconType = {
 			name ="militarists_icon"
-			spriteType = "GFX_decision_faction_bul_bs"
+			spriteType = "GFX_decision_faction_ger_mil"
 			position = { x = @FACTION_ICONS_X y = 120 }
 		}
 
@@ -86,7 +86,7 @@ guiTypes = {
 
 		iconType = {
 			name ="refnaz_icon"
-			spriteType = "GFX_decision_faction_bul_bzns"
+			spriteType = "GFX_decision_faction_ger_reform"
 			position = { x = @FACTION_ICONS_X y = 165 }
 		}
 
@@ -110,7 +110,7 @@ guiTypes = {
 
 		iconType = {
 			name ="waffenss_icon"
-			spriteType = "GFX_decision_faction_bul_nsm"
+			spriteType = "GFX_decision_faction_ger_waffen_ss"
 			position = { x = @FACTION_ICONS_X y = 210 }
 		}
 
@@ -134,7 +134,7 @@ guiTypes = {
 
 		iconType = {
 			name ="ss_icon"
-			spriteType = "GFX_decision_faction_bul_nsm"
+			spriteType = "GFX_decision_faction_ger_ss"
 			position = { x = @FACTION_ICONS_X y = 255 }
 		}
 
