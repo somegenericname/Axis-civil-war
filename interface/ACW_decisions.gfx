@@ -1,0 +1,41 @@
+spriteTypes = {	
+
+	### categories
+	
+	spriteType = {
+		name = "GFX_decision_category_Volkshalle"
+		texturefile = "gfx/interface/decisions/decision_category_Volkshalle.dds"
+	}
+
+	### faction icons
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_ndsap"
+		texturefile = "gfx/interface/decisions/decision_faction_ger_ndsap.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_ss"
+		texturefile = "gfx/interface/decisions/decision_faction_ger_ss.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_waffen_ss"
+		texturefile = "gfx/interface/decisions/decision_faction_ger_waffen_ss.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_wehr"
+		texturefile = "gfx/interface/decisions/decision_faction_ger_wehr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_reform"
+		texturefile = "gfx/interface/decisions/decision_faction_ger_reform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_faction_ger_mil"
+		texturefile = "gfx/interface/decisions/decision_faction_ger_mil.dds"
+	}
+}
