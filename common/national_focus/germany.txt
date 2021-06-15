@@ -1503,7 +1503,7 @@ focus_tree = {
 			focus = GER_nazi_annual_congress
 		}
 
-		x = -16
+		x = -17
 		y = 1
 		relative_position_id = GER_nazi_annual_congress
 
@@ -1723,6 +1723,72 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_weaken_military_sector
+		#icon
+
+		prerequisite = {
+			focus = GER_refnaz_reforms
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = GER_refnaz_reforms
+
+		completion_reward = {
+			#tries to reduce military corporation dominance in german economy
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_corporations_in_the_colonies
+		#icon
+
+		prerequisite = { focus = GER_refnaz_involvement }
+		prerequisite = { focus = GER_weaken_military_sector }
+
+		x = -1
+		y = 1
+		relative_position_id = GER_weaken_military_sector
+
+		completion_reward = {
+			#discovers rampant corruption in the colonies
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_dissolve_the_feudal_state
+		#icon
+
+		prerequisite = { focus = GER_refnaz_and_wehrmacht }
+		prerequisite = { focus = GER_corporations_in_the_colonies}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_corporations_in_the_colonies
+
+		completion_reward = {
+			#takes the next step to remove high level people
+
+		}
+
+
+
+	}
+
+
+
 	
 
 
@@ -1804,6 +1870,36 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_refnaz_and_wehrmacht_commanders
+		#icon
+
+		prerequisite = {
+				focus = GER_refnaz_and_wehrmacht
+		}
+
+		
+
+		x = 0
+		y = 1
+		relative_position_id =  GER_refnaz_and_wehrmacht
+
+		completion_reward = {
+			#wehrmacht officers give refnaz experience in planning
+
+		}
+
+
+
+	}
+
+	
+
+	
+
+	
+
 
 
 	focus = {
@@ -1830,6 +1926,121 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_limit_holocaust
+		#icon
+
+		prerequisite = {
+			focus = GER_evaluate_plunder_economy
+		}
+
+		prerequisite = {
+			focus = GER_reform_colony_code
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_evaluate_plunder_economy
+
+		completion_reward = {
+			#portray holocaust as expensive, remove it
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_cooperate_with_nsdap
+		#icon
+
+		prerequisite = {
+			focus = GER_limit_holocaust
+		}
+
+		mutually_exclusive = {focus = GER_break_with_refnaz}
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id = GER_limit_holocaust
+
+		completion_reward = {
+			#shift NSDAP to be in refnaz corner
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_repurpose_infrastructure
+		#icon
+
+		prerequisite = {
+			focus = GER_cooperate_with_nsdap
+		}
+
+		
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id = GER_cooperate_with_nsdap
+
+		completion_reward = {
+			#use rails/camps of the holocaust to better local economies
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_revitalize_civilian_sector
+		#icon
+
+		prerequisite = {
+			focus = GER_repurpose_infrastructure
+		}
+		prerequisite = {
+			focus = GER_weaken_military_sector
+		}
+
+		
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id = GER_repurpose_infrastructure
+
+		completion_reward = {
+			#gives buffs to civilian construction (at expense to military)
+
+		}
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+	focus = {
+
 		id = GER_social_situation
 		#icon
 
@@ -1850,6 +2061,8 @@ focus_tree = {
 
 	}
 
+	#### NSDAP tree ####
+
 	focus = {
 
 		id = GER_rebuild_NSDAP
@@ -1859,7 +2072,7 @@ focus_tree = {
 			focus = GER_social_situation
 		}
 
-		x = -4
+		x = -5
 		y = 1
 		relative_position_id = GER_social_situation
 
@@ -1887,6 +2100,32 @@ focus_tree = {
 
 		completion_reward = {
 			#b/c of feudalism in colonies, NSDAP is losing a lot of money, work with refnaz on this
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_break_with_refnaz
+		#icon
+
+		prerequisite = {
+			focus = GER_limit_holocaust
+		}
+
+		mutually_exclusive = {focus = GER_cooperate_with_nsdap}
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_limit_holocaust
+
+		completion_reward = {
+			#NSDAP breaks off relations with refnaz 
 
 		}
 
@@ -1939,11 +2178,11 @@ focus_tree = {
 
 	}
 
-
+####### SS TREE #############
 
 	focus = {
 
-		id = GER_SS_business_ventutres
+		id = GER_SS_business_ventures
 		#icon
 
 		prerequisite = {
@@ -1963,6 +2202,101 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_SS_political_lobbying
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_business_ventures
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_SS_business_ventures
+
+		completion_reward = {
+			#SS lobbies changing of racial laws in nazi germany
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_SS_invest_in_burgundy
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_business_ventures
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_SS_business_ventures
+
+		completion_reward = {
+			#gives buffs to burgundy
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_SS_burgundy_model_state
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_business_ventures
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_SS_business_ventures
+
+		completion_reward = {
+			#Burgundy is uplifted in propaganda, alleviates despair
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_SS_burgundian_training_camps
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_business_ventures
+		}
+
+		x = 3
+		y = 1
+		relative_position_id = GER_SS_business_ventures
+
+		completion_reward = {
+			#expand burgundy training camps
+
+		}
+
+
+
+	}
+
+
+
+
+
+
 
 
 
@@ -1976,7 +2310,7 @@ focus_tree = {
 			focus = GER_nazi_annual_congress
 		}
 
-		x = 16
+		x = 17
 		y = 1
 		relative_position_id = GER_nazi_annual_congress
 
@@ -2013,6 +2347,107 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_waffen_ss_training
+		#icon
+
+		prerequisite = {
+			focus = GER_official_waffen_SS_budget
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_official_waffen_SS_budget
+
+		completion_reward = {
+			#intensify training
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_joint_ss_training
+		#icon
+
+		prerequisite = {focus = GER_waffen_ss_training}
+		prerequisite = {focus = GER_SS_burgundian_training_camps}
+
+
+
+		x = -2
+		y = 1
+		relative_position_id = GER_waffen_ss_training
+
+		completion_reward = {
+			#has event where two organizations cooperate
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_subordinate_to_SS
+		#icon
+
+		prerequisite = {focus = GER_joint_ss_training}
+
+		mutually_exclusive = {focus = GER_SS_split}
+
+
+
+		x = -1
+		y = 1
+		relative_position_id = GER_joint_ss_training
+
+		completion_reward = {
+			#gives power to SS
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_SS_split
+		#icon
+
+		prerequisite = {focus = GER_joint_ss_training}
+
+		mutually_exclusive = {focus = GER_subordinate_to_SS}
+
+		
+
+
+
+		x = 1
+		y = 1
+		relative_position_id = GER_joint_ss_training
+
+		completion_reward = {
+			#waffen-SS becomes its own organization
+
+		}
+
+
+
+	}
+
+
+
+###### militarist tree ###
+
+
+
+	focus = {
+
 		id = GER_propaganda_warmongering
 		#icon
 
@@ -2032,6 +2467,8 @@ focus_tree = {
 
 
 	}
+
+
 
 	
 
