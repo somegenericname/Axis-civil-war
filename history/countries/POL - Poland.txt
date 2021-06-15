@@ -211,7 +211,7 @@ create_country_leader = {
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "GFX_POL_boleslaw_piasecki"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = final_nazism
 	traits = {
 		#
 	}
@@ -425,7 +425,7 @@ if = {
                     }
     set_popularities = {
 	democratic = 1
-	fascism = 99
+	national_socialism = 99
                        }
 	add_ideas = {
 		resistance_1

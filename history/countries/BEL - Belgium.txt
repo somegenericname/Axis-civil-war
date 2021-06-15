@@ -133,7 +133,7 @@ create_country_leader = {
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = final_nazism
 	traits = {
 		#
 	}
@@ -166,15 +166,16 @@ create_navy_leader = {
     oob = BEL_1947
 
 	set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
                     }
     set_popularities = {
 	democratic = 10
-	fascism = 85
+	fascism = 0
 	communism = 5
+	national_socialism = 85
                        }
 		       
 	add_ideas = {

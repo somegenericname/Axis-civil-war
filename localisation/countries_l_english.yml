@@ -111,6 +111,8 @@
  
  GER_fascism:0 "Großgermanisches Reich"
  GER_fascism_DEF:0 "the Großgermanisches Reich"
+ GER_national_socialism:0 "Großgermanisches Reich"
+ GER_national_socialism_DEF:0 "the Großgermanisches Reich"
  GER_democratic:0 "German Republic"
  GER_democratic_DEF:0 "the German Republic"
  GER_neutrality:1 "German Empire"

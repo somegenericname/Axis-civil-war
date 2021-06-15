@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = final_nazism
 	traits = {
 		#
 	}
@@ -337,14 +337,14 @@ if = {
 1947.1.1 = {
     set_cosmetic_tag = NOR_reichskommissariat
     set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
                     }
     set_popularities = {
 	democratic = 5
-	fascism = 90
+	national_socialism = 90
 	communism = 5
                        }
 		       

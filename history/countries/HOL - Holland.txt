@@ -215,7 +215,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_MUSSERT_DESC"
 	picture = "GFX_portrait_hol_anton_mussert"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = final_nazism
 	traits = {
 		leider
 	}
@@ -551,7 +551,7 @@ if = {
     oob = HOL_1947
 
     set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

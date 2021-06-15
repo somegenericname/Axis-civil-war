@@ -326,15 +326,16 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 9
-	fascism = 85
-	communism = 1
+	democratic = 0
+	fascism = 0
+	communism = 0
+	national_socialism = 100
 }
 
 
@@ -353,6 +354,17 @@ create_country_leader = {
 	picture = "Adolf Hitler.dds"
 	expire = "1965.1.1"
 	ideology = nazism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Adolf Hitler.dds"
+	expire = "1965.1.1"
+	ideology = final_nazism
 	traits = {
 		dictator
 	}
