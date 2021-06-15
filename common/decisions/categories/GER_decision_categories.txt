@@ -129,4 +129,6 @@ GER_resistance_decisions_italy = {
 	visible = {
 		original_tag = GER
 	}
+
+	#lmao
 }
