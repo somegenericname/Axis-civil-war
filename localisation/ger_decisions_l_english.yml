@@ -44,3 +44,15 @@ GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
  GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
  GER_ss_influence_amount_red:0 "[?GER.GER_ss_influence|R0]"
  GER_SS_TOOLTIP:0 "ss tooltip"
+ 
+ GER_increase_swiss_resistance:0 "Increasing resistance"
+GER_increase_swiss_resistance_desc:0 "Despite our thorough conquest of the Swiss, there exists a strong independence movement that is growing larger by the day."
+
+GER_root_out_fighters_switzerland:0 "Root out Swiss resistance fighters"
+swiss_resistance_movement_tt:0 "The Swiss resistance movement is active"
+
+
+
+low_resistance:0 "Local Agitation"
+medium_resistance:0 "High Resistance"
+high_resistance:0 "Open Revolt"
