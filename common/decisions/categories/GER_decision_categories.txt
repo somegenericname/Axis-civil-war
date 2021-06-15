@@ -130,5 +130,5 @@ GER_resistance_decisions_italy = {
 		original_tag = GER
 	}
 
-	#lmao
+	
 }

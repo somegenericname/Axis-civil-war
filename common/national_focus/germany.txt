@@ -1494,6 +1494,551 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_exploit_the_east
+		#icon
+
+		prerequisite = {
+			focus = GER_nazi_annual_congress
+		}
+
+		x = -16
+		y = 1
+		relative_position_id = GER_nazi_annual_congress
+
+		completion_reward = {
+			#is the pre-req for the grain harvest failure
+			#will give a slight alleviation
+
+		}
+
+
+
+	}
+
+
+	focus = {
+
+		id = GER_wehrmacht_conquests
+		#icon
+
+		prerequisite = {
+			focus = GER_exploit_the_east
+		}
+
+		x = -4
+		y = 1
+		relative_position_id = GER_exploit_the_east
+
+		completion_reward = {
+			#attempts to use wehrmacht to return productivity to the colonies
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_involvement
+		#icon
+
+		prerequisite = {
+			focus = GER_wehrmacht_conquests
+		}
+
+		x = 2
+		y = 2
+		relative_position_id = GER_wehrmacht_conquests
+
+		completion_reward = {
+			#wehrmacht gets more involved with the inner workings of colonies, improving grain problems
+
+		}
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_alone
+		#icon
+
+		prerequisite = {
+				focus = GER_deal_with_the_grain_harvest
+				focus = GER_wehrmacht_involvement
+		}
+
+		mutually_exclusive = {focus = GER_refnaz_and_wehrmacht}
+
+		x = 1
+		y = 1
+		relative_position_id =  GER_wehrmacht_involvement
+
+		completion_reward = {
+			#wehrmacht breaks with refnaz and continues alone
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_training_facilities
+		#icon
+
+		prerequisite = {
+			 focus = GER_wehrmacht_conquests
+		}
+
+		x = -1
+		y = 3
+		relative_position_id =  GER_wehrmacht_conquests
+
+		completion_reward = {
+			#gives the wehrmact new training facilities, equal to that of the waffen-ss
+			#adds a national spirit that splits the waffen-ss & wehrmacht	
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_integrate_denmark
+		#icon
+
+		prerequisite = {
+			 focus = GER_wehrmacht_conquests
+		}
+
+		x = -4
+		y = 1
+		relative_position_id =  GER_wehrmacht_conquests
+
+		completion_reward = {
+			#aims to reform the colonies as sufficient nation-states rather than hell holes
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_recruitment
+		#icon
+
+		prerequisite = {
+			 focus = GER_integrate_denmark
+		}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_integrate_denmark
+
+		completion_reward = {
+			#recruits manpower into the wehrmact alone
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_manage_the_west
+		#icon
+
+		prerequisite = {
+			 focus = GER_integrate_denmark
+		}
+
+		x = -2
+		y = 1
+		relative_position_id =  GER_integrate_denmark
+
+		completion_reward = {
+			#allows germany to stop western nations from breaking free (decisions)	
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_manage_the_east
+		#icon
+
+		prerequisite = {
+			 focus = GER_integrate_denmark
+		}
+
+		x = 2
+		y = 1
+		relative_position_id =  GER_integrate_denmark
+
+		completion_reward = {
+			#allows germany to annex eastern nations (decisions)	
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_refnaz_reforms
+		#icon
+
+		prerequisite = {
+			focus = GER_exploit_the_east
+		}
+
+		x = 4
+		y = 1
+		relative_position_id = GER_exploit_the_east
+
+		completion_reward = {
+			#aims to reform the colonies as sufficient nation-states rather than hell holes
+
+		}
+
+
+
+	}
+
+	
+
+
+
+
+	focus = {
+
+		id = GER_refnaz_involvement
+		#icon
+
+		prerequisite = {
+			focus = GER_refnaz_reforms
+		}
+
+		x = -2
+		y = 2
+		relative_position_id = GER_refnaz_reforms
+
+		completion_reward = {
+			#reformists get involved with the east, dealing with grain shortage
+
+		}
+
+
+
+	}
+
+	
+
+	focus = {
+
+		id = GER_deal_with_the_grain_harvest
+		#icon
+
+		prerequisite = {
+			
+				focus = GER_wehrmacht_conquests
+				focus = GER_refnaz_reforms
+
+			
+			
+		}
+
+		x = 0
+		y = 2
+		relative_position_id =  GER_exploit_the_east
+
+		completion_reward = {
+			#aims to reform the colonies as sufficient nation-states rather than hell holes
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_refnaz_and_wehrmacht
+		#icon
+
+		prerequisite = {
+				focus = GER_deal_with_the_grain_harvest
+				focus = GER_refnaz_involvement
+		}
+
+		mutually_exclusive = {focus = GER_wehrmacht_alone}
+
+		x = -1
+		y = 1
+		relative_position_id =  GER_refnaz_involvement
+
+		completion_reward = {
+			#wehrmacht joins refnaz as co partners in revolution
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_evaluate_plunder_economy
+		#icon
+
+		prerequisite = {
+			focus = GER_refnaz_reforms
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_refnaz_reforms
+
+		completion_reward = {
+			#might give buffs to the colonies, lower resistance growth
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_social_situation
+		#icon
+
+		prerequisite = {
+			focus = GER_nazi_annual_congress
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_nazi_annual_congress
+
+		completion_reward = {
+			#attempts to address the rampant "despair" in germany
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_rebuild_NSDAP
+		#icon
+
+		prerequisite = {
+			focus = GER_social_situation
+		}
+
+		x = -4
+		y = 1
+		relative_position_id = GER_social_situation
+
+		completion_reward = {
+			#hitler's fucking dead, get better leaders lmao
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_reform_colony_code
+		#icon
+
+		prerequisite = {
+			focus = GER_rebuild_NSDAP
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_rebuild_NSDAP
+
+		completion_reward = {
+			#b/c of feudalism in colonies, NSDAP is losing a lot of money, work with refnaz on this
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_tighten_race_laws
+		#icon
+
+		prerequisite = {
+			focus = GER_rebuild_NSDAP
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_rebuild_NSDAP
+
+		completion_reward = {
+			#makes despair worse, but empowers SS and NSDAP
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_glorify_the_feuhrer
+		#icon
+
+		prerequisite = {
+			focus = GER_rebuild_NSDAP
+		}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_rebuild_NSDAP
+
+		completion_reward = {
+			#put hitler on a podium for his successes to strengthen nsdap
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_SS_business_ventutres
+		#icon
+
+		prerequisite = {
+			focus = GER_social_situation
+		}
+
+		x = 4
+		y = 1
+		relative_position_id = GER_social_situation
+
+		completion_reward = {
+			#SS has a chance to expand and move up
+
+		}
+
+
+
+	}
+
+
+
+
+
+	focus = {
+
+		id = GER_address_the_military
+		#icon
+
+		prerequisite = {
+			focus = GER_nazi_annual_congress
+		}
+
+		x = 16
+		y = 1
+		relative_position_id = GER_nazi_annual_congress
+
+		completion_reward = {
+			#attempts to address military problems
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_official_waffen_SS_budget
+		#icon
+
+		prerequisite = {
+			focus = GER_address_the_military
+		}
+
+		x = -4
+		y = 1
+		relative_position_id = GER_address_the_military
+
+		completion_reward = {
+			#make Waffen-SS official
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_propaganda_warmongering
+		#icon
+
+		prerequisite = {
+			focus = GER_address_the_military
+		}
+
+		x = 4
+		y = 1
+		relative_position_id = GER_address_the_military
+
+		completion_reward = {
+			#warmonger against italy
+
+		}
+
+
+
+	}
+
+	
+
+
+
+
+
 
 
 
