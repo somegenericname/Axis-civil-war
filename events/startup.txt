@@ -1,0 +1,32 @@
+add_namespace = start
+
+country_event = {
+	id = start.1
+	title = start.1.t
+	desc = start.1.d
+	picture = 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+
+	option = { 
+		name = start.1.a
+		add_political_power = 50       
+	}
+	option = { 
+		name = start.1.b
+		add_political_power = 50       
+	}
+	option = { 
+		name = start.1.c
+		add_political_power = 50       
+	}
+	option = { 
+		name = start.1.d
+		add_political_power = 50       
+	}
+}
