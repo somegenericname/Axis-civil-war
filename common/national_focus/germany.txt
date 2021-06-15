@@ -360,7 +360,7 @@ focus_tree = {
 			}
 
 			custom_effect_tooltip = GER_complete_italian_fortline_tt
-			hidden effect = {
+			hidden_effect = {
 			153 = {
 				add_building_construction = {
 				type = bunker
@@ -517,9 +517,8 @@ focus_tree = {
 				instant_build = yes
 				}
 			}
-`
-			}
 		}
+	}
 
 
 	}
