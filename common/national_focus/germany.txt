@@ -543,9 +543,9 @@ focus_tree = {
 
 			}
 
-			custom_effect_tooltip = GER_alpine_tunnels_tt
+			
 
-			hidden effect ={
+			
 
 			every_owned_state = {
 				limit = {
@@ -556,8 +556,11 @@ focus_tree = {
 						state = 153
 					}
 				}
-				add_dynamic_modifier = { modifier = GER_alpine_tunnels }
-			}
+
+				hidden_effect ={
+					add_dynamic_modifier = { modifier = GER_alpine_tunnels }
+				}
+				custom_effect_tooltip = GER_alpine_tunnels_tt
 
 			}
 		}
