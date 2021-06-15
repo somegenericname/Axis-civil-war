@@ -22,6 +22,13 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1500 }
 
+
+
+
+	####################
+	## Foreign Policy ##
+	####################
+
 	focus = {
 		id = GER_cancel_tripartite
 		icon = GFX_goal_generic_improve_relations
@@ -659,7 +666,7 @@ focus_tree = {
 		id = GER_the_french_border
 
 		prerequisite = {focus = GER_cancel_tripartite}
-		x = -9
+		x = -7
 		y = 1
 
 		relative_position_id = GER_cancel_tripartite
@@ -737,7 +744,7 @@ focus_tree = {
 		icon = GFX_goal_GER_strengthen_france
 		prerequisite = {focus = GER_prioritize_france}
 
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = GER_prioritize_france
 
@@ -794,7 +801,7 @@ focus_tree = {
 		id = GER_ss_dominant_in_burgundy
 		icon = GFX_goal_GER_strengthen_ordenstaat
 		prerequisite = {focus = GER_prioritize_ordenstaat}
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = GER_prioritize_ordenstaat
 
@@ -887,7 +894,7 @@ focus_tree = {
 		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 
 		prerequisite = {focus = GER_cancel_tripartite}
-		x = -17
+		x = -14
 		y = 2
 
 		relative_position_id = GER_cancel_tripartite
@@ -1048,7 +1055,7 @@ focus_tree = {
 		id = GER_control_of_the_balkans
 		icon = GFX_goal_GER_control_of_the_balkans
 		prerequisite = {focus = GER_cancel_tripartite}
-		x = 7
+		x = 6
 		y = 1
 
 		relative_position_id = GER_cancel_tripartite
@@ -1097,7 +1104,7 @@ focus_tree = {
 		icon = GFX_goal_GER_prepare_against_hungary
 		prerequisite = {focus = GER_control_of_the_balkans}
 
-		x = -2
+		x = -1
 		y = 1
 
 		relative_position_id = GER_control_of_the_balkans
@@ -1135,7 +1142,7 @@ focus_tree = {
 		icon = GFX_goal_GER_the_romanian_question
 		prerequisite = {focus = GER_control_of_the_balkans}
 
-		x = 2
+		x = 1
 		y = 1
 
 		relative_position_id = GER_control_of_the_balkans
@@ -1232,7 +1239,7 @@ focus_tree = {
 	
 
 	prerequisite = {focus = GER_cancel_tripartite}
-		x = 14
+		x = 12
 		y = 2
 
 		relative_position_id = GER_cancel_tripartite
@@ -1459,6 +1466,38 @@ focus_tree = {
 		}
 
 	}
+
+
+
+
+
+	######################
+	## Domestic Affairs ##
+	######################
+
+	focus = {
+
+		id = GER_nazi_annual_congress
+		#icon = 
+
+		prerequisite = {}
+
+		
+
+		x = 75
+		y = 0
+		
+
+		completion_reward = {
+            #has event where hitler loses his cool
+		}
+
+	}
+
+
+
+
+
 
 
 
