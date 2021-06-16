@@ -1939,6 +1939,8 @@ focus_tree = {
 			focus = GER_reform_colony_code
 		}
 
+		mutually_exclusive = { focus = GER_increase_holocaust}
+
 		x = 2
 		y = 1
 		relative_position_id = GER_evaluate_plunder_economy
@@ -2168,7 +2170,7 @@ focus_tree = {
 		}
 
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = GER_rebuild_NSDAP
 
 		completion_reward = {
@@ -2179,6 +2181,74 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_use_the_bueracracy
+		#icon
+
+		prerequisite = {
+			focus = GER_glorify_the_feuhrer
+		}
+
+		x = -1
+		y = 2
+		relative_position_id = GER_glorify_the_feuhrer
+
+		completion_reward = {
+			#use germany's labyrinthine beurecratic system to obtain power
+
+		}
+
+	}
+
+	focus = {
+
+		id = GER_power_of_the_pen
+		#icon
+
+		prerequisite = {
+			focus = GER_glorify_the_feuhrer
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = GER_glorify_the_feuhrer
+
+		completion_reward = {
+			#legal action is NSDAP's only recourse in these times of trouble. We must use it
+
+		}
+
+	}
+
+	focus = {
+
+		id = GER_our_own_path
+		#icon
+
+		prerequisite = {
+			focus = GER_increase_holocaust
+		}
+
+
+		mutually_exclusive = { focus = GER_trust_in_SS}
+
+
+		x = -1
+		y = 1
+		relative_position_id =  GER_increase_holocaust
+
+		completion_reward = {
+			#NSDAP forges its own path
+
+		}
+
+
+
+	}
+
+
 
 ####### SS TREE #############
 
@@ -2213,7 +2283,7 @@ focus_tree = {
 			focus = GER_SS_business_ventures
 		}
 
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = GER_SS_business_ventures
 
@@ -2225,6 +2295,94 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_increase_holocaust
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_political_lobbying
+		}
+
+		prerequisite = {
+			focus = GER_tighten_race_laws
+		}
+
+		mutually_exclusive = { focus = GER_limit_holocaust}
+
+
+		x = -2
+		y = 1
+		relative_position_id =  GER_SS_political_lobbying
+
+		completion_reward = {
+			#increases holocaust spirit
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_increase_holocaust
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_political_lobbying
+		}
+
+		prerequisite = {
+			focus = GER_tighten_race_laws
+		}
+
+		mutually_exclusive = { focus = GER_limit_holocaust}
+
+
+		x = -2
+		y = 1
+		relative_position_id =  GER_SS_political_lobbying
+
+		completion_reward = {
+			#increases holocaust spirit
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_trust_in_SS
+		#icon
+
+		prerequisite = {
+			focus = GER_increase_holocaust
+		}
+
+
+		mutually_exclusive = { focus = GER_our_own_path}
+
+
+		x = 1
+		y = 1
+		relative_position_id =  GER_increase_holocaust
+
+		completion_reward = {
+			#SS takes more power
+
+		}
+
+
+
+	}
+
+
+
+
 
 	focus = {
 
@@ -2254,12 +2412,12 @@ focus_tree = {
 		#icon
 
 		prerequisite = {
-			focus = GER_SS_business_ventures
+			focus = GER_SS_invest_in_burgundy
 		}
 
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = GER_SS_business_ventures
+		relative_position_id = GER_SS_invest_in_burgundy
 
 		completion_reward = {
 			#Burgundy is uplifted in propaganda, alleviates despair
@@ -2269,6 +2427,30 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_SS_burgundy_base_of_operations
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_burgundy_model_state
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_SS_burgundy_model_state
+
+		completion_reward = {
+			#Burgundy is uplifted in propaganda, alleviates despair
+
+		}
+
+
+
+	}
+
+	
 
 
 
