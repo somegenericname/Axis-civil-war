@@ -1896,6 +1896,30 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_prepare_military_action
+		#icon
+
+		prerequisite = {
+				focus = GER_refnaz_and_wehrmacht_commanders
+		}
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_refnaz_and_wehrmacht_commanders
+
+		completion_reward = {
+			#some holdouts of power in the east, plan a strike now
+
+		}
+
+
+
+	}
+
 	
 
 	
@@ -2139,6 +2163,36 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_limit_refnaz_power
+		#icon
+
+		prerequisite = {
+			focus = GER_break_with_refnaz
+		}
+
+		prerequisite = {
+			focus = GER_use_the_bueracracy
+		}
+
+		
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_break_with_refnaz
+
+		completion_reward = {
+			#NSDAP uses complex laws to limit refnaz power as much as possible
+
+		}
+
+
+
+	}
+
+	focus = {
+
 		id = GER_tighten_race_laws
 		#icon
 
@@ -2247,6 +2301,78 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_weaken_SS
+		#icon
+
+		prerequisite = {
+			focus = GER_our_own_path
+		}
+
+		prerequisite = {
+			focus = GER_power_of_the_pen
+		}
+
+
+		
+
+
+		x = -1
+		y = 1
+		relative_position_id =  GER_our_own_path
+
+		completion_reward = {
+			#NSDAP focuses on weakening SS 
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_a_successor
+		#icon
+
+		prerequisite = {
+			focus = GER_our_own_path
+		}
+
+		prerequisite = {
+			focus = GER_power_of_the_pen
+		}
+
+		prerequisite = {
+			focus = GER_break_with_refnaz
+		}
+
+		prerequisite = {
+			focus = GER_use_the_bueracracy
+		}
+
+
+		
+
+
+		x = 0
+		y = 4
+		relative_position_id =  GER_glorify_the_feuhrer
+
+		completion_reward = {
+			#NSDAP focuses on weakening SS 
+
+		}
+
+
+
+	}
+
+
+
+
 
 
 
@@ -2485,6 +2611,8 @@ focus_tree = {
 
 
 
+
+
 	focus = {
 
 		id = GER_address_the_military
@@ -2625,6 +2753,54 @@ focus_tree = {
 	}
 
 
+	focus = {
+
+		id = GER_create_leadership
+		#icon
+
+		prerequisite = {
+			focus = GER_official_waffen_SS_budget
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_official_waffen_SS_budget
+
+		completion_reward = {
+			#waffen-SS was very much a branch, make its own power structure and stuff
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_obtain_weaponry
+		#icon
+
+		prerequisite = {
+			focus = GER_create_leadership
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_create_leadership
+
+		completion_reward = {
+			#get weaponry from a variety of sources
+
+		}
+
+
+
+	}
+
+
+
+
+
 
 ###### militarist tree ###
 
@@ -2651,6 +2827,101 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_methods_of_victory
+		#icon
+
+		prerequisite = {
+			focus = GER_propaganda_warmongering
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_propaganda_warmongering
+
+		completion_reward = {
+			#talks about increasing R&D spending
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_the_technology
+		#icon
+
+		prerequisite = {
+			focus = GER_methods_of_victory
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_methods_of_victory
+
+		completion_reward = {
+			#talks about increasing R&D spending
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_proper_training
+		#icon
+
+		prerequisite = {
+			focus = GER_methods_of_victory
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_methods_of_victory
+
+		completion_reward = {
+			#talks about using the tech correctly (training the right people)
+		}
+
+
+
+	}
+
+	
+
+
+
+	focus = {
+
+		id = GER_define_the_enemy
+		#icon
+
+		prerequisite = {
+			focus = GER_propaganda_warmongering
+		}
+
+		x = 3
+		y = 1
+		relative_position_id = GER_propaganda_warmongering
+
+		completion_reward = {
+			#further warmongering
+
+		}
+
+
+
+	}
+
+
 
 
 
