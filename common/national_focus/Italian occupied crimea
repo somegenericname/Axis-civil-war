@@ -22,7 +22,7 @@ focus_tree = {
 		y = 2
 		
 		available = {
-		NOT = {is_puppet_of = GER }
+		is_puppet_of = ITA 
 		}
 
 		cost = 5
