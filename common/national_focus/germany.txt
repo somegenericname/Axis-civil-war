@@ -1565,6 +1565,27 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_use_favors
+		#icon
+
+		prerequisite = {
+			focus = GER_wehrmacht_involvement
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_wehrmacht_involvement
+
+		completion_reward = {
+			#wehrmacht haws history of giving powerful people in colonies favors, cash in these favors now
+
+		}
+
+
+	}
+
+	focus = {
+
 		id = GER_wehrmacht_alone
 		#icon
 
@@ -1588,6 +1609,172 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_purge_command_structure
+		#icon
+
+		prerequisite = {
+				focus = GER_wehrmacht_alone
+		}
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id =  GER_wehrmacht_alone
+
+		completion_reward = {
+			#wehrmacht retires or causes "accidents" for leaders loyal to the SS or NSDAP
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_prepare_for_urban_combat
+		#icon
+
+		prerequisite = {
+				focus = GER_purge_command_structure
+		}
+
+		prerequisite = {
+				focus = GER_use_favors
+		}
+
+		prerequisite = {
+				focus = GER_state_of_the_art
+		}
+
+		
+
+		x = -1
+		y = 2
+		relative_position_id =  GER_use_favors
+
+		completion_reward = {
+			#our mission will result in combat in cities, likely german. We will train and equip incessantly for the day when that time will come
+
+		}
+
+
+
+	}
+
+
+	focus = {
+
+		id = GER_recall_the_troops
+		#icon
+
+		prerequisite = {
+				focus = GER_prepare_for_urban_combat
+		}
+
+
+		
+
+		x = -2
+		y = 1
+		relative_position_id =  GER_prepare_for_urban_combat
+
+		completion_reward = {
+			#bring troops to the home front, will cause revolts in conquered territories
+			#however without completing this the revolution will not be successful
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_secure_the_railroads
+		#icon
+
+		prerequisite = {
+				focus = GER_prepare_for_urban_combat
+		}
+
+
+		
+
+		x = 0
+		y = 1
+		relative_position_id =  GER_prepare_for_urban_combat
+
+		completion_reward = {
+			#will cause rail delays, hurting construction speed and whatnot + ups chance of discovery? work on this
+			#but is good for success
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_ground_the_planes
+		#icon
+
+		prerequisite = {
+				focus = GER_prepare_for_urban_combat
+		}
+
+
+		
+
+		x = 2
+		y = 1
+		relative_position_id =  GER_prepare_for_urban_combat
+
+		completion_reward = {
+			#airforce loyalty is questionable, ground the airplanes with fuel shsortages
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_final_preparations
+		#icon
+
+		prerequisite = {
+				focus = GER_recall_the_troops
+				focus = GER_secure_the_railroads
+				focus = GER_ground_the_planes
+		}
+
+
+		
+
+		x = 0
+		y = 2
+		relative_position_id =  GER_prepare_for_urban_combat
+
+		completion_reward = {
+			#tcomplete before a certain date to ensure military tree
+
+		}
+
+
+
+	}
+
+
+
+
+
+
 
 
 	focus = {
@@ -1599,7 +1786,7 @@ focus_tree = {
 			 focus = GER_wehrmacht_conquests
 		}
 
-		x = -1
+		x = -2
 		y = 3
 		relative_position_id =  GER_wehrmacht_conquests
 
@@ -1622,7 +1809,7 @@ focus_tree = {
 			 focus = GER_wehrmacht_conquests
 		}
 
-		x = -4
+		x = -5
 		y = 1
 		relative_position_id =  GER_wehrmacht_conquests
 
@@ -1650,6 +1837,29 @@ focus_tree = {
 
 		completion_reward = {
 			#recruits manpower into the wehrmact alone
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_state_of_the_art
+		#icon
+
+		prerequisite = {
+			 focus = GER_wehrmacht_recruitment
+			 focus = GER_training_facilities
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_wehrmacht_recruitment
+
+		completion_reward = {
+			#wehrmacht is getting hand-me-down equipment, cool stuff goes to SS, change that now
 
 		}
 
