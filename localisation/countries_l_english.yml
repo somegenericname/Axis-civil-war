@@ -98,7 +98,8 @@
  BUR_fascism:0 "Schutzstaffel Ordensstaat"
  BUR_fascism_DEF:0 "the Schutzstaffel Ordensstaat"
  BUR_communism:0 "Burgandian Union"
- BUR_national_socialism:0 "Bruhgandy"
+ BUR_national_socialism:0 "Schutzstaffel ordensstaat"
+ BUR_national_socialism_DEF:0 "the Schutzstaffel ordensstaat"
  BUR_communism_DEF:0 "the Burgandian Union"
  
  RKM_fascism:0 "Reichskommissariat Moskau"
