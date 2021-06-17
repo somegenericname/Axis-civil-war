@@ -1,0 +1,529 @@
+focus_tree = {
+	id = ita_start
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}  
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = avanti_italia
+		
+		x = 23
+		y = 2
+		
+		available = {	
+		}
+
+		cost = 7	
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {	
+		}
+}
+	focus = {
+		id = adapt_new_era
+
+		x = 23
+		y = 3
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = avanti_italia }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left tree
+		id = consolidate_empire
+
+		x = 13
+		y = 4
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = adapt_new_era }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+
+    focus = { #left tree
+		id = reinforce_colonies
+
+		x = 16
+		y = 5 
+		
+		available = { 
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = consolidate_empire }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = { #left tree
+		id = give_arms
+
+		x = 14
+		y = 5 
+		
+		available = { 
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = consolidate_empire }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left tree
+		id = cover_colonies_cost
+
+		x = 12
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = consolidate_empire }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left tree
+		id = learning_how_to_empire
+
+		x = 14
+		y = 7
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = cover_colonies_cost }
+		prerequisite = { focus = give_arms }
+		prerequisite = { focus = reinforce_colonies }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left-middle tree
+		id = homefront
+
+		x = 20
+		y = 4
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = adapt_new_era }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left-middle tree
+		id = demobalize
+
+		x = 18
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = homefront }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left-middle tree
+		id = keep_war_promise
+
+		x = 20
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = homefront }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left-middle tree
+		id = use_colonies_resources
+
+		x = 22
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = homefront }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #left-middle tree
+		id = return_civilian_life
+
+		x = 20
+		y = 7
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = demobalize }
+		prerequisite = { focus = keep_war_promise }
+		prerequisite = { focus = use_colonies_resources }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right-middle tree
+		id = reorg_army
+
+		x = 27
+		y = 4
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = adapt_new_era }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right-middle tree
+		id = lessons_ww2
+
+		x = 25
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = reorg_army }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right-middle tree
+		id = more_branches_coop
+
+		x = 27
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = reorg_army }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right-middle tree
+		id = new_army_tech
+
+		x = 29
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = reorg_army }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right-middle tree
+		id = become_god_of_death
+
+		x = 27
+		y = 7
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		 prerequisite = { focus = new_army_tech }
+		prerequisite = { focus = more_branches_coop }
+		prerequisite = { focus = lessons_ww2 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right tree
+		id = reform_gov
+
+		x = 34
+		y = 4
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = adapt_new_era }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right tree
+		id = peacetime_beauro
+
+		x = 31
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = reform_gov }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right tree
+		id = crackdown_factions
+
+		x = 33
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = reform_gov }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right tree
+		id = listen_factions
+
+		x = 35
+		y = 5
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = reform_gov }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { #right tree
+		id = government_overhul
+
+		x = 33
+		y = 7 
+
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = crackdown_factions }
+		prerequisite = { focus = listen_factions }
+		prerequisite = { focus = peacetime_beauro }
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
+	
+	focus = { 
+		id = fascism_27_birthday
+
+		x = 23
+		y = 9
+		
+		available = {
+		}
+		bypass = {
+		}
+		
+		cost = 5
+		prerequisite = { focus = government_overhul }
+		prerequisite = { focus = return_civilian_life }
+		prerequisite = { focus = become_god_of_death }
+		prerequisite = { focus = learning_how_to_empire }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	} 	
