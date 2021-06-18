@@ -8,4 +8,12 @@ on_actions = {
 		SOV = {load_focus_tree = ussr1}
 	}
   }
+   on_startup = {
+		effect = {
+			#Baku oil
+				TUR = {
+					give_resource_rights = { receiver = RKC state = 229 }
+				}
+			}
+        }
 }
