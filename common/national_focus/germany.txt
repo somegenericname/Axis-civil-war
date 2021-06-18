@@ -2130,6 +2130,30 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_people_on_our_side
+		#icon
+
+		prerequisite = {
+				focus = GER_prepare_military_action
+		}
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_prepare_military_action
+
+		completion_reward = {
+			#use the army as a positive force to unite the people
+
+		}
+
+
+
+	}
+
 	
 
 	
@@ -2262,6 +2286,33 @@ focus_tree = {
 
 		completion_reward = {
 			#gives buffs to civilian construction (at expense to military)
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_the_citizen
+		#icon
+
+		prerequisite = {
+			focus =  GER_revitalize_civilian_sector
+		}
+		
+
+		
+
+		
+
+		x = 0
+		y = 1
+		relative_position_id =  GER_revitalize_civilian_sector
+
+		completion_reward = {
+			#focus economic growth to temporarily benefit the average citizen
 
 		}
 
