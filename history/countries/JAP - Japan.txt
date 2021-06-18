@@ -1573,7 +1573,6 @@ if = {
 	puppet = JAS
 	puppet = INS
 	puppet = MAL
+	puppet = BRM
 	add_to_faction = SIA
-	white_peace = CHI
-	white_peace = PRC
 }
