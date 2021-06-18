@@ -1745,7 +1745,7 @@ focus_tree = {
 
 	focus = {
 
-		id = GER_final_preparations
+		id = GER_for_glory
 		#icon
 
 		prerequisite = {
@@ -1762,13 +1762,48 @@ focus_tree = {
 		relative_position_id =  GER_prepare_for_urban_combat
 
 		completion_reward = {
-			#tcomplete before a certain date to ensure military tree
+			#complete before a certain date to ensure military tree
+			#is wehrmacht's rallying cry
 
 		}
 
 
 
 	}
+
+	focus = {
+
+		id = GER_for_the_future
+		#icon
+
+		prerequisite = {
+			focus = GER_people_on_our_side
+		}
+		prerequisite = {
+			focus = GER_for_the_citizen
+		}
+		prerequisite = {
+			focus = GER_the_right_people
+		}
+
+
+		
+
+		x = 0
+		y = 1
+		relative_position_id =  GER_for_the_citizen
+
+		completion_reward = {
+			#complete before a certain date to ensure refnaz tree
+			#is refnaz's rallying cry
+
+		}
+
+
+
+	}
+
+
 
 
 
@@ -2320,6 +2355,35 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_the_right_people
+		#icon
+
+		prerequisite = {
+			focus =  GER_cooperate_with_nsdap
+		}
+		
+
+		
+
+		
+
+		x = 0
+		y = 3
+		relative_position_id =  GER_cooperate_with_nsdap
+
+		completion_reward = {
+			#there are key people in positions of power that we need. A little pressure from the NSDAP establishment should make them yield.
+
+		}
+
+
+
+	}
+
+
+
 
 
 
@@ -2623,13 +2687,100 @@ focus_tree = {
 		relative_position_id =  GER_glorify_the_feuhrer
 
 		completion_reward = {
-			#NSDAP focuses on weakening SS 
+			#NSDAP decides to appoint someone or to keep position open
+
+		}
+	}
+
+	focus = {
+
+		id = GER_all_the_kings_men
+		#icon
+
+		prerequisite = {
+			focus = GER_a_successor
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_a_successor
+
+		completion_reward = {
+			#unite all the men loyal to the NSDAP party
 
 		}
 
 
 
 	}
+
+	focus = {
+
+		id = GER_targeted_sabotage
+		#icon
+
+		prerequisite = {
+			focus = GER_a_successor
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_a_successor
+
+		completion_reward = {
+			#can enact sabotage on the right people
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_the_plot
+		#icon
+
+		prerequisite = {
+			focus = GER_a_successor
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_a_successor
+
+		completion_reward = {
+			#unlocks event chain that can turn the Wehrmacht & waffen-ss against each other
+			#something like "the wehrmacht & the waffen-ss remain out of our reach in terms of influence. Perhaps we can cook up a stew that they will choke on..." 
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_stability
+		#icon
+
+		prerequisite = {
+			focus = GER_the_plot
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_the_plot
+
+		completion_reward = {
+			#taking this focus will ensure nsdap tree
+		}
+
+
+
+	}
+
+
 
 
 
@@ -2660,6 +2811,52 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_SS_increase_recruitment
+		#icon
+
+		prerequisite = {
+			focus =GER_SS_business_ventures
+		}
+
+		x = -1
+		y = 2
+		relative_position_id = GER_SS_business_ventures
+
+		completion_reward = {
+			#SS recruits more from the common people
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_hire_SS_informants
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_increase_recruitment
+		}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_SS_increase_recruitment
+
+		completion_reward = {
+			#SS gets people to spy on other people
+
+		}
+
+
+
+	}
+
+
 
 	focus = {
 
@@ -2712,34 +2909,7 @@ focus_tree = {
 
 	}
 
-	focus = {
 
-		id = GER_increase_holocaust
-		#icon
-
-		prerequisite = {
-			focus = GER_SS_political_lobbying
-		}
-
-		prerequisite = {
-			focus = GER_tighten_race_laws
-		}
-
-		mutually_exclusive = { focus = GER_limit_holocaust}
-
-
-		x = -2
-		y = 1
-		relative_position_id =  GER_SS_political_lobbying
-
-		completion_reward = {
-			#increases holocaust spirit
-
-		}
-
-
-
-	}
 
 	focus = {
 
@@ -2766,6 +2936,89 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_utilize_nsdap_laws
+		#icon
+
+		prerequisite = {
+			focus = GER_trust_in_SS
+		}
+
+
+
+
+		x = 0
+		y = 1
+		relative_position_id =  GER_trust_in_SS
+
+		completion_reward = {
+			#much of NSDAP law isnt being used properly, with legal expertise we can bend things to be more our way
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_the_surveillance_act
+		#icon
+
+		prerequisite = {
+			focus = GER_utilize_nsdap_laws
+		}
+
+		prerequisite = {
+			focus = GER_hire_SS_informants
+		}
+
+
+
+
+		x = -1
+		y = 1
+		relative_position_id =  GER_hire_SS_informants
+
+		completion_reward = {
+			#use the puppet reichstag to begin creating a massive surveillance state
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_himmlers_eye
+		#icon
+
+		prerequisite = {
+			focus = GER_the_surveillance_act
+		}
+
+		
+
+
+
+
+		x = 0
+		y = 1
+		relative_position_id =  GER_the_surveillance_act
+
+		completion_reward = {
+			#gives massive intelligence buff/ other cool things, himmler surveillance state
+
+		}
+
+
+
+	}
+
+
 
 
 
@@ -2803,7 +3056,7 @@ focus_tree = {
 		}
 
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = GER_SS_invest_in_burgundy
 
 		completion_reward = {
@@ -2824,12 +3077,64 @@ focus_tree = {
 			focus = GER_SS_burgundy_model_state
 		}
 
-		x = 0
+		prerequisite = {
+			focus = GER_subordinate_to_SS
+		}
+
+		x = 1
 		y = 1
 		relative_position_id = GER_SS_burgundy_model_state
 
 		completion_reward = {
 			#Burgundy is uplifted in propaganda, alleviates despair
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_unite_disparate_factions
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_burgundy_base_of_operations
+		}
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id = GER_SS_burgundy_base_of_operations
+
+		completion_reward = {
+			#SS combines parts of itself
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_SS_companies
+		#icon
+
+		prerequisite = {
+			focus = GER_SS_burgundy_base_of_operations
+		}
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_SS_burgundy_base_of_operations
+
+		completion_reward = {
+			#SS uses its companies to replace shit german companies
 
 		}
 
