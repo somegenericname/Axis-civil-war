@@ -1,4 +1,4 @@
-﻿capital = 282
+capital = 282
 
 oob = "JAP_1936"
 
@@ -1571,4 +1571,9 @@ if = {
 	oob = JAP_1947
 	create_faction = "Co-prosperity Sphere"
 	puppet = JAS
+	puppet = INS
+	puppet = MAL
+	add_to_faction = SIA
+	white_peace = CHI
+	white_peace = PRC
 }
