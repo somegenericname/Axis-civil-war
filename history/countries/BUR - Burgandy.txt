@@ -20,5 +20,15 @@ set_convoys = 20
 		communism = 1
 		neutrality = 3
 	}
+	create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = esoteric_nazism
+	traits = {
+		dictator
+	}
+}
 }
 

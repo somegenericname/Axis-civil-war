@@ -109,8 +109,7 @@ create_country_leader = {
 	name = "Francesco Zingales"
 	desc = "Francesco_Zingales_desc"
 	picture = "Francesco Zingales.dds"
-	ideology = fascism_ideology
-	traits = {
+	ideology = italian_fascism
 		garrison_commander
 	}
 }
@@ -120,4 +119,3 @@ create_country_leader = {
    Only_the_best
    native_resistance_low
                	}
-}

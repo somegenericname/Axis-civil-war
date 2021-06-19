@@ -258,7 +258,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "benito mussolini.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = italian_fascism
 	traits = {
 		
 	}

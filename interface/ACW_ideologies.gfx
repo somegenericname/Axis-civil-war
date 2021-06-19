@@ -1,0 +1,36 @@
+spriteTypes = {
+	### Fascism
+	SpriteType = {
+		name = "GFX_ideology_italian_fascism"
+		texturefile = "gfx/interface/ideologies/italian_fascism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_japanese_fascism"
+		texturefile = "gfx/interface/ideologies/japanese_fascism.dds"
+	}
+
+	### Democratic
+	SpriteType = {
+		name = "GFX_ideology_socialism"
+		texturefile = "gfx/interface/ideologies/socialism.dds"
+	}
+
+	### National Socialism
+	SpriteType = {
+		name = "GFX_ideology_national_socialism_group"
+		texturefile = "gfx/interface/ideologies/national_socialism_group.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ideology_esoteric_nazism"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism.dds"
+	}
+
+
+	### Communism
+	SpriteType = {
+		name = "GFX_ideology_marxism"
+		texturefile = "gfx/interface/ideologies/marxism.dds"
+	}
+}
