@@ -8,7 +8,7 @@ l_english:
  start.1.e:0 "BEGONE ! i want to play"
 
  start.2.t:0 "The lore: 1922-1947"
- start.2.d:0 "a"
+ start.2.d:0 ""
  start.2.a:0 "The past determines the future"
 
  start.3.t:0 "The new mechanics"
@@ -16,12 +16,12 @@ l_english:
  start.3.a:0 "So much new stuff!"
 
  situations.1.t:0 "The situations: Crimea"
- situations.1.d:0 "In one of the most bizzare events in modern history, on September 11, 1941. As german forces started crossing the Dnieper river, Italian marines from the 1st San Marco Regiment landed around the port of sevastopol and the Kerch Peninsula as a part of operation NERO and secured quickly secured the entire crimean region in a week. While officaly claimed to be in order to avoid getting bogged down in the city of armyansk in the northern part of crimea. In truth it was a calculated and stratigic move with one goal in mind. Preventing germany from getting acces to the mediterranean. \n\nAnd as the relations between the two young superpowers quickly deteriorate, a conflict is brewing in the east. Both sides claiming the land, And neither side willing to give up. Crimea seems to become more and more like another powderkeg, waiting for the time to explode and start another brutal war in europe"
+ situations.1.d:0 "In one of the most bizzare events in modern history, on September 11, 1941. As german forces started crossing the Dnieper river, Italian marines from the 1st San Marco Regiment landed around the port of sevastopol and the Kerch Peninsula as a part of operation NERO and secured quickly secured the entire crimean region in a week. While officaly claimed to be in order to avoid getting bogged down in the city of armyansk in the northern part of crimea. In truth it was a calculated and stratigic move with one goal in mind. Preventing germany from getting acces to the mediterranean. \n\nAnd as the relations between the two young superpowers quickly deteriorate, a conflict is brewing in the east. Both sides claiming the land, And neither side willing to give up. Crimea seems to become more and more like another powderkeg, waiting for the time to explode and bring another brutal war in europe"
  situations.1.a:0 "Go to the previous situation"
  situations.1.b:0 "Go to the next situation"
 
  situations.2.t:0 "The situations: Brittany"
- situations.2.d:0 "d"
+ situations.2.d:0 "To the northwestern part of france lies a country not a single person thought they would live to see, the state of Brittany. But this state, is not Breton at all, this state in an excuse, an excuse to secape the oppresion of the third reich and to taste the freedom for just a bit longer. \n\nAs it became clear that Nazi germany is not going away anytime soon, and with it stayes the oppresion and with it the Restrictions on Civil Liberties, the people of the Britianny region hatched a plan to escape. they would stage a "revolt" a "popular revolt" to declare a new country, the state of Britianny. which would be independant and neuteral. With the french army non existant, and the wermacht occupied in the east, the plan worked, and the state of britianny birthed to existence . \n\nThe stratigic value of Britianny is immense, begin virtually at the gate of europe, any country that controls brest can basically blockade the entirety of northern europe, that includes germany. And so, Britianny quickly became another contentious spot in this new order, with german troops trying to bring the disobeying region back to france, and italy doing everything it can to keep Britianny alive and functioning. And so another powderkeg evolves, waiting for the time to explode and bring another brutal war in europe"
  situations.2.a:0 "Go to the previous situation"
  situations.2.b:0 "Go to the next situation"
 
