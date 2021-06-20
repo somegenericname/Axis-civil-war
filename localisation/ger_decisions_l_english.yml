@@ -2,48 +2,48 @@
 
 
  GER_internal_factions:0 "Fate of the Reich"
- GER_internal_factions_desc:1 "German society and politics are divided into multiple factions, striving either to win the favor of the government or to stir up the masses against it. The German government must decide which of these factions can serve its interests and which pose a threat that must be eradicated, for the sake of the nation."
+ GER_internal_factions_desc:1 "The Nazi halls of power seat a rogue's gallery of characters - generals and politicians parlay with killers and psychopaths. This delicate balance can be tilted in any direction by a variety of decisions, but be warned - only one faction will come out on top."
  GER_ui_faction_header:0 "Faction"
  GER_ui_influence_header:0 "Influence"
 
- GER_INFLUENCE_TOOLTIP:0 "Influence Tooltip"
+ GER_INFLUENCE_TOOLTIP:0 "These numbers represent the percent of power each faction currently holds. §ROutsized influence by any faction will rersult in a negative spirit.§!"
 
  GER_NSDAP_name_text:0 "NSDAP"
  GER_NSDAP_influence_status:0 "[GetNSDAPInfluenceStatus]"
  GER_NSDAP_influence_amount_green:0 "[?GER.GER_NSDAP_influence|G0]"
  GER_NSDAP_influence_amount_red:0 "[?GER.GER_NSDAP_influence|R0]"
- GER_NSDAP_TOOLTIP:0 "NSDAP Tooltip"
+ GER_NSDAP_TOOLTIP:0 "The §YNational Socialist Party§! political machine hsa, with the leadership of Adolf Hitler, maintained an iron grip on the German Reich. However, with the feuhrer's growing inability to rule, the party is facing both a successor and a power crisis."
 
 
  GER_wehrmacht_name_text:0 "Wehrmacht"
  GER_wehrmacht_influence_status:0 "[GetWehrmachtInfluenceStatus]"
  GER_wehrmacht_influence_amount_green:0 "[?GER.GER_wehrmacht_influence|G0]"
 GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
- GER_WEHRMACHT_TOOLTIP:0 "Wehrmacht tooltip"
+ GER_WEHRMACHT_TOOLTIP:0 "With the growing ferocity of the war in the east, the §YWehrmacht§! suffered devastating losses in the field. With the rising of the Waffen-SS, the wehrmacht was relegated to a supporting military role, which it was by no means pleased about. With the shifting of power in nazi germany, its top brass see an opportunity to turn things around."
 
  GER_militarists_name_text:0 "Militarists"
  GER_militarists_influence_status:0 "[GetMilitaristsInfluenceStatus]"
  GER_militarists_influence_amount_green:0 "[?GER.GER_militarists_influence|G0]"
  GER_militarists_influence_amount_red:0 "[?GER.GER_militarists_influence|R0]"
- GER_MILITARISTS_TOOLTIP:0 "Militarists toolip"
+ GER_MILITARISTS_TOOLTIP:0 "The §YMilitarists§! are a strange, disparate faction, encompassing a variety of political values. They all agree on one thing - conquest is the german's last, best hope for survival. They point to italy, growing fat on its conquests while Germany floundered in the east. They have one goal - see germany at the top of the global pecking order, no matter the cost. "
 
  GER_refnaz_name_text:0 "Reformists"
  GER_refnaz_influence_status:0 "[GetRefnazInfluenceStatus]"
  GER_refnaz_influence_amount_green:0 "[?GER.GER_refnaz_influence|G0]"
  GER_refnaz_influence_amount_red:0 "[?GER.GER_refnaz_influence|R0]"
- GER_REFNAZ_TOOLTIP:0 "Refnaz tooltip"
+ GER_REFNAZ_TOOLTIP:0 "The last decade has not been kind to Germany. Despite its growing empire, much of the plunder has flowed into the coffers of the rich, and the people have been forced to make more and more sacrifices by the year. The §YReformists§! are a small cadre of officers and politicians who believe Germany must change, or be consumed from the inside out."
 
  GER_waffen_ss_name_text:0 "Waffen-SS"
  GER_waffen_ss_influence_status:0 "[GetWaffenSSInfluenceStatus]"
  GER_waffen_ss_influence_amount_green:0 "[?GER.GER_waffen_ss_influence|G0]"
  GER_waffen_ss_influence_amount_red:0 "[?GER.GER_waffen_ss_influence|R0]"
- GER_WAFFENSS_TOOLTIP:0 "waffen-ss tooltip"
+ GER_WAFFENSS_TOOLTIP:0 "Ever since the §YWaffen-SS§! was tapped to lead the final Russian offensives, recruitment steadily swelled, and now the force has acheived a rough parity to the ever-sidelined Wehrmacht. However, they are still held in sway by their founders, the S.S. They will have to choose whether to side with Himmler, or strike out on their own to become the sole army of a new Reich."
 
  GER_ss_name_text:0 "SS"
  GER_ss_influence_status:0 "[GetSSInfluenceStatus]"
  GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
  GER_ss_influence_amount_red:0 "[?GER.GER_ss_influence|R0]"
- GER_SS_TOOLTIP:0 "ss tooltip"
+ GER_SS_TOOLTIP:0 "The §YS.S.§! under the shrewd leadership of Himmler has grown into a massive organization with countless facets, with power enough to rival any current faction in Germany. However their methods are highly secretive, and they are distrusted by the average citizen. Himmler will have to win his way into the hearts of germany - through love, or through fear."
  
  GER_increase_swiss_resistance:0 "Increasing resistance"
 GER_increase_swiss_resistance_desc:0 "Despite our thorough conquest of the Swiss, there exists a strong independence movement that is growing larger by the day."

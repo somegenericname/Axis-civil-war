@@ -3120,6 +3120,59 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_infiltrate_command
+		#icon
+
+		prerequisite = {
+			focus = GER_unite_disparate_factions
+		}
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_unite_disparate_factions
+
+		completion_reward = {
+			#SS gets decisions to handicap both the NSDAP and the wehrmacht
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_control
+		#icon
+
+		prerequisite = {
+			focus = GER_infiltrate_command
+		}
+
+		prerequisite = {
+			focus = GER_himmlers_eye
+		}
+
+		
+
+		x = -2
+		y = 1
+		relative_position_id = GER_infiltrate_command
+
+		completion_reward = {
+			#final focus, if taken will ensure SS focus tree
+
+
+		}
+
+
+
+	}
+
+	focus = {
+
 		id = GER_SS_companies
 		#icon
 
@@ -3225,6 +3278,77 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_our_true_rival
+		#icon
+
+		prerequisite = {
+			focus = GER_official_waffen_SS_budget
+		}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_official_waffen_SS_budget
+
+		completion_reward = {
+			#officially declare wehrmacht our rivals (to surpass)
+			#"wehrmacht is soft, etc."
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_public_perception
+		#icon
+
+		prerequisite = {
+			focus = GER_our_true_rival
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_our_true_rival
+
+		completion_reward = {
+			#sway public to waffen throjugh marches, etc
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_sabotage
+		#icon
+
+		prerequisite = {
+			focus = GER_our_true_rival
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_our_true_rival
+
+		completion_reward = {
+			#sabotage wehrmacht to make bad
+
+		}
+
+
+
+	}
+
+	
+ 
+	
+
+	focus = {
+
 		id = GER_waffen_ss_training
 		#icon
 
@@ -3318,6 +3442,29 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_expand_our_rivalry
+		#icon
+
+		prerequisite = {focus = GER_SS_split}
+
+
+		
+
+		x = 0
+		y = 1
+		relative_position_id = GER_SS_split
+
+		completion_reward = {
+			#defines_SS as our actual rivals as well
+
+		}
+
+
+
+	}
+
 
 	focus = {
 
@@ -3356,6 +3503,32 @@ focus_tree = {
 
 		completion_reward = {
 			#get weaponry from a variety of sources
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_a_common_cause
+		#icon
+
+		prerequisite = {
+			focus =  GER_obtain_weaponry
+		}
+
+		prerequisite = {
+			focus = GER_proper_training
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = GER_obtain_weaponry
+
+		completion_reward = {
+			#Waffen_SS and Militarists make deals to benefit each of them 
 
 		}
 
