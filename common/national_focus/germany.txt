@@ -24,1455 +24,6 @@ focus_tree = {
 
 
 
-
-	####################
-	## Foreign Policy ##
-	####################
-
-	focus = {
-		id = GER_cancel_tripartite
-		icon = GFX_goal_generic_improve_relations
-		x = 30
-		y = 0
-		cost = 2
-		ai_will_do = {
-			factor = 12
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-
-			hidden_effect = { news_event = { id = news.1 hours = 24 } }
-
-			
-			add_political_power = 120
- 
-            diplomatic_relation = { country = JAP relation = guarantee active = no }
-	
-			#code so that germany guarantees japan + italy, this is like the final severing of those old relations
-			#I couldnt do this cuz theyre in different factions, but if you figure it out thatd be great
-  			}
-		}
-
-
-		focus = {
-			id = GER_enemy_of_my_enemy
-			icon = GFX_goal_GER_enemy_of_my_enemy
-			prerequisite = {focus = GER_cancel_tripartite}
-
-			x = -3
-			y = 1
-			cost = 2
-
-			relative_position_id = GER_cancel_tripartite
-
-			completion_reward = {
-
-				#unlocks alliance decisions, attempts to make alliance forays into the allies/commonwealth countries/US, 
-				#most likely unsuccessful but available
-				#for instance if later we decide to have an option for US to go natsoc or whatev
-			}
-
-
-		}
-
-		focus = {
-			id = GER_friends_in_the_east
-			icon = GFX_goal_GER_friends_in_the_east
-			prerequisite = {focus = GER_cancel_tripartite}
-
-			x = 3
-			y = 1
-			cost = 2
-
-			relative_position_id = GER_cancel_tripartite
-
-			completion_reward = {
-
-				#germany tries to reconcile with japan (decisions)
-				#also highly unsuccessful but thought we should have an option for it
-			}
-
-
-		}
-		
-	
-
-
-	####italian border section##########
-
-	focus = {
-
-		id = GER_the_true_enemy
-
-		prerequisite = {focus = GER_cancel_tripartite}
-
-		cost = 2
-		x = 0
-		y = 1
-		relative_position_id = GER_cancel_tripartite
-
-		completion_reward = {
-
-			#maybe give some kind of national spirit, definitely rejection of fascist diplomacy (cuz GER will be natsoc)
-
-		}
-
-	}
-
-	focus = {
-		id = GER_the_alpine_border
-		#icon = GFX_goal_generic_construction
-
-		available = {
-
-			NOT = {
-
-				has_idea = GER_construction_project
-			}
-			
-		}
-
-
-		prerequisite = {focus = GER_the_true_enemy}
-		x = 0
-		y = 1
-		relative_position_id = GER_the_true_enemy
-		cost = 5
-		
-		
-		completion_reward = {
-
-
-			add_timed_idea = {
-
-				idea = GER_construction_project
-				days = 35
-
-			}
-
-			custom_effect_tooltip = GER_begin_italian_forts_tt
-			hidden_effect = {
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 11618
-				instant_build = yes
-				}
-			}
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9633
-				instant_build = yes
-				}
-			}
-
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 6673
-				instant_build = yes
-				}
-			}
-
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 3622
-				instant_build = yes
-				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 658
-				instant_build = yes
-				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9600
-				instant_build = yes
-				}
-			}
-
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 636
-				instant_build = yes
-				}
-			}
-
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 3612
-				instant_build = yes
-				}
-			}
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9587
-				instant_build = yes
-				}
-			}
-
-			152 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 11612
-				instant_build = yes
-				}
-			}
-
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 3
-				province = 9646
-				instant_build = yes
-				}
-			}
-
-
-			}
-
-
-
-		}
-		
-	}
-
-	focus = {
-
-		id = GER_alpine_border_air
-
-		#icon tbd
-
-		prerequisite = {focus = GER_the_alpine_border}
-		x = -2
-		y = 1
-		relative_position_id = GER_the_alpine_border
-		cost = 2
-
-		completion_reward = {
-
-
-			add_timed_idea = {
-
-				idea = GER_airforce_buildup
-				days = 365
-
-			}
-
-
-
-			151 = {
-				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
-				}
-			}
-			151 = {
-				add_building_construction = {
-				type = anti_air_building
-				level = 2
-				instant_build = yes
-				}
-			}
-			153 = {
-				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
-				}
-			}
-			153 = {
-				add_building_construction = {
-				type = anti_air_building
-				level = 2
-				instant_build = yes
-				}
-			}
-
-			4 = {
-				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
-				}
-			}
-
-			4 = {
-				add_building_construction = {
-				type = anti_air_building
-				level = 2
-				instant_build = yes
-				}
-			}
-
-
-		}
-
-
-	}
-
-	focus = {
-		id = GER_alpine_border_extend_fortline
-
-		prerequisite = {focus = GER_the_alpine_border}
-		x = 0
-		y = 1
-		relative_position_id = GER_the_alpine_border
-		cost = 2
-
-		available = {
-
-			NOT = {
-
-				has_idea = GER_construction_project
-			}
-			
-		}
-
-		completion_reward = {
-
-
-			add_timed_idea = {
-
-				idea = GER_construction_project
-				days = 70
-
-			}
-
-			custom_effect_tooltip = GER_complete_italian_fortline_tt
-			hidden_effect = {
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 11618
-				instant_build = yes
-				}
-			}
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9633
-				instant_build = yes
-				}
-			}
-
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 6673
-				instant_build = yes
-				}
-			}
-
-			153 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 671
-				instant_build = yes
-				}
-			}
-
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3622
-				instant_build = yes
-				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 658
-				instant_build = yes
-				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9600
-				instant_build = yes
-				}
-			}
-
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3641
-				instant_build = yes
-				}
-			}
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3662
-				instant_build = yes
-				}
-			}
-
-			151 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3660
-				instant_build = yes
-				}
-			}
-
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 636
-				instant_build = yes
-				}
-			}
-
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 3612
-				instant_build = yes
-				}
-			}
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9587
-				instant_build = yes
-				}
-			}
-
-			3 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 6666
-				instant_build = yes
-				}
-			}
-
-			152 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 11612
-				instant_build = yes
-				}
-			}
-
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 9646
-				instant_build = yes
-				}
-			}
-
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 6673
-				instant_build = yes
-				}
-			}
-
-			4 = {
-				add_building_construction = {
-				type = bunker
-				level = 5
-				province = 11630
-				instant_build = yes
-				}
-			}
-		}
-	}
-
-
-	}
-
-	focus = {
-		id = GER_alpine_infrastructure
-
-		prerequisite = {focus = GER_the_alpine_border}
-
-		x = 2
-		y = 1
-		relative_position_id = GER_the_alpine_border
-		cost = 2
-
-		completion_reward = {
-
-			add_timed_idea = {
-
-				idea = GER_construction_project
-				days = 140
-
-			}
-
-			
-
-			
-
-			every_owned_state = {
-				limit = {
-					OR = {
-						state = 3
-						state = 151
-						state = 152
-						state = 153
-					}
-				}
-
-				hidden_effect ={
-					add_dynamic_modifier = { modifier = GER_alpine_tunnels }
-				}
-				custom_effect_tooltip = GER_alpine_tunnels_tt
-
-			}
-		}
-
-	}
-
-
-
-	focus = {
-		id = GER_the_swiss_resistance
-		icon = GFX_goal_GER_the_swiss_resistance
-
-		prerequisite = {focus = GER_alpine_border_extend_fortline}
-		
-		x = -3
-		y = 1
-		relative_position_id = GER_alpine_border_extend_fortline
-		cost = 2
-
-		completion_reward = {
-			#allows to deal with the swiss resistance
-			#at game start instead of 70% compliance set the provinces to have low compliance
-			#unlocks decisions that increase compliance + slow resistance
-		}
-	}
-
-	focus = {
-		id = GER_use_swiss_banks
-		icon = GFX_goal_GER_use_swiss_banks
-		prerequisite = {focus = GER_the_swiss_resistance}
-		mutually_exclusive = {focus = GER_contacts_in_yugoslavia}
-		x = 0
-		y = 1
-		relative_position_id = GER_the_swiss_resistance
-		cost = 2
-
-		completion_reward = {
-			#once swiss is cored, Germany could get a spirit to more utilize swiss banks/gold that was hidden in them
-		}
-	}
-	
-
-
-
-	focus = {
-
-		id = GER_slovenian_claims
-
-		prerequisite = {focus = GER_alpine_border_extend_fortline}
-		
-		x = 3
-		y = 1
-		relative_position_id = GER_alpine_border_extend_fortline
-		cost = 2
-
-		completion_reward = {
-
-			#starts resistance movement in slovenia
-			#will have decisions to increase resistance and arm partisans
-			#finally have a decision to revolt
-		}
-
-
-	}
-
-	focus = {
-
-		id = GER_contacts_in_yugoslavia
-		#icon tbd
-
-		prerequisite = {focus = GER_slovenian_claims}
-		mutually_exclusive = { focus = GER_use_swiss_banks}
-		x = 0
-		y = 1
-		relative_position_id = GER_slovenian_claims
-		cost = 2
-
-		completion_reward = {
-			#can elevate resistance in the rest of yugoslavia, could spread to other italian states in the region/its puppets
-		}
-	}
-
-	focus = {
-
-		id = GER_step_up_italian_border_controls
-
-		prerequisite = {focus = GER_alpine_border_extend_fortline}
-		x = 0
-		y = 3
-		relative_position_id = GER_alpine_border_extend_fortline
-		completion_reward = {
-			#will lead to an incident where war could be fought
-		}
-
-	}
-
-
-
-
-
-
-#######french border section ###########
-
-	focus = {
-
-		id = GER_the_french_border
-
-		prerequisite = {focus = GER_cancel_tripartite}
-		x = -7
-		y = 1
-
-		relative_position_id = GER_cancel_tripartite
-
-		completion_reward = {
-            27 = {
-				add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
-				}
-			}
-			33 = {
-			    add_building_construction = {
-				type = radar_station
-				level = 1
-				instant_build = yes
-				}
-			}
-		add_manpower = 15000
-			#either add forts, or give manpower, or whatever else basically stating this as a major front
-		}
-
-	}
-
-	focus = {
-		id = GER_strengthen_france
-		icon = GFX_goal_GER_strengthen_france
-		prerequisite = {focus = GER_the_french_border}
-		x = -2
-		y = 1
-		relative_position_id = GER_the_french_border
-
-		completion_reward = {
-            16 = {
-				add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-				}
-			}
-            15 = {
-				add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-				}
-			}
-			#im thinking some civvies/mils for france, also a spirit for conscription
-		}
-	}
-
-	focus = {
-		id = GER_prioritize_france
-		icon = GFX_goal_GER_strengthen_france
-		prerequisite = {focus = GER_strengthen_france}
-		mutually_exclusive = {focus = GER_prioritize_ordenstaat}
-
-		x = 0
-		y = 2
-		relative_position_id = GER_strengthen_france
-
-		completion_reward= {
-
-			#give france a "legitimate france" buff or smnth, make more loyal
-			#makes burgundy rebellious
-
-
-		}
-	}
-
-
-	focus = {
-		id = GER_sway_french_partisans
-		icon = GFX_goal_GER_strengthen_france
-		prerequisite = {focus = GER_prioritize_france}
-
-		x = 0
-		y = 1
-		relative_position_id = GER_prioritize_france
-
-		completion_reward = {
-
-			#allows germany to incite french unification ppl in occitania
-		}
-	}
-
-	focus = {
-		id = GER_strengthen_ordenstaat
-		icon = GFX_goal_GER_strengthen_ordenstaat
-		prerequisite = {focus = GER_the_french_border}
-		x = 2
-		y = 1
-		relative_position_id = GER_the_french_border
-
-		completion_reward = {
-            18 = {
-				add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-				}
-				add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-				}
-			}
-			#give civs/mils, also give burgundy a military bonus (Im thinking of burgundy as a state for an elite military force)
-		}
-
-	}
-
-	focus = {
-		id = GER_prioritize_ordenstaat
-		icon = GFX_goal_GER_strengthen_ordenstaat
-		prerequisite = {focus = GER_strengthen_ordenstaat}
-		mutually_exclusive = {focus = GER_prioritize_france}
-
-		x = 0
-		y = 2
-		relative_position_id = GER_strengthen_ordenstaat
-
-		completion_reward = {
-
-			#maybe divide east/west paris, give burgundy some of french territory
-			#make france rebellious
-		}
-	}
-
-	focus = {
-		id = GER_ss_dominant_in_burgundy
-		icon = GFX_goal_GER_strengthen_ordenstaat
-		prerequisite = {focus = GER_prioritize_ordenstaat}
-		x = 0
-		y = 1
-		relative_position_id = GER_prioritize_ordenstaat
-
-		completion_reward = {
-
-			#give burgundy a combat buff, will allow them to fight on the border of france, could lead to complete control of france? [possible idea]
-		}
-	}
-
-
-	focus = {
-
-		id = GER_buildup_french_infrastructure
-		prerequisite = {focus = GER_the_french_border}
-		prerequisite = {focus = GER_strengthen_ordenstaat
-						focus = GER_strengthen_france}
-		x = 0
-		y = 2
-		relative_position_id = GER_the_french_border
-
-		completion_reward = {
-            34 = {
-				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-				}
-			}
-            33 = {
-				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-				}
-			}
-            23 = {
-				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-				}
-			}
-			#improve infrastructure, allow france + burgundy to fight over rail preferences, which could lead to a battle between them
-		}
-
-
-	}
-
-
-	focus = {
-
-		id = GER_step_up_french_border_patrols
-
-		prerequisite = {focus = GER_buildup_french_infrastructure}
-		prerequisite = {focus = GER_prioritize_ordenstaat
-						focus = GER_prioritize_france }
-
-		x = 0
-		y = 3
-		relative_position_id = GER_buildup_french_infrastructure
-
-		completion_reward = {
-
-			#increases likelyhood of incident happening, could result in war or peaceful resolution
-		}
-
-
-	}
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-######naval war section#####
-
-
-	focus = {
-
-		id = GER_the_unspoken_war
-		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
-
-		prerequisite = {focus = GER_cancel_tripartite}
-		x = -14
-		y = 2
-
-		relative_position_id = GER_cancel_tripartite
-
-		completion_reward = {
-			#basically the idea is that german subs/surface ships are fighting both some allied ships + some italian ships
-			#there are a few accidental sinkings/collisions whatnot
-			#in this tree the germans will attempt to use their ships to sabotage italian colonies/trade with other countries
-			#this focus should give italians + germans some focus which increases naval accidents and decreases convoy efficiency (if that is possible)
-		}
-
-
-	}
-
-
-	focus = {
-
-		id = GER_the_allies
-
-		prerequisite = {focus = GER_the_unspoken_war}
-		x = -2
-		y = 1
-
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward = {
-
-			#describes how the allies are still operating in german waters and interfering with german trade
-			#might begin the creation of a "raiding" idea, that would weaken the allies
-		}
-	}
-
-	focus = {
-
-		id = GER_marina_italia
-
-		prerequisite = {focus = GER_the_unspoken_war}
-		x = 2
-		y = 1
-
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward = {
-
-			#describes how the allies are still operating in german waters and interfering with german trade
-			#might begin the creation of a "raiding" idea, that would weaken the allies
-			#raiding idea could have naval accidents, convoy loss, resource depletion
-		}
-	}
-
-	focus = {
-		id = GER_breton_port
-		icon = GFX_goal_GER_breton_port
-		prerequisite = {focus = GER_the_allies
-						focus = GER_marina_italia }
-		x = -1
-		y = 2
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward ={
-
-			#gives brittainy some economic benefits in exchange for brittainy allowing port access, boosts the "raiding" effects against both allies + italy
-		}
-
-	}
-
-	focus = {
-		id = GER_portugese_port
-		icon = GFX_goal_GER_portugese_port
-		prerequisite = {focus = GER_the_allies
-						focus = GER_marina_italia }
-
-		x = 1
-		y = 2
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward ={
-
-			#gives portugal some economic benefits in exchange for portugal allowing port access, boosts the "raiding" effects against both allies + italy
-		}
-
-	}
-
-	focus = {
-		id = GER_venezuelan_port
-		icon = GFX_goal_GER_venezuelan_port
-		prerequisite = {focus = GER_the_allies }
-
-		x = -3
-		y = 2
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward ={
-
-			#gives venezuela some economic benefits in exchange for venezuela allowing port access, boosts the "raiding" effects against only allies
-		}
-
-	}
-
-	focus = {
-		id = GER_oman_port #could be another country better situated if you can think of one
-		icon = GFX_goal_GER_oman_port
-		prerequisite = {focus = GER_marina_italia }
-
-		x = 3
-		y = 2
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward ={
-
-			#gives oman some economic benefits in exchange for oman allowing port access, boosts the "raiding" effects against only italy
-		}
-
-	}
-
-	focus = {
-
-		id = GER_formalize_raiding_strategy
-
-		prerequisite = {focus = GER_breton_port
-						focus = GER_venezuelan_port
-						focus = GER_portugese_port
-						focus = GER_oman_port}
-
-		x = 0
-		y = 3
-		relative_position_id = GER_the_unspoken_war
-
-		completion_reward = {
-
-			#stops allowing the raiding strategy to be modified
-
-		}
-
-	}
-
-	focus = {
-
-		id = GER_step_up_attacks
-
-		prerequisite = {focus = GER_formalize_raiding_strategy}
-
-		x = 0
-		y = 1
-		relative_position_id = GER_formalize_raiding_strategy
-		completion_reward = {
-
-			#will lead to war with either britain or italy, depending on which raiding things were chosen
-		}
-	}
-
-
-
-
-	### start of balkans section ###
-
-	focus = {
-		id = GER_control_of_the_balkans
-		icon = GFX_goal_GER_control_of_the_balkans
-		prerequisite = {focus = GER_cancel_tripartite}
-		x = 6
-		y = 1
-
-		relative_position_id = GER_cancel_tripartite
-
-		cost = 2
-
-		completion_reward = {
-        	4 = {
-				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 11666
-				instant_build = yes
-				}
-
-				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 3700
-				instant_build = yes
-				}
-
-				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 9661
-				instant_build = yes
-				}
-
-				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 11630
-				instant_build = yes
-				}
-			}
-			#build some forts on the balkan borders, give slovakia core on southern slovakia
-		}
-
-
-	}
-
-
-	focus = {
-		id = GER_prepare_against_hungary
-		icon = GFX_goal_GER_prepare_against_hungary
-		prerequisite = {focus = GER_control_of_the_balkans}
-
-		x = -1
-		y = 1
-
-		relative_position_id = GER_control_of_the_balkans
-
-		completion_reward = {
-
-			#unlocks coup decisions in hungary, boost natsoc and encourage economic takeover
-
-		}
-
-	}
-
-	focus = {
-		id = GER_bargain_with_slovakia
-		icon = GFX_goal_GER_bargain_with_slovakia
-		prerequisite = {focus = GER_prepare_against_hungary}
-
-		x = 0
-		y = 1
-
-		relative_position_id = GER_prepare_against_hungary
-
-		completion_reward = {
-
-			#results in negotiation with could result in slovakia being transferred for hungary in the axis, or hungary giving up S. slovakia
-
-		}
-
-	}
-
-
-
-	focus = {
-		id = GER_the_romanian_question
-		icon = GFX_goal_GER_the_romanian_question
-		prerequisite = {focus = GER_control_of_the_balkans}
-
-		x = 1
-		y = 1
-
-		relative_position_id = GER_control_of_the_balkans
-
-		completion_reward = {
-
-			#allows germany to decide whether to declare war on romania, and risk them joining the italians, or take time and sway them to their side
-		}
-	}
-
-	focus = {
-		id = GER_bargain_with_ukraine
-		icon = GFX_goal_GER_bargain_with_ukraine
-		prerequisite = {focus = GER_the_romanian_question}
-
-		x = 0
-		y = 1
-
-		relative_position_id = GER_the_romanian_question
-
-		completion_reward = {
-
-			#results in negotiation with could result in some of ukraine being transferred for romania in the axis, or romania giving up ukrainian territory
-
-		}
-
-	}
-
-	focus = {
-		id = GER_renegotiate_transylvania
-		icon = GFX_goal_GER_renegotiate_transylvania
-		prerequisite = {focus = GER_bargain_with_ukraine
-						focus = GER_bargain_with_slovakia}
-		x = 0
-		y = 3
-		relative_position_id = GER_control_of_the_balkans
-
-		completion_reward = {
-
-			#allows germany to attempt to slice up terroritory in the balkans again (italy may step in, could lead to war)
-		}
-	}
-
-	focus = {
-		id = GER_plan_new_balkan_partition
-				icon = GFX_goal_GER_plan_new_balkan_partition
-		prerequisite = {focus = GER_renegotiate_transylvania}
-
-		x = 0
-		y = 4
-
-		relative_position_id = GER_control_of_the_balkans
-
-		completion_reward = {
-
-			#allows reallocation of the balkans, with hungary getting all of yugoslavia, romania getting bulgaria and greece
-			# (italy would have to propose a better offer)
-		}
-	}
-
-	focus = {
-		id = GER_balkan_assassination
-		icon = GFX_goal_GER_balkan_assassination
-		prerequisite = {focus = GER_plan_new_balkan_partition}
-		x = 0
-		y = 5
-
-		relative_position_id = GER_control_of_the_balkans
-
-		completion_reward = {
-
-			#find some balkan nerd to kill that would start a war
-		}
-
-
-	}
-
-
-
-
-
-
-
-
-	
-
-
-
-	### start of caucasus ####
-
-	focus = {
-
-		id = GER_the_asian_front
-	
-
-	prerequisite = {focus = GER_cancel_tripartite}
-		x = 12
-		y = 2
-
-		relative_position_id = GER_cancel_tripartite
-
-		cost = 2
-
-		completion_reward = {
-			234 = {
-				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 6741
-				instant_build = yes
-				}
-			}
-			196 = {
-				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 9712
-				instant_build = yes
-				}
-			} 
-			196 = {
-				add_building_construction = {
-				type = bunker
-				level = 1
-				province = 568
-				instant_build = yes
-				}
-			}            
-			#put some forts on the caucasus border
-		}
-
-	}
-
-	focus = {
-
-		id = GER_the_soviet_rot
-
-		prerequisite = {focus = GER_the_asian_front}
-
-		x = 2
-		y = 1
-
-		relative_position_id = GER_the_asian_front
-
-		completion_reward = {
-
-        	236 = {
-				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 9753
-				instant_build = yes
-				}
-			}
-        	217 = {
-				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 3529
-				instant_build = yes
-				}
-			}
-        	239 = {
-				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 3578
-				instant_build = yes
-				}
-			}
-        	252 = {
-				add_building_construction = {
-				type = bunker
-				level = 2
-				province = 11375
-				instant_build = yes
-				}
-			}			
-		}
-	}
-
-	focus = {
-		id = GER_cross_border_raids
-
-		prerequisite = {focus = GER_the_soviet_rot}
-
-		x = 0
-		y = 1
-
-		relative_position_id = GER_the_soviet_rot
-
-		completion_reward = {
-
-			#germans can conduct border raids, in an attempt to prevent a unified USSR
-		}
-
-	}
-
-	focus = {
-
-		id = GER_caucasus_oil
-
-		prerequisite = {focus = GER_the_asian_front}
-
-		x = 0
-		y = 2
-		relative_position_id = GER_the_asian_front
-
-		completion_reward = {
-
-			#creates decisions to foment unrest in the causasus, could accidentally spread to the entire reichkommiserat
-		}
-	}
-
-	focus = {
-		id = GER_turkish_question
-		icon = GFX_goal_GER_turkish_question
-		prerequisite = {focus = GER_the_asian_front}
-
-		x = -2
-		y = 1 
-		relative_position_id = GER_the_asian_front
-
-		completion_reward = {
-
-			#gives decisions to make deals/ foment revolution in  
-		}
-	}
-
-	focus = {
-
-		id = GER_incite_armenia
-
-		prerequisite = {focus = GER_turkish_question}
-
-		x = 0
-		y = 1
-		relative_position_id = GER_turkish_question
-
-		completion_reward = {
-
-			#german-backed armenian revolt, could be joined by other middle eastern countries afraid of turkish hegemony
-		}
-	}
-
-	focus = {
-
-		id = GER_buffer_state_solution
-
-		prerequisite = {focus = GER_caucasus_oil}
-
-		mutually_exclusive = {focus = GER_nationalize_oil}
-		x = -1
-		y = 1
-		relative_position_id = GER_caucasus_oil
-
-		completion_reward = {
-
-			#creates neutral caucausus state with Germans/Italians having equal access to oil, could collapse if war 
-		}
-	}
-
-	focus = {
-
-		id = GER_nationalize_oil
-
-		prerequisite = {focus = GER_caucasus_oil}
-
-		mutually_exclusive = {focus = GER_buffer_state_solution}
-		x = 1
-		y = 1
-		relative_position_id = GER_caucasus_oil
-
-		completion_reward = {
-
-			#germany nationalizes italian oil and challenges italy
-		}
-	}
-
-	focus = {
-
-		id = GER_the_oil_incident
-
-		prerequisite = {focus = GER_nationalize_oil
-						focus = GER_buffer_state_solution}
-
-		x = 0
-		y = 2
-		relative_position_id = GER_caucasus_oil
-
-		completion_reward = {
-
-			#idea is there is an event that blows up all the oil in the caucasus and triggers an event chain where Germans + Italians have to work and find 
-			#who did it, whether there was ties between Germans/Italians, etc. (fun times) 
-		}
-	}
-
-
-	#### war tree ###
-
-	focus = {
-
-		id = GER_the_final_showdown
-		icon = GFX_focus_ger_assassinate_mussolini
-
-		prerequisite = {focus = GER_the_oil_incident
-						focus = GER_balkan_assassination
-						focus = GER_step_up_italian_border_controls
-						focus = GER_step_up_french_border_patrols
-						focus = GER_step_up_attacks}
-
-		bypass = { has_war_with = ITA }
-
-		x = 0
-		y = 2
-		relative_position_id = GER_step_up_italian_border_controls
-
-		completion_reward = {
-            create_wargoal = { type = annex_everything target = ITA }
-			#GER could be at war with italy already, in which case this focus would bypass, but otherwise completing this would give wargoal on italy
-		}
-
-	}
-
-
-
-
-
 	######################
 	## Domestic Affairs ##
 	######################
@@ -1486,7 +37,7 @@ focus_tree = {
 
 		
 
-		x = 75
+		x = 30
 		y = 0
 		
 
@@ -3120,6 +1671,59 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_infiltrate_command
+		#icon
+
+		prerequisite = {
+			focus = GER_unite_disparate_factions
+		}
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_unite_disparate_factions
+
+		completion_reward = {
+			#SS gets decisions to handicap both the NSDAP and the wehrmacht
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_control
+		#icon
+
+		prerequisite = {
+			focus = GER_infiltrate_command
+		}
+
+		prerequisite = {
+			focus = GER_himmlers_eye
+		}
+
+		
+
+		x = -2
+		y = 1
+		relative_position_id = GER_infiltrate_command
+
+		completion_reward = {
+			#final focus, if taken will ensure SS focus tree
+
+
+		}
+
+
+
+	}
+
+	focus = {
+
 		id = GER_SS_companies
 		#icon
 
@@ -3225,6 +1829,235 @@ focus_tree = {
 
 	focus = {
 
+		id = GER_our_true_rival
+		#icon
+
+		prerequisite = {
+			focus = GER_official_waffen_SS_budget
+		}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_official_waffen_SS_budget
+
+		completion_reward = {
+			#officially declare wehrmacht our rivals (to surpass)
+			#"wehrmacht is soft, etc."
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_public_perception
+		#icon
+
+		prerequisite = {
+			focus = GER_our_true_rival
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_our_true_rival
+
+		completion_reward = {
+			#sway public to waffen throjugh marches, etc
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_sabotage
+		#icon
+
+		prerequisite = {
+			focus = GER_our_true_rival
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_our_true_rival
+
+		completion_reward = {
+			#sabotage wehrmacht to make bad
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_seek_official_support
+		#icon
+
+		prerequisite = {
+			focus = GER_public_perception
+		}
+
+
+		prerequisite = {
+			focus = GER_sabotage
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_public_perception
+
+		completion_reward = {
+			#use the goodwill to make strides in the government
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_friends_in_airforce
+		#icon
+
+		
+
+
+		prerequisite = {
+			focus = GER_seek_official_support
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_seek_official_support
+
+		completion_reward = {
+			#in eastern front, waffen-SS developed closer relationship with airforce than before
+			#had to work together to deal maximum damage
+		}
+	}
+
+	focus = {
+
+		id = GER_key_bombing_targets
+		#icon
+
+		
+		prerequisite = {
+			focus = GER_friends_in_airforce
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_friends_in_airforce
+
+		completion_reward = {
+			#plan bombings by the airforce to limit movement of the enemy
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_control_radiowaves
+		#icon
+
+		
+		prerequisite = {
+			focus = GER_friends_in_airforce
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_friends_in_airforce
+
+		completion_reward = {
+			#take out radio towers, use airforce to broadcast messages
+		}
+
+
+
+	}
+
+	
+
+	focus = {
+
+		id = GER_steal_from_SS_stockpiles
+		#icon
+
+		prerequisite = {
+			focus = GER_expand_our_rivalry
+		}
+
+		prerequisite = {
+
+			focus = GER_seek_official_support
+		
+		}
+
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_expand_our_rivalry
+
+		completion_reward = {
+			#steal from SS
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_steal_from_militarist_stockpiles
+		#icon
+
+		prerequisite = {
+			focus = GER_a_common_cause
+			
+		}
+
+		prerequisite = {
+
+			focus = GER_seek_official_support
+		}
+
+		mutually_exclusive = {focus = GER_temporarily_bridge_waffen_SS}
+
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id = GER_a_common_cause
+
+		completion_reward = {
+			#steal from militarists
+		}
+
+
+
+	}
+
+
+
+	
+ 
+	
+
+	focus = {
+
 		id = GER_waffen_ss_training
 		#icon
 
@@ -3318,6 +2151,29 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_expand_our_rivalry
+		#icon
+
+		prerequisite = {focus = GER_SS_split}
+
+
+		
+
+		x = 0
+		y = 1
+		relative_position_id = GER_SS_split
+
+		completion_reward = {
+			#defines_SS as our actual rivals as well
+
+		}
+
+
+
+	}
+
 
 	focus = {
 
@@ -3362,6 +2218,62 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_a_common_cause
+		#icon
+
+		prerequisite = {
+			focus =  GER_obtain_weaponry
+		}
+
+		prerequisite = {
+			focus = GER_proper_training
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = GER_obtain_weaponry
+
+		completion_reward = {
+			#Waffen_SS and Militarists make deals to benefit each of them 
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_power
+		#icon
+
+		prerequisite = {focus = GER_steal_from_SS_stockpiles}
+
+		prerequisite = {focus = GER_steal_from_militarist_stockpiles}
+
+		prerequisite = {focus = GER_key_bombing_targets}
+
+		prerequisite = {focus = GER_control_radiowaves}
+
+		
+
+		x = 0
+		y = 2
+		relative_position_id = GER_friends_in_airforce
+
+		completion_reward = {
+			#Waffen_SS and Militarists make deals to benefit each of them 
+
+		}
+
+
+
+	}
+
+
 
 
 
@@ -3416,11 +2328,9 @@ focus_tree = {
 
 	}
 
-
-
 	focus = {
 
-		id = GER_the_technology
+		id = GER_we_need_an_army
 		#icon
 
 		prerequisite = {
@@ -3432,7 +2342,145 @@ focus_tree = {
 		relative_position_id = GER_methods_of_victory
 
 		completion_reward = {
+			#the army has had a lot of losses, some are not sure if they can trust us with their lives, we will earn that trust
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_connections
+		#icon
+
+		prerequisite = {
+			focus = GER_we_need_an_army
+		}
+
+		x = -1
+		y = 2
+		relative_position_id = GER_we_need_an_army
+
+		completion_reward = {
+			#connect with the army
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_temporarily_bridge_waffen_SS
+		#icon
+
+		prerequisite = {
+			focus = GER_wehrmacht_connections
+		}
+
+		mutually_exclusive = { focus = GER_steal_from_militarist_stockpiles}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_wehrmacht_connections
+
+		completion_reward = {
+			#getting waffen-ss and wehrmacht on our side will be difficult, but we must accomplish it, else there will be a bloodbath in the streets
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_waffen_exercises
+		#icon
+
+		prerequisite = {
+			focus = GER_temporarily_bridge_waffen_SS
+		}
+
+
+		x = 1
+		y = 1
+		relative_position_id = GER_temporarily_bridge_waffen_SS
+
+		completion_reward = {
+			#make them get along plz
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_the_technology
+		#icon
+
+		prerequisite = {
+			focus = GER_methods_of_victory
+			focus = GER_define_the_enemy
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_methods_of_victory
+
+		completion_reward = {
 			#talks about increasing R&D spending
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wunderwaffe
+		#icon
+
+		prerequisite = {
+			focus = GER_the_technology
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_the_technology
+
+		completion_reward = {
+			#talks about increasing R&D spending
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_theory_and_application
+		#icon
+
+		prerequisite = {
+			focus = GER_wunderwaffe
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_wunderwaffe
+
+		completion_reward = {
+			#bring military into workroom and see if ideas have actual merits
 
 		}
 
@@ -3474,7 +2522,7 @@ focus_tree = {
 			focus = GER_propaganda_warmongering
 		}
 
-		x = 3
+		x = 2
 		y = 1
 		relative_position_id = GER_propaganda_warmongering
 
@@ -3486,6 +2534,1602 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_widen_circle_of_trust
+		#icon
+
+		prerequisite = {
+			focus = GER_define_the_enemy
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = GER_define_the_enemy
+
+		completion_reward = {
+			#begin to build a broad coalition
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_corporate_support
+		#icon
+
+		prerequisite = {
+			focus = GER_widen_circle_of_trust
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_widen_circle_of_trust
+
+		completion_reward = {
+			#corporations helped germany rise to power once, they will be more than pleased to do so again.
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_united_militarist_coalition
+		#icon
+
+		prerequisite = {
+			focus = GER_corporate_support
+		}
+
+		prerequisite = {
+			focus = GER_wehrmacht_connections
+		}
+
+		x = -3
+		y = 1
+		relative_position_id = GER_corporate_support
+
+		completion_reward = {
+			#get all the bois in on this one
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_political_support
+		#icon
+
+		prerequisite = {
+			focus = GER_united_militarist_coalition
+		}
+
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_united_militarist_coalition
+
+		completion_reward = {
+			#get enough politicians to be cool
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_prepare_for_battle_with_SS
+		#icon
+
+		prerequisite = {
+			focus = GER_united_militarist_coalition
+		}
+
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_united_militarist_coalition
+
+		completion_reward = {
+			#SS aint coming, fuck em up
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_conquest
+		#icon
+
+		prerequisite = {
+			focus = GER_prepare_for_battle_with_SS
+		}
+
+		prerequisite = {
+			focus = GER_political_support
+		}
+
+		prerequisite = {
+			focus = GER_wehrmacht_waffen_exercises
+		}
+
+
+
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_political_support
+
+		completion_reward = {
+			#go go go
+
+		}
+
+
+
+	}
+
+	####################
+	## Foreign Policy ##
+	####################
+
+	focus = {
+		id = GER_cancel_tripartite
+		icon = GFX_goal_generic_improve_relations
+		x = 75
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+			hidden_effect = { news_event = { id = news.1 hours = 24 } }
+
+			
+			add_political_power = 120
+ 
+            diplomatic_relation = { country = JAP relation = guarantee active = no }
+	
+			#code so that germany guarantees japan + italy, this is like the final severing of those old relations
+			#I couldnt do this cuz theyre in different factions, but if you figure it out thatd be great
+  			}
+		}
+
+
+		focus = {
+			id = GER_enemy_of_my_enemy
+			icon = GFX_goal_GER_enemy_of_my_enemy
+			prerequisite = {focus = GER_cancel_tripartite}
+
+			x = -3
+			y = 1
+			cost = 2
+
+			relative_position_id = GER_cancel_tripartite
+
+			completion_reward = {
+
+				#unlocks alliance decisions, attempts to make alliance forays into the allies/commonwealth countries/US, 
+				#most likely unsuccessful but available
+				#for instance if later we decide to have an option for US to go natsoc or whatev
+			}
+
+
+		}
+
+		focus = {
+			id = GER_friends_in_the_east
+			icon = GFX_goal_GER_friends_in_the_east
+			prerequisite = {focus = GER_cancel_tripartite}
+
+			x = 3
+			y = 1
+			cost = 2
+
+			relative_position_id = GER_cancel_tripartite
+
+			completion_reward = {
+
+				#germany tries to reconcile with japan (decisions)
+				#also highly unsuccessful but thought we should have an option for it
+			}
+
+
+		}
+		
+	
+
+
+	####italian border section##########
+
+	focus = {
+
+		id = GER_the_true_enemy
+
+		prerequisite = {focus = GER_cancel_tripartite}
+
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = GER_cancel_tripartite
+
+		completion_reward = {
+
+			#maybe give some kind of national spirit, definitely rejection of fascist diplomacy (cuz GER will be natsoc)
+
+		}
+
+	}
+
+	focus = {
+		id = GER_the_alpine_border
+		#icon = GFX_goal_generic_construction
+
+		available = {
+
+			NOT = {
+
+				has_idea = GER_construction_project
+			}
+			
+		}
+
+
+		prerequisite = {focus = GER_the_true_enemy}
+		x = 0
+		y = 1
+		relative_position_id = GER_the_true_enemy
+		cost = 5
+		
+		
+		completion_reward = {
+
+
+			add_timed_idea = {
+
+				idea = GER_construction_project
+				days = 35
+
+			}
+
+			custom_effect_tooltip = GER_begin_italian_forts_tt
+			hidden_effect = {
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 11618
+				instant_build = yes
+				}
+			}
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 9633
+				instant_build = yes
+				}
+			}
+
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 6673
+				instant_build = yes
+				}
+			}
+
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 3622
+				instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 658
+				instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 9600
+				instant_build = yes
+				}
+			}
+
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 636
+				instant_build = yes
+				}
+			}
+
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 3612
+				instant_build = yes
+				}
+			}
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 9587
+				instant_build = yes
+				}
+			}
+
+			152 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 11612
+				instant_build = yes
+				}
+			}
+
+			4 = {
+				add_building_construction = {
+				type = bunker
+				level = 3
+				province = 9646
+				instant_build = yes
+				}
+			}
+
+
+			}
+
+
+
+		}
+		
+	}
+
+	focus = {
+
+		id = GER_alpine_border_air
+
+		#icon tbd
+
+		prerequisite = {focus = GER_the_alpine_border}
+		x = -2
+		y = 1
+		relative_position_id = GER_the_alpine_border
+		cost = 2
+
+		completion_reward = {
+
+
+			add_timed_idea = {
+
+				idea = GER_airforce_buildup
+				days = 365
+
+			}
+
+
+
+			151 = {
+				add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+				}
+			}
+			153 = {
+				add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+			153 = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+				}
+			}
+
+			4 = {
+				add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+
+			4 = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+				}
+			}
+
+
+		}
+
+
+	}
+
+	focus = {
+		id = GER_alpine_border_extend_fortline
+
+		prerequisite = {focus = GER_the_alpine_border}
+		x = 0
+		y = 1
+		relative_position_id = GER_the_alpine_border
+		cost = 2
+
+		available = {
+
+			NOT = {
+
+				has_idea = GER_construction_project
+			}
+			
+		}
+
+		completion_reward = {
+
+
+			add_timed_idea = {
+
+				idea = GER_construction_project
+				days = 70
+
+			}
+
+			custom_effect_tooltip = GER_complete_italian_fortline_tt
+			hidden_effect = {
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 11618
+				instant_build = yes
+				}
+			}
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 9633
+				instant_build = yes
+				}
+			}
+
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 6673
+				instant_build = yes
+				}
+			}
+
+			153 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 671
+				instant_build = yes
+				}
+			}
+
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 3622
+				instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 658
+				instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 9600
+				instant_build = yes
+				}
+			}
+
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 3641
+				instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 3662
+				instant_build = yes
+				}
+			}
+
+			151 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 3660
+				instant_build = yes
+				}
+			}
+
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 636
+				instant_build = yes
+				}
+			}
+
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 3612
+				instant_build = yes
+				}
+			}
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 9587
+				instant_build = yes
+				}
+			}
+
+			3 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 6666
+				instant_build = yes
+				}
+			}
+
+			152 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 11612
+				instant_build = yes
+				}
+			}
+
+			4 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 9646
+				instant_build = yes
+				}
+			}
+
+			4 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 6673
+				instant_build = yes
+				}
+			}
+
+			4 = {
+				add_building_construction = {
+				type = bunker
+				level = 5
+				province = 11630
+				instant_build = yes
+				}
+			}
+		}
+	}
+
+
+	}
+
+	focus = {
+		id = GER_alpine_infrastructure
+
+		prerequisite = {focus = GER_the_alpine_border}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_the_alpine_border
+		cost = 2
+
+		completion_reward = {
+
+			add_timed_idea = {
+
+				idea = GER_construction_project
+				days = 140
+
+			}
+
+			
+
+			
+
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 3
+						state = 151
+						state = 152
+						state = 153
+					}
+				}
+
+				hidden_effect ={
+					add_dynamic_modifier = { modifier = GER_alpine_tunnels }
+				}
+				custom_effect_tooltip = GER_alpine_tunnels_tt
+
+			}
+		}
+
+	}
+
+
+
+	focus = {
+		id = GER_the_swiss_resistance
+		icon = GFX_goal_GER_the_swiss_resistance
+
+		prerequisite = {focus = GER_alpine_border_extend_fortline}
+		
+		x = -3
+		y = 1
+		relative_position_id = GER_alpine_border_extend_fortline
+		cost = 2
+
+		completion_reward = {
+			#allows to deal with the swiss resistance
+			#at game start instead of 70% compliance set the provinces to have low compliance
+			#unlocks decisions that increase compliance + slow resistance
+		}
+	}
+
+	focus = {
+		id = GER_use_swiss_banks
+		icon = GFX_goal_GER_use_swiss_banks
+		prerequisite = {focus = GER_the_swiss_resistance}
+		mutually_exclusive = {focus = GER_contacts_in_yugoslavia}
+		x = 0
+		y = 1
+		relative_position_id = GER_the_swiss_resistance
+		cost = 2
+
+		completion_reward = {
+			#once swiss is cored, Germany could get a spirit to more utilize swiss banks/gold that was hidden in them
+		}
+	}
+	
+
+
+
+	focus = {
+
+		id = GER_slovenian_claims
+
+		prerequisite = {focus = GER_alpine_border_extend_fortline}
+		
+		x = 3
+		y = 1
+		relative_position_id = GER_alpine_border_extend_fortline
+		cost = 2
+
+		completion_reward = {
+
+			#starts resistance movement in slovenia
+			#will have decisions to increase resistance and arm partisans
+			#finally have a decision to revolt
+		}
+
+
+	}
+
+	focus = {
+
+		id = GER_contacts_in_yugoslavia
+		#icon tbd
+
+		prerequisite = {focus = GER_slovenian_claims}
+		mutually_exclusive = { focus = GER_use_swiss_banks}
+		x = 0
+		y = 1
+		relative_position_id = GER_slovenian_claims
+		cost = 2
+
+		completion_reward = {
+			#can elevate resistance in the rest of yugoslavia, could spread to other italian states in the region/its puppets
+		}
+	}
+
+	focus = {
+
+		id = GER_step_up_italian_border_controls
+
+		prerequisite = {focus = GER_alpine_border_extend_fortline}
+		x = 0
+		y = 3
+		relative_position_id = GER_alpine_border_extend_fortline
+		completion_reward = {
+			#will lead to an incident where war could be fought
+		}
+
+	}
+
+
+
+
+
+
+#######french border section ###########
+
+	focus = {
+
+		id = GER_the_french_border
+
+		prerequisite = {focus = GER_cancel_tripartite}
+		x = -7
+		y = 1
+
+		relative_position_id = GER_cancel_tripartite
+
+		completion_reward = {
+            27 = {
+				add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+			33 = {
+			    add_building_construction = {
+				type = radar_station
+				level = 1
+				instant_build = yes
+				}
+			}
+		add_manpower = 15000
+			#either add forts, or give manpower, or whatever else basically stating this as a major front
+		}
+
+	}
+
+	focus = {
+		id = GER_strengthen_france
+		icon = GFX_goal_GER_strengthen_france
+		prerequisite = {focus = GER_the_french_border}
+		x = -2
+		y = 1
+		relative_position_id = GER_the_french_border
+
+		completion_reward = {
+            16 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
+            15 = {
+				add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			#im thinking some civvies/mils for france, also a spirit for conscription
+		}
+	}
+
+	focus = {
+		id = GER_prioritize_france
+		icon = GFX_goal_GER_strengthen_france
+		prerequisite = {focus = GER_strengthen_france}
+		mutually_exclusive = {focus = GER_prioritize_ordenstaat}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_strengthen_france
+
+		completion_reward= {
+
+			#give france a "legitimate france" buff or smnth, make more loyal
+			#makes burgundy rebellious
+
+
+		}
+	}
+
+
+	focus = {
+		id = GER_sway_french_partisans
+		icon = GFX_goal_GER_strengthen_france
+		prerequisite = {focus = GER_prioritize_france}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_prioritize_france
+
+		completion_reward = {
+
+			#allows germany to incite french unification ppl in occitania
+		}
+	}
+
+	focus = {
+		id = GER_strengthen_ordenstaat
+		icon = GFX_goal_GER_strengthen_ordenstaat
+		prerequisite = {focus = GER_the_french_border}
+		x = 2
+		y = 1
+		relative_position_id = GER_the_french_border
+
+		completion_reward = {
+            18 = {
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+				add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			#give civs/mils, also give burgundy a military bonus (Im thinking of burgundy as a state for an elite military force)
+		}
+
+	}
+
+	focus = {
+		id = GER_prioritize_ordenstaat
+		icon = GFX_goal_GER_strengthen_ordenstaat
+		prerequisite = {focus = GER_strengthen_ordenstaat}
+		mutually_exclusive = {focus = GER_prioritize_france}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_strengthen_ordenstaat
+
+		completion_reward = {
+
+			#maybe divide east/west paris, give burgundy some of french territory
+			#make france rebellious
+		}
+	}
+
+	focus = {
+		id = GER_ss_dominant_in_burgundy
+		icon = GFX_goal_GER_strengthen_ordenstaat
+		prerequisite = {focus = GER_prioritize_ordenstaat}
+		x = 0
+		y = 1
+		relative_position_id = GER_prioritize_ordenstaat
+
+		completion_reward = {
+
+			#give burgundy a combat buff, will allow them to fight on the border of france, could lead to complete control of france? [possible idea]
+		}
+	}
+
+
+	focus = {
+
+		id = GER_buildup_french_infrastructure
+		prerequisite = {focus = GER_the_french_border}
+		prerequisite = {focus = GER_strengthen_ordenstaat
+						focus = GER_strengthen_france}
+		x = 0
+		y = 2
+		relative_position_id = GER_the_french_border
+
+		completion_reward = {
+            34 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+            33 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+            23 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+			#improve infrastructure, allow france + burgundy to fight over rail preferences, which could lead to a battle between them
+		}
+
+
+	}
+
+
+	focus = {
+
+		id = GER_step_up_french_border_patrols
+
+		prerequisite = {focus = GER_buildup_french_infrastructure}
+		prerequisite = {focus = GER_prioritize_ordenstaat
+						focus = GER_prioritize_france }
+
+		x = 0
+		y = 3
+		relative_position_id = GER_buildup_french_infrastructure
+
+		completion_reward = {
+
+			#increases likelyhood of incident happening, could result in war or peaceful resolution
+		}
+
+
+	}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+######naval war section#####
+
+
+	focus = {
+
+		id = GER_the_unspoken_war
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+
+		prerequisite = {focus = GER_cancel_tripartite}
+		x = -14
+		y = 2
+
+		relative_position_id = GER_cancel_tripartite
+
+		completion_reward = {
+			#basically the idea is that german subs/surface ships are fighting both some allied ships + some italian ships
+			#there are a few accidental sinkings/collisions whatnot
+			#in this tree the germans will attempt to use their ships to sabotage italian colonies/trade with other countries
+			#this focus should give italians + germans some focus which increases naval accidents and decreases convoy efficiency (if that is possible)
+		}
+
+
+	}
+
+
+	focus = {
+
+		id = GER_the_allies
+
+		prerequisite = {focus = GER_the_unspoken_war}
+		x = -2
+		y = 1
+
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward = {
+
+			#describes how the allies are still operating in german waters and interfering with german trade
+			#might begin the creation of a "raiding" idea, that would weaken the allies
+		}
+	}
+
+	focus = {
+
+		id = GER_marina_italia
+
+		prerequisite = {focus = GER_the_unspoken_war}
+		x = 2
+		y = 1
+
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward = {
+
+			#describes how the allies are still operating in german waters and interfering with german trade
+			#might begin the creation of a "raiding" idea, that would weaken the allies
+			#raiding idea could have naval accidents, convoy loss, resource depletion
+		}
+	}
+
+	focus = {
+		id = GER_breton_port
+		icon = GFX_goal_GER_breton_port
+		prerequisite = {focus = GER_the_allies
+						focus = GER_marina_italia }
+		x = -1
+		y = 2
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward ={
+
+			#gives brittainy some economic benefits in exchange for brittainy allowing port access, boosts the "raiding" effects against both allies + italy
+		}
+
+	}
+
+	focus = {
+		id = GER_portugese_port
+		icon = GFX_goal_GER_portugese_port
+		prerequisite = {focus = GER_the_allies
+						focus = GER_marina_italia }
+
+		x = 1
+		y = 2
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward ={
+
+			#gives portugal some economic benefits in exchange for portugal allowing port access, boosts the "raiding" effects against both allies + italy
+		}
+
+	}
+
+	focus = {
+		id = GER_venezuelan_port
+		icon = GFX_goal_GER_venezuelan_port
+		prerequisite = {focus = GER_the_allies }
+
+		x = -3
+		y = 2
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward ={
+
+			#gives venezuela some economic benefits in exchange for venezuela allowing port access, boosts the "raiding" effects against only allies
+		}
+
+	}
+
+	focus = {
+		id = GER_oman_port #could be another country better situated if you can think of one
+		icon = GFX_goal_GER_oman_port
+		prerequisite = {focus = GER_marina_italia }
+
+		x = 3
+		y = 2
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward ={
+
+			#gives oman some economic benefits in exchange for oman allowing port access, boosts the "raiding" effects against only italy
+		}
+
+	}
+
+	focus = {
+
+		id = GER_formalize_raiding_strategy
+
+		prerequisite = {focus = GER_breton_port
+						focus = GER_venezuelan_port
+						focus = GER_portugese_port
+						focus = GER_oman_port}
+
+		x = 0
+		y = 3
+		relative_position_id = GER_the_unspoken_war
+
+		completion_reward = {
+
+			#stops allowing the raiding strategy to be modified
+
+		}
+
+	}
+
+	focus = {
+
+		id = GER_step_up_attacks
+
+		prerequisite = {focus = GER_formalize_raiding_strategy}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_formalize_raiding_strategy
+		completion_reward = {
+
+			#will lead to war with either britain or italy, depending on which raiding things were chosen
+		}
+	}
+
+
+
+
+	### start of balkans section ###
+
+	focus = {
+		id = GER_control_of_the_balkans
+		icon = GFX_goal_GER_control_of_the_balkans
+		prerequisite = {focus = GER_cancel_tripartite}
+		x = 6
+		y = 1
+
+		relative_position_id = GER_cancel_tripartite
+
+		cost = 2
+
+		completion_reward = {
+        	4 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 11666
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 3700
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 9661
+				instant_build = yes
+				}
+
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 11630
+				instant_build = yes
+				}
+			}
+			#build some forts on the balkan borders, give slovakia core on southern slovakia
+		}
+
+
+	}
+
+
+	focus = {
+		id = GER_prepare_against_hungary
+		icon = GFX_goal_GER_prepare_against_hungary
+		prerequisite = {focus = GER_control_of_the_balkans}
+
+		x = -1
+		y = 1
+
+		relative_position_id = GER_control_of_the_balkans
+
+		completion_reward = {
+
+			#unlocks coup decisions in hungary, boost natsoc and encourage economic takeover
+
+		}
+
+	}
+
+	focus = {
+		id = GER_bargain_with_slovakia
+		icon = GFX_goal_GER_bargain_with_slovakia
+		prerequisite = {focus = GER_prepare_against_hungary}
+
+		x = 0
+		y = 1
+
+		relative_position_id = GER_prepare_against_hungary
+
+		completion_reward = {
+
+			#results in negotiation with could result in slovakia being transferred for hungary in the axis, or hungary giving up S. slovakia
+
+		}
+
+	}
+
+
+
+	focus = {
+		id = GER_the_romanian_question
+		icon = GFX_goal_GER_the_romanian_question
+		prerequisite = {focus = GER_control_of_the_balkans}
+
+		x = 1
+		y = 1
+
+		relative_position_id = GER_control_of_the_balkans
+
+		completion_reward = {
+
+			#allows germany to decide whether to declare war on romania, and risk them joining the italians, or take time and sway them to their side
+		}
+	}
+
+	focus = {
+		id = GER_bargain_with_ukraine
+		icon = GFX_goal_GER_bargain_with_ukraine
+		prerequisite = {focus = GER_the_romanian_question}
+
+		x = 0
+		y = 1
+
+		relative_position_id = GER_the_romanian_question
+
+		completion_reward = {
+
+			#results in negotiation with could result in some of ukraine being transferred for romania in the axis, or romania giving up ukrainian territory
+
+		}
+
+	}
+
+	focus = {
+		id = GER_renegotiate_transylvania
+		icon = GFX_goal_GER_renegotiate_transylvania
+		prerequisite = {focus = GER_bargain_with_ukraine
+						focus = GER_bargain_with_slovakia}
+		x = 0
+		y = 3
+		relative_position_id = GER_control_of_the_balkans
+
+		completion_reward = {
+
+			#allows germany to attempt to slice up terroritory in the balkans again (italy may step in, could lead to war)
+		}
+	}
+
+	focus = {
+		id = GER_plan_new_balkan_partition
+				icon = GFX_goal_GER_plan_new_balkan_partition
+		prerequisite = {focus = GER_renegotiate_transylvania}
+
+		x = 0
+		y = 4
+
+		relative_position_id = GER_control_of_the_balkans
+
+		completion_reward = {
+
+			#allows reallocation of the balkans, with hungary getting all of yugoslavia, romania getting bulgaria and greece
+			# (italy would have to propose a better offer)
+		}
+	}
+
+	focus = {
+		id = GER_balkan_assassination
+		icon = GFX_goal_GER_balkan_assassination
+		prerequisite = {focus = GER_plan_new_balkan_partition}
+		x = 0
+		y = 5
+
+		relative_position_id = GER_control_of_the_balkans
+
+		completion_reward = {
+
+			#find some balkan nerd to kill that would start a war
+		}
+
+
+	}
+
+
+
+
+
+
+
+
+	
+
+
+
+	### start of caucasus ####
+
+	focus = {
+
+		id = GER_the_asian_front
+	
+
+	prerequisite = {focus = GER_cancel_tripartite}
+		x = 12
+		y = 2
+
+		relative_position_id = GER_cancel_tripartite
+
+		cost = 2
+
+		completion_reward = {
+			234 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 6741
+				instant_build = yes
+				}
+			}
+			196 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 9712
+				instant_build = yes
+				}
+			} 
+			196 = {
+				add_building_construction = {
+				type = bunker
+				level = 1
+				province = 568
+				instant_build = yes
+				}
+			}            
+			#put some forts on the caucasus border
+		}
+
+	}
+
+	focus = {
+
+		id = GER_the_soviet_rot
+
+		prerequisite = {focus = GER_the_asian_front}
+
+		x = 2
+		y = 1
+
+		relative_position_id = GER_the_asian_front
+
+		completion_reward = {
+
+        	236 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 9753
+				instant_build = yes
+				}
+			}
+        	217 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 3529
+				instant_build = yes
+				}
+			}
+        	239 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 3578
+				instant_build = yes
+				}
+			}
+        	252 = {
+				add_building_construction = {
+				type = bunker
+				level = 2
+				province = 11375
+				instant_build = yes
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = GER_cross_border_raids
+
+		prerequisite = {focus = GER_the_soviet_rot}
+
+		x = 0
+		y = 1
+
+		relative_position_id = GER_the_soviet_rot
+
+		completion_reward = {
+
+			#germans can conduct border raids, in an attempt to prevent a unified USSR
+		}
+
+	}
+
+	focus = {
+
+		id = GER_caucasus_oil
+
+		prerequisite = {focus = GER_the_asian_front}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_the_asian_front
+
+		completion_reward = {
+
+			#creates decisions to foment unrest in the causasus, could accidentally spread to the entire reichkommiserat
+		}
+	}
+
+	focus = {
+		id = GER_turkish_question
+		icon = GFX_goal_GER_turkish_question
+		prerequisite = {focus = GER_the_asian_front}
+
+		x = -2
+		y = 1 
+		relative_position_id = GER_the_asian_front
+
+		completion_reward = {
+
+			#gives decisions to make deals/ foment revolution in  
+		}
+	}
+
+	focus = {
+
+		id = GER_incite_armenia
+
+		prerequisite = {focus = GER_turkish_question}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_turkish_question
+
+		completion_reward = {
+
+			#german-backed armenian revolt, could be joined by other middle eastern countries afraid of turkish hegemony
+		}
+	}
+
+	focus = {
+
+		id = GER_buffer_state_solution
+
+		prerequisite = {focus = GER_caucasus_oil}
+
+		mutually_exclusive = {focus = GER_nationalize_oil}
+		x = -1
+		y = 1
+		relative_position_id = GER_caucasus_oil
+
+		completion_reward = {
+
+			#creates neutral caucausus state with Germans/Italians having equal access to oil, could collapse if war 
+		}
+	}
+
+	focus = {
+
+		id = GER_nationalize_oil
+
+		prerequisite = {focus = GER_caucasus_oil}
+
+		mutually_exclusive = {focus = GER_buffer_state_solution}
+		x = 1
+		y = 1
+		relative_position_id = GER_caucasus_oil
+
+		completion_reward = {
+
+			#germany nationalizes italian oil and challenges italy
+		}
+	}
+
+	focus = {
+
+		id = GER_the_oil_incident
+
+		prerequisite = {focus = GER_nationalize_oil
+						focus = GER_buffer_state_solution}
+
+		x = 0
+		y = 2
+		relative_position_id = GER_caucasus_oil
+
+		completion_reward = {
+
+			#idea is there is an event that blows up all the oil in the caucasus and triggers an event chain where Germans + Italians have to work and find 
+			#who did it, whether there was ties between Germans/Italians, etc. (fun times) 
+		}
+	}
+
+
+	#### war tree ###
+
+	focus = {
+
+		id = GER_the_final_showdown
+		icon = GFX_focus_ger_assassinate_mussolini
+
+		prerequisite = {focus = GER_the_oil_incident
+						focus = GER_balkan_assassination
+						focus = GER_step_up_italian_border_controls
+						focus = GER_step_up_french_border_patrols
+						focus = GER_step_up_attacks}
+
+		bypass = { has_war_with = ITA }
+
+		x = 0
+		y = 2
+		relative_position_id = GER_step_up_italian_border_controls
+
+		completion_reward = {
+            create_wargoal = { type = annex_everything target = ITA }
+			#GER could be at war with italy already, in which case this focus would bypass, but otherwise completing this would give wargoal on italy
+		}
+
+	}
+
+
+
 
 
 
