@@ -32,8 +32,8 @@ focus_tree = {
 	focus = {
 		id = GER_cancel_tripartite
 		icon = GFX_goal_generic_improve_relations
-		x = 30
-		y = 0
+		x = 75
+		y = 2
 		cost = 2
 		ai_will_do = {
 			factor = 12
@@ -1486,7 +1486,7 @@ focus_tree = {
 
 		
 
-		x = 75
+		x = 30
 		y = 0
 		
 
@@ -3482,6 +3482,8 @@ focus_tree = {
 			focus = GER_seek_official_support
 		}
 
+		mutually_exclusive = {focus = GER_temporarily_bridge_waffen_SS}
+
 
 		
 
@@ -3694,7 +3696,7 @@ focus_tree = {
 
 	focus = {
 
-		id = GER_for_glory
+		id = GER_for_power
 		#icon
 
 		prerequisite = {focus = GER_steal_from_SS_stockpiles}
@@ -3775,11 +3777,9 @@ focus_tree = {
 
 	}
 
-
-
 	focus = {
 
-		id = GER_the_technology
+		id = GER_we_need_an_army
 		#icon
 
 		prerequisite = {
@@ -3791,7 +3791,145 @@ focus_tree = {
 		relative_position_id = GER_methods_of_victory
 
 		completion_reward = {
+			#the army has had a lot of losses, some are not sure if they can trust us with their lives, we will earn that trust
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_connections
+		#icon
+
+		prerequisite = {
+			focus = GER_we_need_an_army
+		}
+
+		x = -1
+		y = 2
+		relative_position_id = GER_we_need_an_army
+
+		completion_reward = {
+			#connect with the army
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_temporarily_bridge_waffen_SS
+		#icon
+
+		prerequisite = {
+			focus = GER_wehrmacht_connections
+		}
+
+		mutually_exclusive = { focus = GER_steal_from_militarist_stockpiles}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_wehrmacht_connections
+
+		completion_reward = {
+			#getting waffen-ss and wehrmacht on our side will be difficult, but we must accomplish it, else there will be a bloodbath in the streets
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wehrmacht_waffen_exercises
+		#icon
+
+		prerequisite = {
+			focus = GER_temporarily_bridge_waffen_SS
+		}
+
+
+		x = 1
+		y = 1
+		relative_position_id = GER_temporarily_bridge_waffen_SS
+
+		completion_reward = {
+			#make them get along plz
+
+		}
+
+
+
+	}
+
+
+
+	focus = {
+
+		id = GER_the_technology
+		#icon
+
+		prerequisite = {
+			focus = GER_methods_of_victory
+			focus = GER_define_the_enemy
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = GER_methods_of_victory
+
+		completion_reward = {
 			#talks about increasing R&D spending
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_wunderwaffe
+		#icon
+
+		prerequisite = {
+			focus = GER_the_technology
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_the_technology
+
+		completion_reward = {
+			#talks about increasing R&D spending
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_theory_and_application
+		#icon
+
+		prerequisite = {
+			focus = GER_wunderwaffe
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_wunderwaffe
+
+		completion_reward = {
+			#bring military into workroom and see if ideas have actual merits
 
 		}
 
@@ -3833,12 +3971,161 @@ focus_tree = {
 			focus = GER_propaganda_warmongering
 		}
 
-		x = 3
+		x = 2
 		y = 1
 		relative_position_id = GER_propaganda_warmongering
 
 		completion_reward = {
 			#further warmongering
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_widen_circle_of_trust
+		#icon
+
+		prerequisite = {
+			focus = GER_define_the_enemy
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = GER_define_the_enemy
+
+		completion_reward = {
+			#begin to build a broad coalition
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_corporate_support
+		#icon
+
+		prerequisite = {
+			focus = GER_widen_circle_of_trust
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_widen_circle_of_trust
+
+		completion_reward = {
+			#corporations helped germany rise to power once, they will be more than pleased to do so again.
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_united_militarist_coalition
+		#icon
+
+		prerequisite = {
+			focus = GER_corporate_support
+		}
+
+		prerequisite = {
+			focus = GER_wehrmacht_connections
+		}
+
+		x = -3
+		y = 1
+		relative_position_id = GER_corporate_support
+
+		completion_reward = {
+			#get all the bois in on this one
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_political_support
+		#icon
+
+		prerequisite = {
+			focus = GER_united_militarist_coalition
+		}
+
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_united_militarist_coalition
+
+		completion_reward = {
+			#get enough politicians to be cool
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_prepare_for_battle_with_SS
+		#icon
+
+		prerequisite = {
+			focus = GER_united_militarist_coalition
+		}
+
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_united_militarist_coalition
+
+		completion_reward = {
+			#SS aint coming, fuck em up
+
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_for_conquest
+		#icon
+
+		prerequisite = {
+			focus = GER_prepare_for_battle_with_SS
+		}
+
+		prerequisite = {
+			focus = GER_political_support
+		}
+
+		prerequisite = {
+			focus = GER_wehrmacht_waffen_exercises
+		}
+
+
+
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_political_support
+
+		completion_reward = {
+			#go go go
 
 		}
 
