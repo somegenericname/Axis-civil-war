@@ -1,6 +1,5 @@
 ﻿l_english:
-
-
+ ### Internal Factions
  GER_internal_factions:0 "Fate of the Reich"
  GER_internal_factions_desc:1 "German society and politics are divided into multiple factions, striving either to win the favor of the government or to stir up the masses against it. The German government must decide which of these factions can serve its interests and which pose a threat that must be eradicated, for the sake of the nation."
  GER_ui_faction_header:0 "Faction"
@@ -14,11 +13,10 @@
  GER_NSDAP_influence_amount_red:0 "[?GER.GER_NSDAP_influence|R0]"
  GER_NSDAP_TOOLTIP:0 "NSDAP Tooltip"
 
-
  GER_wehrmacht_name_text:0 "Wehrmacht"
  GER_wehrmacht_influence_status:0 "[GetWehrmachtInfluenceStatus]"
  GER_wehrmacht_influence_amount_green:0 "[?GER.GER_wehrmacht_influence|G0]"
-GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
+ GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
  GER_WEHRMACHT_TOOLTIP:0 "Wehrmacht tooltip"
 
  GER_militarists_name_text:0 "Militarists"
@@ -44,15 +42,24 @@ GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
  GER_ss_influence_amount_green:0 "[?GER.GER_ss_influence|G0]"
  GER_ss_influence_amount_red:0 "[?GER.GER_ss_influence|R0]"
  GER_SS_TOOLTIP:0 "ss tooltip"
- 
+
+ ### Internal Faction Decisions
+ GER_assassinate_ss_decision:0 "Assassinate SS Officers"
+ GER_assassinate_ss_tt:0 "By assassinating SS Officers we weaken their influence throughout the Reich. §R This reduces the influence of the SS, and increases the influence of the NSDAP§!."
+ GER_student_protests_decision:0 "Ignite Student Protests"
+ GER_student_protests_tt:0 "Causing unrest amongst the upcoming classes of intelligensia, future leaders of the Reich we threaten the NSDAP's stranglehold on acceptable ideological thought. §R This reduces the influence of the NSDAP, and increases the influence of the Reformists§!"
+
+ ### Italian Resistance
  GER_increase_swiss_resistance:0 "Increasing resistance"
-GER_increase_swiss_resistance_desc:0 "Despite our thorough conquest of the Swiss, there exists a strong independence movement that is growing larger by the day."
+ GER_increase_swiss_resistance_desc:0 "Despite our thorough conquest of the Swiss, there exists a strong independence movement that is growing larger by the day."
 
-GER_root_out_fighters_switzerland:0 "Root out Swiss resistance fighters"
-swiss_resistance_movement_tt:0 "The Swiss resistance movement is active"
+ GER_root_out_fighters_switzerland:0 "Root out Swiss resistance fighters"
+ swiss_resistance_movement_tt:0 "The Swiss resistance movement is active"
 
+ low_resistance:0 "Local Agitation"
+ medium_resistance:0 "High Resistance"
+ high_resistance:0 "Open Revolt"
 
-
-low_resistance:0 "Local Agitation"
-medium_resistance:0 "High Resistance"
-high_resistance:0 "Open Revolt"
+ ### Wunderwaffe
+ GER_wunderwaffe_tech:0 "Wunderwaffe"
+ GER_wunderwaffe_tech_desc:1 "The Reich's secret weapons programs."

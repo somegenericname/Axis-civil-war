@@ -52,18 +52,104 @@ GER_stub_decision = {
 
 		cost = 25
 
-		days_remove = 20
-		days_re_enable = 120
+		days_remove = 1
+		days_re_enable = 1
 
-		remove_effect = {
+		complete_effect = {
+		custom_effect_tooltip = GER_stub_tt
+		add_to_variable = { 
+		var = GER_ss_influence
+		value = 5
+			}
+		}
+	}
+
+GER_assassinate_ss_decision = {
+		
+		icon = spr_political_assassination
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
 			
 		}
 
+		cost = 25
 
+		days_remove = 30
 
+		complete_effect = {
+		custom_effect_tooltip = GER_assassinate_ss_tt
+		add_to_variable = { 
+		var = GER_ss_influence
+		value = -5
+			}
+		add_to_variable = { 
+		var = GER_NSDAP_influence
+		value = 5
+			}	
+		}
 	}
-	
 
+GER_student_protests_decision = {
+		
+		icon = generic_political_rally
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 25
+
+		days_remove = 30
+
+		complete_effect = {
+		custom_effect_tooltip = GER_student_protests_tt
+		add_to_variable = { 
+		var = GER_refnaz_influence
+		value = 5
+			}
+		add_to_variable = { 
+		var = GER_NSDAP_influence
+		value = -5
+			}	
+		}
+	}		
+}
+
+GER_wunderwaffe_tech = {
+
+GER_wunderwaffe_1 = {
+		
+		icon = generic_air
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 25
+
+		days_remove = 1
+		days_re_enable = 1
+
+		complete_effect = {
+		custom_effect_tooltip = GER_wunderwaffe_jet_1_tt
+		add_tech_bonus = {
+		    bonus = 0.5
+		    uses = 1
+		    category = jet_technology
+			}
+		}
+	}
 }
 
 GER_resistance_decisions_italy = {
