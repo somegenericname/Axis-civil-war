@@ -3343,6 +3343,162 @@ focus_tree = {
 
 	}
 
+	focus = {
+
+		id = GER_seek_official_support
+		#icon
+
+		prerequisite = {
+			focus = GER_public_perception
+		}
+
+
+		prerequisite = {
+			focus = GER_sabotage
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_public_perception
+
+		completion_reward = {
+			#use the goodwill to make strides in the government
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_friends_in_airforce
+		#icon
+
+		
+
+
+		prerequisite = {
+			focus = GER_seek_official_support
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = GER_seek_official_support
+
+		completion_reward = {
+			#in eastern front, waffen-SS developed closer relationship with airforce than before
+			#had to work together to deal maximum damage
+		}
+	}
+
+	focus = {
+
+		id = GER_key_bombing_targets
+		#icon
+
+		
+		prerequisite = {
+			focus = GER_friends_in_airforce
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = GER_friends_in_airforce
+
+		completion_reward = {
+			#plan bombings by the airforce to limit movement of the enemy
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_control_radiowaves
+		#icon
+
+		
+		prerequisite = {
+			focus = GER_friends_in_airforce
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = GER_friends_in_airforce
+
+		completion_reward = {
+			#take out radio towers, use airforce to broadcast messages
+		}
+
+
+
+	}
+
+	
+
+	focus = {
+
+		id = GER_steal_from_SS_stockpiles
+		#icon
+
+		prerequisite = {
+			focus = GER_expand_our_rivalry
+		}
+
+		prerequisite = {
+
+			focus = GER_seek_official_support
+		
+		}
+
+
+		
+
+		x = 1
+		y = 1
+		relative_position_id = GER_expand_our_rivalry
+
+		completion_reward = {
+			#steal from SS
+		}
+
+
+
+	}
+
+	focus = {
+
+		id = GER_steal_from_militarist_stockpiles
+		#icon
+
+		prerequisite = {
+			focus = GER_a_common_cause
+			
+		}
+
+		prerequisite = {
+
+			focus = GER_seek_official_support
+		}
+
+
+		
+
+		x = -1
+		y = 1
+		relative_position_id = GER_a_common_cause
+
+		completion_reward = {
+			#steal from militarists
+		}
+
+
+
+	}
+
+
+
 	
  
 	
@@ -3535,6 +3691,36 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+
+		id = GER_for_glory
+		#icon
+
+		prerequisite = {focus = GER_steal_from_SS_stockpiles}
+
+		prerequisite = {focus = GER_steal_from_militarist_stockpiles}
+
+		prerequisite = {focus = GER_key_bombing_targets}
+
+		prerequisite = {focus = GER_control_radiowaves}
+
+		
+
+		x = 0
+		y = 2
+		relative_position_id = GER_friends_in_airforce
+
+		completion_reward = {
+			#Waffen_SS and Militarists make deals to benefit each of them 
+
+		}
+
+
+
+	}
+
+
 
 
 
