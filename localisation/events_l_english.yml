@@ -1,0 +1,65 @@
+﻿l_english:
+ ##start## 
+ start.1.t:0 "Welcome to the Axis Civil War mod !"
+ start.1.d:0 "Welcome\n\nthe team has prepared a special event for you to catch up with the lore and the mechanics of the game"
+ start.1.a:0 "Explain to me the lore"
+ start.1.b:0 "Tell me about the current situations"
+ start.1.c:0 "explain the new mechanics"
+ start.1.e:0 "BEGONE ! i want to play"
+
+ start.2.t:0 "The lore: 1922-1947"
+ start.2.d:0 ""
+ start.2.a:0 "The past determines the future"
+
+ start.3.t:0 "The new mechanics"
+ start.3.d:0 "b"
+ start.3.a:0 "So much new stuff!"
+
+ situations.1.t:0 "The situations: Crimea"
+ situations.1.d:0 "In one of the most bizzare events in modern history, on September 11, 1941. As german forces started crossing the Dnieper river, Italian marines from the 1st San Marco Regiment landed around the port of sevastopol and the Kerch Peninsula as a part of operation NERO and quickly secured the entire crimean region in a week. While officaly claimed to be in order to avoid getting bogged down in the city of armyansk in the northern part of crimea. In truth it was a calculated and stratigic move with one goal in mind. Preventing germany from getting acces to the mediterranean. \n\nAnd as the relations between the two young superpowers quickly deteriorate, a conflict is brewing in the east. Both sides claiming the land, And neither side willing to give up. \n\And so, Crimea quickly became another contentious spot in this new order. With germany doing everything it can to wipe the garrison out of krim, and italy doing everything it can to protect their shiny and glorious middleterranean from the krauts. And with that, another powderkeg evolves, waiting for the time to explode and bring another brutal war in europe"
+ situations.1.a:0 "Go to the previous situation"
+ situations.1.b:0 "Go to the next situation"
+
+ situations.2.t:0 "The situations: Brittany"
+ situations.2.d:0 "To the northwestern part of france lies a country not a single person thought they would live to see, the state of Brittany. But this state, is not Breton at all, this state in an excuse, an excuse to secape the oppresion of the third reich and to taste the freedom for just a bit longer. \n\nAs it became clear that Nazi germany is not going away anytime soon, and with it stayes the oppresion and with it the Restrictions on Civil Liberties, the people of the Britianny region hatched a plan to escape. they would stage a "revolt" a "popular revolt" to declare a new country, the state of Britianny. which would be independant and neuteral. With the french army non existant, and the wermacht occupied in the east, the plan worked, and the state of britianny birthed to existence . \n\nThe stratigic value of Britianny is immense, begin virtually at the gate of europe, any country that controls brest can basically blockade the entirety of northern europe, that includes germany. \n\nAnd so, Britianny quickly became another contentious spot in this new order, with german troops trying to bring the disobeying region back to france, and italy doing everything it can to keep Britianny alive and functioning. And with that, another powderkeg evolves, waiting for the time to explode and bring another brutal war in europe"
+ situations.2.a:0 "Go to the previous situation"
+ situations.2.b:0 "Go to the next situation"
+
+ situations.3.t:0 "The situations: The Fatherland front"
+ situations.3.d:0 "The Fatherland front never really faded away, even after the anschluss of austria and the attempts to suppress the party, the ultranationalist Fatherland front managed to stay relatevly alive and active, thanks mostly to Italian support. \n\nDuring the days of ww2 and the pact of steel, italy condemned the fatherland front as a terrorist organization, but as relations with the germans soured greatly Italy started to reapproach the fatherland front in attempts to sabotage the reich from within. Using terrorism, pro austrian propaganda, and displaying the failiures and the inhumane actions of their beloved Reich to everyone. \n\nDoing such action is a great risk. If succesful, Austrian succession would be a disaster for germany as it would show to the whole world the level of incompatance in the government of the reich, and would shatter the belif of its citizens that they live in a great and prosperous country. On the other hand, if the germans find out about the extensiveness of this operation, things could very quickly escalate. \n\nAnd so, Austria quickly became another contentious spot in this new order, with Germany trying to quell resentment in Austria, and Italy trying to break free the austrians from the German monsters. And with that, another powderkeg evolves, waiting for the time to explode and bring another brutal war in europe"
+ situations.3.a:0 "Go to the previous situation"
+ situations.3.b:0 "Go to the next situation"
+
+ situations.4.t:0 "The situations: Occupations of france"
+ situations.4.d:0 "During the interwar years, italy has invested a great deal in reforming its millitay in order to avoid another disasterously long war. Mussolini made sure to stamp out any form of corruption or rivalries and to put profession over ideolegy, and using a reformed doctrine of artillery and air support, and using the high morale and patriotism of the common italian soldier,  The Bolzano millitary exresice was a  "
+ situations.4.a:0 "Go to the previous situation"
+ situations.4.b:0 "Go to the next situation"
+
+ situations.5.t:0 "The situations: The Baku border clashes"
+ situations.5.d:0 "g"
+ situations.5.a:0 "Go to the previous situation"
+ situations.5.b:0 "Go to the next situation"
+
+ situations.6.t:0 "The situations: German claims on Slovenia"
+ situations.6.d:0 "h"
+ situations.6.a:0 "Go to the previous situation"
+ situations.6.b:0 "Go back to the main page"
+
+ #RUSSIA
+
+ soviet.1.t:0 "Military parade in Chelyabinsk"
+ soviet.1.d:0 "Earlier today, A military parade has been announced by our leader Stalin himself and he is expected to join, This suprisingly large show of force has increased the morale of our capital to wartime levels. Seizing the moment, Stalin has announced he will do all that he can to reclaim the homeland and save Mother Russia from the Fascist menace."
+ soviet.1.a:0 "For the Motherland!"
+ ussr2:0 "The Stalin focus tree"
+
+
+ #italian crimea
+
+ IOC.1.t:0 "In the footsteps of Nero Claudius"
+ IOC.1.d:0 "TBA"
+
+ IOC.2.t:0 "Dealing with the natives"
+ IOC.2.d:0 "TBA"
+
+ IOC.3.t:0 "Improvise, adapt, overcome"
+ IOC.3.d:0 "TBA"
