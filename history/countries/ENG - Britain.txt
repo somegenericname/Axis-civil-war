@@ -5,7 +5,7 @@
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+		#traits here need to also be added to events britain.9 and britain.10. Dont ask why.
 	}
 }
 
@@ -24,6 +24,11 @@ set_popularities = {
 1947.1.1 = {
 	oob = ENG_1947
 
-	add_ideas = civilian_economy
+	add_ideas = {
+		ENG_broken_nation
+		ENG_remember_the_blitz
 
+		#laws
+		civilian_economy
+	}
 }

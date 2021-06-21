@@ -1,5 +1,5 @@
 spriteTypes = {	
-
+	### IOC
 	SpriteType = {
 		name = "GFX_idea_IOC_garrison"
 		texturefile = "gfx/interface/ideas/IOC/garrison.dds"
@@ -11,5 +11,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_IOC_native_resistance_low"
 		texturefile = "gfx/interface/ideas/IOC/native_resistance_low.dds"
+	}
+	### ENG
+	SpriteType = {
+		name = "GFX_idea_ENG_broken_nation"
+		texturefile = "gfx/interface/ideas/ENG/broken_nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ENG_remember_the_blitz"
+		texturefile = "gfx/interface/ideas/ENG/remember_the_blitz.dds"
+	}
+	### USA
+	SpriteType = {
+		name = "GFX_idea_USA_german_american_bund"
+		texturefile = "gfx/interface/ideas/ENG/german_american_bund.dds"
 	}
 }

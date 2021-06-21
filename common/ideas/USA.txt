@@ -1,0 +1,20 @@
+ideas = {
+
+	country = {
+
+		USA_ascendant_german_american_bund = {
+          picture = broken_nation
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.1
+				national_socialism_drift = 0.01
+				national_socialism_acceptance = 25
+			}
+		}
+	}
+}

@@ -76,6 +76,41 @@ set_technology = {
 	set_variable = { GER_waffen_ss_influence = 5 }
 	set_variable = { GER_ss_influence = 5 }
 
+	clamp_variable = {
+	var = GER_NSDAP_influence
+	min = 0
+	max = 100
+	}
+
+	clamp_variable = {
+	var = GER_wehrmacht_influence
+	min = 0
+	max = 100
+	}
+
+	clamp_variable = {
+	var = GER_militarists_influence
+	min = 0
+	max = 100
+	}
+
+	clamp_variable = {
+	var = GER_refnaz_influence
+	min = 0
+	max = 100
+	}
+
+	clamp_variable = {
+	var = GER_waffen_ss_influence
+	min = 0
+	max = 100
+	}
+
+	clamp_variable = {
+	var = GER_ss_influence
+	min = 0
+	max = 100
+	}
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

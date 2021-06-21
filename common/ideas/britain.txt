@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+
+		ENG_broken_nation = {
+          picture = broken_nation
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.05
+				command_power_gain_mult = -0.25
+			}
+		}
+
+		ENG_remember_the_blitz = {
+          picture = remember_the_blitz
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+				political_power_cost = 0.5
+			}
+		}
+	}
+}
