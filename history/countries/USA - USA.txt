@@ -1210,6 +1210,11 @@ if = {
 			plane_reliability_upgrade = 5
 		}
 	}
+
+
+}
+
+
 	1947.1.1 = {
 	add_ideas = {
 		USA_ascendant_german_american_bund
@@ -1218,4 +1223,4 @@ if = {
 		civilian_economy
 	}
 }
-}
+
