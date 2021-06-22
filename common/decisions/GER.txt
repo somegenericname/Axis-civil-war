@@ -744,6 +744,7 @@ GER_resistance_decisions_italy = {
 		}
 
 	}
+}
 
 
 	GER_subjugate_pakt = {
