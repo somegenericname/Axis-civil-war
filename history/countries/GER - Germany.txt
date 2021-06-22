@@ -391,7 +391,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		dictator
+		aging_dictator
 	}
 }
 
@@ -402,7 +402,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = final_nazism
 	traits = {
-		dictator
+		aging_dictator
 	}
 }
 
@@ -1265,7 +1265,7 @@ create_equipment_variant = {
 add_ideas = {
 		GER_depleted_army
 		GER_ongoing_holocaust
-		GER_plunder_economy
+		GER_plunder_economy_0
 		GER_blitzkreig_dependence
 
 		#laws

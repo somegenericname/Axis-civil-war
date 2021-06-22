@@ -39,10 +39,14 @@ focus_tree = {
 
 		x = 30
 		y = 0
+
+		cost = 2
 		
 
 		completion_reward = {
-            #has event where hitler loses his cool
+
+			add_political_power = 150
+            country_event = { id = germany.1 hours = 24 }
 		}
 
 	}

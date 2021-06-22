@@ -23,9 +23,25 @@ GER_internal_factions = {
 	}
 }
 
-GER_wunderwaffe_tech = {
+GER_the_state_of_germany = {
 	
 	priority = 9
+
+	icon = power_struggle
+
+	visible = {
+		original_tag = GER
+	}
+
+	allowed = {
+		original_tag = GER
+		
+	}
+}
+
+GER_wunderwaffe_tech = {
+	
+	priority = 8
 
 	icon = ger_military_buildup
 

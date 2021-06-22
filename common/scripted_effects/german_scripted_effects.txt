@@ -1,0 +1,84 @@
+
+GER_increase_plunder_economy = {
+
+	if = {
+		limit = { has_idea = GER_plunder_economy_5 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_5
+			add_idea = GER_plunder_economy_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_4 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_4
+			add_idea = GER_plunder_economy_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_3 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_3
+			add_idea = GER_plunder_economy_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_2 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_2
+			add_idea = GER_plunder_economy_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_1 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_1
+			add_idea = GER_plunder_economy_0
+		}
+	}
+	
+
+
+
+}
+
+GER_decrease_plunder_economy = {
+
+	if = {
+		limit = { has_idea = GER_plunder_economy_4 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_4
+			add_idea = GER_plunder_economy_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_3 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_3
+			add_idea = GER_plunder_economy_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_2 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_2
+			add_idea = GER_plunder_economy_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_1 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_1
+			add_idea = GER_plunder_economy_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = GER_plunder_economy_0 }
+		swap_ideas = {
+			remove_idea = GER_plunder_economy_0
+			add_idea = GER_plunder_economy_1
+		}
+	}
+	
+
+}
