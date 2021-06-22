@@ -1,5 +1,5 @@
 ﻿l_english:
-
+ national_socialism_drift:0 "National Socialism Drifts"
  ##Axis Civil War##
  shat_army:0 "Shattered Armed Forces"
  GER_depleted_army:0 "Depleted Army"
@@ -20,8 +20,18 @@
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected andunderdeveloped, which could pose a serious problem in the future."
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
  GER_blitzkreig_dependence_desc:0 "With the successes of Blitzkreig tactics in the War, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare and elastic defenses."
-
-  #occupationLoc
+ 
+ ### Britain
+ ENG_broken_nation:0 "Broken Nation" 
+ ENG_broken_nation_desc:0 "" 
+ ENG_remember_the_blitz:0 "Remember the Blitz"
+ ENG_remember_the_blitz_desc:0 ""
+ ### USA
+ USA_ascendant_german_american_bund:0 "Ascendant German American Bund"
+ USA_ascendant_german_american_bund_desc:0 "With the Third Reich's conquests stretching from Paris to Moscow a previously small threat to democracy has only grown. Their outreach to German-Americans has extended across the United States, even managing to elect local and state officials. If we allow their influence to expand the evil of the German tyranny may find new roots in fertile American soil."
+ USA_revived_klan:0 "Revived Klan"
+ USA_revived_klan_desc:0 "What once were secretive gatherings around burning crosses have become acts of terror, lynchings, and violence to propagate segregation."
+ #occupationLoc
  resistance_0:0 "Crushed Resistance"
  resistance_0_desc:0 ":Long years of occupation have worn our people down and sapped their will to fight."
  resistance_1:0 "Mininscule Resistance"

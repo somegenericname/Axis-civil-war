@@ -1218,7 +1218,7 @@ if = {
 	1947.1.1 = {
 	add_ideas = {
 		USA_ascendant_german_american_bund
-		
+		USA_revived_klan
 		#laws
 		civilian_economy
 	}

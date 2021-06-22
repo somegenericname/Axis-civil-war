@@ -86,7 +86,37 @@ GER_student_protests_decision = {
 		value = -5
 			}	
 		}
-	}		
+	}
+
+	GER_wehrmacht_takeover = {
+		
+		icon = faction_ger_wehr
+
+		allowed = {
+			tag = GER
+		}
+
+		available = {
+			
+		}
+
+		cost = 1
+
+		days_remove = 1
+
+		complete_effect = {
+		custom_effect_tooltip = GER_wehrmacht_takeover_tt
+		create_country_leader = {
+			name = "Oberkommando des Heeres"
+			desc = "Politics_Oberkommando_des_Heeres_desc"
+			picture = "OKH.dds"
+			expire = "1965.1.1"
+			ideology = final_nazism
+			traits = {
+				}
+			}	
+		}
+	}			
 }
 
 

@@ -3,17 +3,29 @@ ideas = {
 	country = {
 
 		USA_ascendant_german_american_bund = {
-          picture = broken_nation
+          picture = ascendant_german_american_bund
 
 			allowed = {
-				original_tag = ENG
+				original_tag = USA
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				political_power_cost = 0.1
+				national_socialism_drift = 0.01
+			}
+		}
+		USA_revived_klan = {
+          picture = klan
+
+			allowed = {
+				original_tag = USA
 			}
 
 			modifier = {
 				stability_factor = -0.05
 				political_power_cost = 0.1
-				national_socialism_drift = 0.01
-				national_socialism_acceptance = 25
+				fascism_drift = 0.01
 			}
 		}
 	}

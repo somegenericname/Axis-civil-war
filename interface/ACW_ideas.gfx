@@ -23,7 +23,11 @@ spriteTypes = {
 	}
 	### USA
 	SpriteType = {
-		name = "GFX_idea_USA_german_american_bund"
-		texturefile = "gfx/interface/ideas/ENG/german_american_bund.dds"
+		name = "GFX_idea_USA_ascendant_german_american_bund"
+		texturefile = "gfx/interface/ideas/USA/german_american_bund.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_revived_klan"
+		texturefile = "gfx/interface/ideas/USA/klan.dds"
 	}
 }
