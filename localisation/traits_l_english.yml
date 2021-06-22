@@ -3,6 +3,7 @@
  #ACW
  garrison_commander:0 "Garrison Commander"
  aging_dictator:0 "Aging Dictator"
+ uncontested_synthetics_monopoly:0 "Synthetics Monopoly"
  
  #vanilla
  cc_leader:0 "General"

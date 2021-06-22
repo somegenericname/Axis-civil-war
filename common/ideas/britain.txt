@@ -26,7 +26,28 @@ ideas = {
 			modifier = {
 				war_support_factor = -0.1
 				political_power_cost = 0.5
+				industry_repair_factor = 0.1
 			}
+		}
+
+		ENG_shattered_empire = {
+			#picture
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			modifier = {
+				conscription_factor = -0.20
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.05
+				line_change_production_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.05
+
+			}
+
+
+
 		}
 	}
 }

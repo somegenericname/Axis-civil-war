@@ -23,6 +23,16 @@ leader_traits = {
 		}
 	}
 
+	uncontested_synthetics_monopoly = {
+
+		random = no
+		production_oil_factor = 0.05
+		production_speed_synthetic_refinery_factor = -1
+
+
+
+	}
+
 
 
 	

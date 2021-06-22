@@ -27,6 +27,7 @@ set_popularities = {
 	add_ideas = {
 		ENG_broken_nation
 		ENG_remember_the_blitz
+		ENG_shattered_empire
 
 		#laws
 		civilian_economy

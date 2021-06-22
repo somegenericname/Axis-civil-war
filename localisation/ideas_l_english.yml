@@ -34,9 +34,11 @@
 
  ### Britain
  ENG_broken_nation:0 "Broken Nation" 
- ENG_broken_nation_desc:0 "" 
+ ENG_broken_nation_desc:0 "The world war has sapped the british spirit, perhaps beyond repair. A vast empire has been dismantled by necessity practically overnight, and now Great Britain is a shell of its former self." 
  ENG_remember_the_blitz:0 "Remember the Blitz"
- ENG_remember_the_blitz_desc:0 ""
+ ENG_remember_the_blitz_desc:0 "The ferocity of the Italo-German blitz on London and other british major cities is still remembered today. Though the wounds have been sewn up, the scars remain, and the british people will not take the prospects of another war lightly."
+ ENG_shattered_empire:0 "Shattered Empire"
+ ENG_shattered_empire_desc:0 "Though much of Britain has been repaired, its dominions took the war as an opportunity to distance themselves from the crown. Vital necessities once supplied by the colonies now remain unreplaced."
  ### USA
  USA_ascendant_german_american_bund:0 "Ascendant German American Bund"
  USA_ascendant_german_american_bund_desc:0 "With the Third Reich's conquests stretching from Paris to Moscow a previously small threat to democracy has only grown. Their outreach to German-Americans has extended across the United States, even managing to elect local and state officials. If we allow their influence to expand the evil of the German tyranny may find new roots in fertile American soil."

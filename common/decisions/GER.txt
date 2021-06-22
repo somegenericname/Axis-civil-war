@@ -133,7 +133,7 @@ GER_the_state_of_germany = {
 			hidden_trigger = { always = no }
 		}
 
-		days_mission_timeout = 5
+		days_mission_timeout = 50
 
 		visible = {
 			tag = GER

@@ -95,6 +95,8 @@ ideas = {
 			picture = dep_army
 
 			modifier = {
+
+				conscription = -0.025
 				conscription_factor = -0.25
 				army_org_Factor = -0.05
 				industrial_capacity_factory = -0.1
@@ -923,18 +925,24 @@ ideas = {
 				original_tag = GER
 			}
 			
-			research_bonus = {
-				industry = 0.05
-				synth_resources = 0.15
-			}
 			
-			traits = { refinery_concern }
+			
+			#traits = { refinery_concern }
 
 			removal_cost = -1
 			
 			ai_will_do = {
 				factor = 1
 			}
+
+			
+
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+
+			traits = { uncontested_synthetics_monopoly }
 		}
 		
 		krupp = {
@@ -949,7 +957,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			ai_will_do = {
 				factor = 2
 			}
