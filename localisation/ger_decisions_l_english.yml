@@ -59,6 +59,8 @@
  GER_assassinate_ss_tt:0 "By assassinating SS Officers we weaken their influence throughout the Reich. §R This reduces the influence of the SS, and increases the influence of the NSDAP§!."
  GER_student_protests_decision:0 "Ignite Student Protests"
  GER_student_protests_tt:0 "Causing unrest amongst the upcoming classes of intelligensia, future leaders of the Reich we threaten the NSDAP's stranglehold on acceptable ideological thought. §R This reduces the influence of the NSDAP, and increases the influence of the Reformists§!"
+ GER_wehrmacht_takeover:0 "Operation Bismark"
+ GER_wehrmacht_takeover_tt:0 "The Wehrmacht has gained overwhelming influence in society. §R The time is now to seize power and reshape the fabric of society.§!"
 
  ### Italian Resistance
  GER_increase_swiss_resistance:0 "Increasing resistance"
