@@ -20,7 +20,18 @@
  GER_plunder_economy_5_desc:0 "The German Reich still relies heavily on the industry won from its conquered peoples, and as such it can focus much more heavily on weapons production. However, this has led the civilian sector of the german economy to become neglected andunderdeveloped, which could pose a serious problem in the future."
  GER_blitzkreig_dependence:0 "Blitzkreig Dependence"
  GER_blitzkreig_dependence_desc:0 "With the successes of Blitzkreig tactics in the War, the German staff has neglected to update their strategies, most importantly those involving prolonged warfare and elastic defenses."
- 
+ GER_german_depression_5:0 "German Defeat"
+ GER_german_depression_5_desc:0 "The disintegration of the German State burns heavy in the minds of the people."
+ GER_german_depression_4:0 "German Despair"
+ GER_german_depression_4_desc:0 "Germany is dying. It's people walk the streets with their heads bowed." 
+ GER_german_depression_3:0 "Germany Failing"
+ GER_german_depression_3_desc:0 "There is no mistake - germany is failing, and its people are very aware of that fact."
+ GER_german_depression_2:0 "German sickness"
+ GER_german_depression_2_desc:0 "There is a persistent feeling in our country that despite our great successes, something is not quite right."
+ GER_german_depression_1:0 "German Hope"
+ GER_german_depression_1_desc:0 "Despite all the trials our country has sustained, there is a growing hope that things will improve for us."
+
+
  ### Britain
  ENG_broken_nation:0 "Broken Nation" 
  ENG_broken_nation_desc:0 "" 

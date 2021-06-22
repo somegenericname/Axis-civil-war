@@ -2,6 +2,89 @@ ideas = {
 
 	country = {
 
+
+		GER_german_depression_5 = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.20
+				stability_weekly = -0.001
+				war_support_factor = -0.20
+				war_support_weekly = -0.001
+				political_power_gain = -0.3
+				conscription_factor = -0.25
+			}
+		}
+
+		GER_german_depression_4 = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				political_power_gain = -0.25
+				conscription_factor = -0.20
+			}
+		}
+
+		GER_german_depression_3 = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				political_power_gain = -0.15
+				conscription_factor = -0.10
+			}
+		}
+
+		GER_german_depression_2 = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_gain = -0.05
+				conscription_factor = -0.05
+			}
+		}
+
+		GER_german_depression_1 = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				stability_weekly = 0.001
+				war_support_factor = 0.05
+				political_power_gain = 0.1
+				conscription_factor = 0.05
+			}
+		}
+
 		GER_depleted_army = {
           picture = dep_army
 
@@ -831,6 +914,8 @@ ideas = {
 	}
 	
 	industrial_concern = {
+
+
 		
 		ig_faben = {
 			
@@ -844,6 +929,8 @@ ideas = {
 			}
 			
 			traits = { refinery_concern }
+
+			removal_cost = -1
 			
 			ai_will_do = {
 				factor = 1
@@ -860,6 +947,9 @@ ideas = {
 				industry = 0.15
 				
 			}
+
+			removal_cost = -1
+			
 			ai_will_do = {
 				factor = 2
 			}

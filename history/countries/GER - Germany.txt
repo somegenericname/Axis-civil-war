@@ -1267,6 +1267,7 @@ add_ideas = {
 		GER_ongoing_holocaust
 		GER_plunder_economy_0
 		GER_blitzkreig_dependence
+		GER_german_depression_2
 
 		#laws
 		war_economy
