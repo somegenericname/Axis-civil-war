@@ -4,3 +4,18 @@ spriteTypes = {
 		name = "GFX_krim_steal"
 		texturefile = "gfx/event_pictures/krim_steal.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_VF_prop"
+		texturefile = "gfx/event_pictures/VF_prop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_fallblau"
+		texturefile = "gfx/event_pictures/fallblau.dds
+	}
+	
+	spriteType = {
+		name = "GFX_france_ita_troops"
+		texturefile = "gfx/event_pictures/france_1.dds"
+	}
