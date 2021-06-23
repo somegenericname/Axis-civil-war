@@ -125,7 +125,7 @@ GER_the_state_of_germany = {
 
 	GER_ticking_plunder_economy = {
 
-	priority = 10
+		priority = 10
 
 		icon = generic_ignite_civil_war
 
@@ -181,6 +181,8 @@ GER_the_state_of_germany = {
 		available = {
 
 			has_political_power > 0
+
+			has_completed_focus = GER_exploit_the_east
 
 			
 			NOT = {

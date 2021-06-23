@@ -1,0 +1,22 @@
+################
+##### HOL ######
+################
+
+
+UKR_agrarian_revolt = {
+	
+	priority = 10
+
+	icon = power_struggle
+
+	
+
+	visible = {
+		original_tag = UKR
+	}
+
+	allowed = {
+		original_tag = UKR
+		
+	}
+}

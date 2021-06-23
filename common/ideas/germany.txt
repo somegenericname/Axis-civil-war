@@ -2,6 +2,23 @@ ideas = {
 
 	country = {
 
+		##goes to Ukraine for grain crisis
+		GER_wehrmacht_aid = {
+
+			allowed = {
+				always = no
+			}
+
+
+			modifier = {
+
+				army_attack_factor = 0.05
+				army_defence_factor = 0.10
+				army_org_factor = 0.10
+
+			}
+		}
+
 
 		GER_german_depression_5 = {
 			#picture = 

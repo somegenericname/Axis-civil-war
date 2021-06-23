@@ -1,0 +1,48 @@
+﻿focus_tree = {
+	id = ukraine
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}  
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+
+		id = UKR_the_agrarian_insurrection
+		#icon
+
+		
+
+		x = 15
+		y = 1
+
+		cost = 4
+		
+
+		completion_reward = {
+			#attempts to use wehrmacht to return productivity to the colonies
+
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 20000
+			}
+
+		}
+
+			
+
+			
+
+	}
+
+
+}

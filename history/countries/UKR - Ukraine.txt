@@ -1,8 +1,45 @@
 ﻿capital = 202 #Kiev
 
-oob = "UKR_1936"
+oob = "UKR_1947"
 
 set_research_slots = 3
+
+
+197 = {
+	start_resistance = yes
+	set_compliance = 20
+	set_resistance = 30
+	set_garrison_strength = 1.0
+}
+
+203 = {
+	start_resistance = yes
+	set_compliance = 20
+	set_resistance = 30
+	set_garrison_strength = 1.0
+}
+
+226 = {
+	start_resistance = yes
+	set_compliance = 20
+	set_resistance = 30
+	set_garrison_strength = 1.0
+}
+
+259 = {
+	start_resistance = yes
+	set_compliance = 20
+	set_resistance = 30
+	set_garrison_strength = 1.0
+}
+
+add_equipment_to_stockpile = {
+
+        type = infantry_equipment_1
+
+        amount = 5000
+
+    } 
 
 # Starting tech
 set_technology = {
@@ -126,6 +163,7 @@ create_country_leader = {
 	add_ideas = {
 		resistance_3
 		devastation_3
+		UKR_agrarian_discontent_0
 	}
 }
 

@@ -1,0 +1,47 @@
+ideas = {
+
+	country = {
+
+
+		UKR_agrarian_discontent_0 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				local_resources_factor = -0.25
+				political_power_gain = -0.1
+				resistance_growth = 0.05
+				compliance_growth = -0.01
+			}
+
+
+		}
+
+		UKR_agrarian_discontent_1 = {
+
+			#picture = IOC_garrison
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+				stability_factor = -0.15
+				local_resources_factor = -0.40
+				political_power_gain = -0.15
+				resistance_growth = 0.1
+				compliance_growth = -0.02
+			}
+
+
+		}
+
+		
+
+    }
+}

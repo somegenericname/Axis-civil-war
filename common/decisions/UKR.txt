@@ -1,0 +1,60 @@
+
+UKR_agrarian_revolt = {
+	
+
+	UKR_increasing_discontent = {
+
+		priority = 10
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		fire_only_once = yes
+
+		days_mission_timeout = 70
+
+		visible = {
+			tag = UKR
+			
+			
+		}
+
+		timeout_effect = {
+
+
+			hidden_effect = {
+
+				221 = {
+
+					remove_core_of = UKR
+					start_resistance = yes
+				}
+
+				227 = {
+
+					remove_core_of = UKR
+					start_resistance = yes
+				}
+
+				200 = {
+
+					remove_core_of = UKR
+					start_resistance = yes
+				}
+
+			}
+			remove_state_core = 221
+			remove_state_core = 227
+			remove_state_core = 200
+
+			swap_ideas = {
+
+				remove_idea = UKR_agrarian_discontent_0
+				add_idea = UKR_agrarian_discontent_1
+			}
+		}
+	}
+}

@@ -53,6 +53,12 @@
  ussr2:0 "The Stalin focus tree"
 
 
+ #GERMANY
+
+ germany.1.t:0 "Hitler's speech"
+ germany.1.d:0 "The crowd waited expectantly as Adolf Hitler shuffled to the stand to give his speech. There were mild murmurs in the crowd, as the Fuhrer moved slower, less purposefully then he had used to, but these whispers were soon quelled as he began to speak. As he spoke of a new, free Germany, his voice had all the hallmarks of his famous energy and vigor. But there were those in the crowd that saw different. Saw the occasional mistakes, the slip-ups, the physical toll that this simple speech was taking on the man. These watchers knew, as the Fuhrer said, that a new Germany was arising. But as to who would lead this new empire - only time would tell."
+ germany.1.a:0 "Twilight on the old world."
+
  #italian crimea
 
  IOC.1.t:0 "In the Footsteps of Nero"
