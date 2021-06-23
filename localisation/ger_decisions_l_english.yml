@@ -11,15 +11,11 @@
  GER_NSDAP_influence_status:0 "[GetNSDAPInfluenceStatus]"
  GER_NSDAP_influence_amount_green:0 "[?GER.GER_NSDAP_influence|G0]"
  GER_NSDAP_influence_amount_red:0 "[?GER.GER_NSDAP_influence|R0]"
- GER_NSDAP_TOOLTIP:0 "The §YNational Socialist Party§! political machine hsa, with the leadership of Adolf Hitler, maintained an iron grip on the German Reich. However, with the feuhrer's growing inability to rule, the party is facing both a successor and a power crisis."
+ GER_NSDAP_TOOLTIP:0 "The §YNational Socialist Party§! political machine has, with the leadership of Adolf Hitler, maintained an iron grip on the German Reich. However, with the feuhrer's growing inability to rule, the party is facing both a successor and a power crisis."
 
  GER_wehrmacht_name_text:0 "Wehrmacht"
  GER_wehrmacht_influence_status:0 "[GetWehrmachtInfluenceStatus]"
  GER_wehrmacht_influence_amount_green:0 "[?GER.GER_wehrmacht_influence|G0]"
-
- GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
- GER_WEHRMACHT_TOOLTIP:0 "Wehrmacht tooltip"
-
  GER_wehrmacht_influence_amount_red:0 "[?GER.GER_wehrmacht_influence|R0]"
  GER_WEHRMACHT_TOOLTIP:0 "With the growing ferocity of the war in the east, the §YWehrmacht§! suffered devastating losses in the field. With the rising of the Waffen-SS, the wehrmacht was relegated to a supporting military role, which it was by no means pleased about. With the shifting of power in nazi germany, its top brass see an opportunity to turn things around."
 

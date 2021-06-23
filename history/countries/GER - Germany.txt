@@ -1263,7 +1263,7 @@ create_equipment_variant = {
 	puppet = BUR
 
 add_ideas = {
-		GER_depleted_army
+		GER_depleted_army_0
 		GER_ongoing_holocaust
 		GER_plunder_economy_0
 		GER_blitzkreig_dependence

@@ -2,8 +2,11 @@
  national_socialism_drift:0 "National Socialism Drifts"
  ##Axis Civil War##
  shat_army:0 "Shattered Armed Forces"
- GER_depleted_army:0 "Depleted Army"
+ GER_depleted_army_0:0 "Severely Depleted Army"
  GER_depleted_army_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
+ GER_depleted_army_1:0 "Depleted Army"
+ GER_depleted_army_desc:0 "The brutal war against the Soviet Union took its toll on the Reich. Our troops are as effective as ever, but massive manpower shortages have led to problems in both the factories and in the field. We would be at a disadvantage in any future wars."
+ 
  GER_ongoing_holocaust:0 "Generalplan Ost"
  GER_ongoing_holocaust_desc:0 "The full force of Germany's plans for Europe are finally being executed in the east. Mass deportations, extra infrastructure, and fierce resistance are continuous drains on the German economy."
  GER_plunder_economy_0:0 "Successful Plunder Economy"

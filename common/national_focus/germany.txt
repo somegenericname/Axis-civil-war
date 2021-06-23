@@ -401,10 +401,21 @@ focus_tree = {
 
 		x = -5
 		y = 1
+
+		cost = 3
 		relative_position_id =  GER_wehrmacht_conquests
 
 		completion_reward = {
-			#aims to reform the colonies as sufficient nation-states rather than hell holes
+			GER = {
+
+				add_state_core = 37
+				add_state_core = 99
+			}
+
+			swap_ideas = {
+				remove_idea = GER_depleted_army_0
+				add_idea = GER_depleted_army_1
+			}
 
 		}
 

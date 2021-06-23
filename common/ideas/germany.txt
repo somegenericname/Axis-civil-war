@@ -85,7 +85,26 @@ ideas = {
 			}
 		}
 
-		GER_depleted_army = {
+		GER_depleted_army_0 = {
+          picture = dep_army
+
+			allowed = {
+				original_tag = GER
+			}
+
+			picture = dep_army
+
+			modifier = {
+
+				conscription = -0.025
+				conscription_factor = -0.30
+				army_org_Factor = -0.05
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+
+		GER_depleted_army_1 = {
           picture = dep_army
 
 			allowed = {
@@ -103,6 +122,8 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 			}
 		}
+
+		
 
 
 		GER_ongoing_holocaust = {
