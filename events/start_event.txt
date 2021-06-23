@@ -142,7 +142,7 @@ country_event = { #France split situation
     id = situations.4
     title = situations.4.t
     desc = situations.4.d
-    picture = GFX_france_ita_troops
+    picture = GFX_france_1
 
     fire_only_once = yes
     is_triggered_only = yes
