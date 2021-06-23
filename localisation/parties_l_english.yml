@@ -1,7 +1,12 @@
-﻿l_english:
+l_english:
  national_socialism:0 "National Socialist"
  national_socialism_noun:0 "National Socialism"
  national_socialism_desc:0 "Corporatist Totalitarian Regime"
+ 
+ final_nazism:0 "Esoteric National Socialism"
+ final_nazism_noun:0 "Esoteric National Socialism"
+ final_nazism_desc:0 "xddddadasfsdsd"
+ 
  esoteric_nazism:0 "Esoteric National Socialism"
  esoteric_nazism_noun:0 "Esoteric National Socialism"
  esoteric_nazism_desc:0 "Totalitarian Regime"
@@ -9,9 +14,11 @@
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
+ 
  italian_fascism:0 "Italian Fascism"
  italian_fascism_noun:0 "Italian Fascism"
- italian_fascism_desc:0 "Authoritarian Corporatist Regime"
+ italian_fascism_desc:0 "Born from the betrayal of italy after ww1, fascism is a hardline nationalist far right ideology that believes in the priority of the country and the leader first and formost, and that the best way for the citizens to live a comfortable life is to serve the country above all"
+ 
  japanese_fascism:0 "Japanese Fascism"
  japanese_fascism_noun:0 "Japanese Fascism"
  japanese_fascism_desc:0 "Corporatist Regime"
