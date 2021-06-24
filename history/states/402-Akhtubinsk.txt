@@ -16,6 +16,12 @@ state={
 
 		}
 		add_core_of = SOV
+		
+		1947.1.1 = {
+			owner = KAZ
+		add_core_of = KAZ
+
+		}
 
 	}
 
