@@ -18,6 +18,13 @@ state={
 			}
 
 		}
+		
+		1947.1.1 = {
+			owner = KAZ
+		add_core_of = KAZ
+
+		}
+		
 		victory_points = {
 			1668 1
 		}
