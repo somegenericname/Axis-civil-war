@@ -1,4 +1,4 @@
-﻿capital = 49
+capital = 49
 
 oob = "TUR_1936"
 if = {
@@ -910,5 +910,4 @@ if = {
 }
 
 1947.1.1 = {
-	set_cosmetic_tag = TUR_OTT
 }
