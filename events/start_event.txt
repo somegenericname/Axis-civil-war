@@ -71,7 +71,7 @@ country_event = { #crimea situation
     id = situations.1
     title = situations.1.t
     desc = situations.1.d
-    picture = GFX_krim_steal
+    picture = GFX_report_event_krim_steal
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -118,7 +118,7 @@ country_event = { #Austrian nationalism  situation
     id = situations.3
     title = situations.3.t
     desc = situations.3.d
-    picture = GFX_VF_prop
+    picture = GFX_report_event_VF_prop
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -142,7 +142,7 @@ country_event = { #France split situation
     id = situations.4
     title = situations.4.t
     desc = situations.4.d
-    picture = GFX_france_1
+    picture = GFX_report_event_france_1
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -166,7 +166,7 @@ country_event = { #Turkey controlling Baku
     id = situations.5
     title = situations.5.t
     desc = situations.5.d
-    picture = GFX_fallblau
+    picture = GFX_report_event_fallblau
 
     fire_only_once = yes
     is_triggered_only = yes
